@@ -27,3 +27,40 @@ export const htmlTutorialNew = {
 </html>
 `,
 };
+
+export const singleLineComment = {
+  language: "html",
+  theme: "a11y-light",
+  text: `<!DOCTYPE html>
+<html>
+<body>
+  <!--This is heading Tag-->
+  <h1>varCODE eduTECH</h1>
+  <!--This is single line comment-->
+  <h2>This is <!--given for--> single line comment</h2>
+</body>
+</html>
+`,
+};
+
+export const multiLineComment = {
+  language: "html",
+  theme: "a11y-light",
+  text: `<!DOCTYPE html>
+<html>
+<body>
+    <!-- This is
+         heading tag -->
+    <h1>varCODE eduTECH</h1>
+    <!-- This is
+    multi-line
+         comment -->
+    <h2>This is multi-line comment</h2>
+    <!-- <button style="font-family: Sans-serif;">
+           Click Me
+         </button> -->
+
+</body>
+</html>
+`,
+};

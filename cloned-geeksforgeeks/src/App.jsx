@@ -6,6 +6,7 @@ import Navbar from "./components/Bhanu/Bhanu";
 import Layout from "./components/Layout";
 import HTMLIntroduction from "./components/Topics/HTMLIntroduction";
 import HTMLEditors from "./components/Topics/HTMLEditors";
+import HTMLComments from "./components/Topics/HTMLComments";
 
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/" element={<Homesection />} />
           <Route path="/html-introduction" element={<HTMLIntroduction />} />
           <Route path="/html-editors" element={<HTMLEditors />} />
+          <Route path="/html-comments" element={<HTMLComments />} />
         </Route>
       </Routes>
     </Router>

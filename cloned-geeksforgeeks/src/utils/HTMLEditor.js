@@ -1,0 +1,51 @@
+export const editors = [
+    {
+      name: "Notepad",
+      platform: "Windows",
+      features: "Basic text editing, lightweight",
+      idealFor: "Beginners",
+      pros: "Pre-installed, simple to use",
+      cons: "No advanced features like syntax highlighting or debugging",
+    },
+    {
+      name: "VS Code",
+      platform: "Cross-Platform",
+      features: "Live Server, Extensions, Debugging, Git Integration",
+      idealFor: "Professionals",
+      pros: "Highly extensible, supports multiple languages, great debugging tools",
+      cons: "Can be resource-heavy for basic tasks",
+    },
+    {
+      name: "Atom",
+      platform: "Cross-Platform",
+      features: "Open-source, Collaborative Editing, Customizable UI",
+      idealFor: "Advanced Learners",
+      pros: "Flexible and extensible, integrates well with GitHub",
+      cons: "Slower performance compared to other editors",
+    },
+    {
+      name: "Brackets",
+      platform: "Cross-Platform",
+      features: "Live Preview, Lightweight, Focused on Web Design",
+      idealFor: "Frontend Developers",
+      pros: "Real-time preview, supports web-centric workflows",
+      cons: "Discontinued updates, limited community support",
+    },
+    {
+      name: "Sublime Text",
+      platform: "Cross-Platform",
+      features: "Fast, Multi-caret Editing, Syntax Highlighting",
+      idealFor: "Developers looking for speed",
+      pros: "Lightweight yet powerful, highly customizable",
+      cons: "Paid license for full features",
+    },
+    {
+      name: "varCODE IDE",
+      platform: "Online",
+      features: "HTML Code Preview, Shareable Code Snippets",
+      idealFor: "Students, Quick Prototyping",
+      pros: "Browser-based, no installation needed",
+      cons: "Limited advanced functionality for professional use",
+    },
+  ];
+    export default editors;  
