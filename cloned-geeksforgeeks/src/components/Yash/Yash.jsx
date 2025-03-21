@@ -1,23 +1,7 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
-const subNavLinks = [
-  { name: "HTML Tutorial", path: "/html-tutorial" },
-  { name: "HTML Exercises", path: "/html-exercises" },
-  { name: "HTML Tags", path: "/html-tags" },
-  { name: "HTML Attributes", path: "/html-attributes" },
-  { name: "Global Attributes", path: "/html-global-attributes" },
-  { name: "Event Attributes", path: "/html-event-attributes" },
-  { name: "HTML Interview Questions", path: "/html-interview-questions" },
-  { name: "HTML DOM", path: "/html-dom" },
-  { name: "DOM Audio/Video", path: "/html-dom-audio-video" },
-  { name: "HTML 5", path: "/html5" },
-  { name: "HTML Examples", path: "/html-examples" },
-  { name: "Color Picker", path: "/html-color-picker" },
-  { name: "A to Z Guide", path: "/html-a-to-z-guide" },
-  { name: "HTML Formatter", path: "/html-formatter" },
-];
+import { subNavLinks } from "../../utils/SubNavLinks";
 
 const SubNav = () => {
   const navRef = useRef(null);
@@ -30,16 +14,14 @@ const SubNav = () => {
       });
     }
   };
-
   return (
-    <nav className="relative bg-gray-800 text-white py-2 px-4 shadow-md flex items-center">
+    <nav className=" bg-gray-800 text-white py-2 px-4 shadow-md flex items-center sticky top-0 z-50">
       <button
         className="absolute left-0 px-2 py-1 rounded-md z-10"
         onClick={() => scrollNav("left")}
       >
         <FaChevronLeft size={20} />
       </button>
-
       <div
         ref={navRef}
         className="flex space-x-4 overflow-x-auto whitespace-nowrap px-10 scrollbar-hide"

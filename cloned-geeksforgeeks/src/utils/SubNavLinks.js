@@ -1,0 +1,16 @@
+export const subNavLinks = [
+  { name: "HTML Tutorial", path: "/html-tutorial" },
+  { name: "HTML Exercises", path: "/html-exercises" },
+  { name: "HTML Tags", path: "/html-tags" },
+  { name: "HTML Attributes", path: "/html-attributes" },
+  { name: "Global Attributes", path: "/html-global-attributes" },
+  { name: "Event Attributes", path: "/html-event-attributes" },
+  { name: "HTML Interview Questions", path: "/html-interview-questions" },
+  { name: "HTML DOM", path: "/html-dom" },
+  { name: "DOM Audio/Video", path: "/html-dom-audio-video" },
+  { name: "HTML 5", path: "/html5" },
+  { name: "HTML Examples", path: "/html-examples" },
+  { name: "Color Picker", path: "/html-color-picker" },
+  { name: "A to Z Guide", path: "/html-a-to-z-guide" },
+  { name: "HTML Formatter", path: "/html-formatter" },
+];

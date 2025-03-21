@@ -4,7 +4,9 @@ import Homesection from "./components/Sahil/Homesection";
 import { useState } from "react";
 import Navbar from "./components/Bhanu/Bhanu";
 import Layout from "./components/Layout";
-import Introduction from "./components/Topics/Introduction";
+import HTMLIntroduction from "./components/Topics/HTMLIntroduction";
+import HTMLEditors from "./components/Topics/HTMLEditors";
+
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
   return (
@@ -25,7 +27,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Homesection />} />
-          <Route path="/html-introduction" element={<Introduction />} />
+          <Route path="/html-introduction" element={<HTMLIntroduction />} />
+          <Route path="/html-editors" element={<HTMLEditors />} />
         </Route>
       </Routes>
     </Router>

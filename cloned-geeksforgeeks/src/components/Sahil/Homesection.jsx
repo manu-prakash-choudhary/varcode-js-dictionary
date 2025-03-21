@@ -1,7 +1,6 @@
 import React from "react";
-import { htmlTutorial } from "../../utils/CodeBlocks";
+import { htmlTutorialNew } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
-import SubNav from "../Yash/Yash";
 const HomeSection = () => {
   return (
     <>
@@ -36,7 +35,7 @@ const HomeSection = () => {
         </div>
         <div className="mt-10 flex flex-col gap-3">
           <h2 className="text-3xl font-semibold text-red-600">
-            'Hello World' Page in HTML
+            &apos;Hello World&apos; Page in HTML
           </h2>
           <p>
             To show you how fun and easy HTML is, we have provided a classic
@@ -44,9 +43,9 @@ const HomeSection = () => {
           </p>
           <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
             <CopyBlock
-              text={htmlTutorial.text}
-              language={htmlTutorial.language}
-              theme={htmlTutorial.theme}
+              text={htmlTutorialNew.text}
+              language={htmlTutorialNew.language}
+              theme={htmlTutorialNew.theme}
               wrapLines
             />
           </div>
