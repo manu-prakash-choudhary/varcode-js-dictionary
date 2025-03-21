@@ -11,3 +11,13 @@
   background-color: #f1f1f1;
   padding-left: 10px;
 }
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh; /* Full height */
+  overflow-y: hidden; /* Prevent sidebar scrolling */
+  border-right: 1px solid #ddd;
+  background-color: white;
+}

@@ -1,60 +1,95 @@
 import React from "react";
-
-const HomeSection = ({ selectedTopic }) => {
-  const content = {
-    "JavaScript Basics":
-      "JavaScript is a versatile programming language used for web development.",
-    Introduction: "JavaScript was created to make web pages interactive.",
-    Syntax:
-      "JavaScript syntax defines how programs are written and structured.",
-    "Hello World":
-      "console.log('Hello, World!'); prints a message to the console.",
-    "JS Variables & Datatypes":
-      "JavaScript supports var, let, and const for variable declarations.",
-    "var, let, const":
-      "var is function-scoped, let and const are block-scoped.",
-    "Primitive Types":
-      "JavaScript has 7 primitive types: Number, String, Boolean, etc.",
-    "Type Conversion": "Converting one type to another, like String to Number.",
-    "JS Operators":
-      "JavaScript has arithmetic, logical, and comparison operators.",
-    Arithmetic: "Includes +, -, *, /, and %.",
-    Comparison: "Includes ==, ===, >, <, >=, and <=.",
-    Logical: "Includes &&, ||, and !.",
-    "JS Loops":
-      "Loops allow executing code multiple times (for, while, do-while).",
-    for: "for loop executes a block of code a set number of times.",
-    while: "while loop runs as long as the condition is true.",
-    "do-while": "Runs at least once before checking the condition.",
-    "JS Functions": "Functions help in reusing code and organizing logic.",
-    "Function Declaration":
-      "A function can be declared using function keyword.",
-    "Arrow Functions":
-      "Arrow functions provide a concise syntax for defining functions.",
-    Callbacks: "Functions that are passed as arguments to other functions.",
-  };
-
+import { htmlTutorial } from "../../utils/CodeBlocks";
+import { CopyBlock } from "react-code-blocks";
+import SubNav from "../Yash/Yash";
+const HomeSection = () => {
   return (
-    <div className="flex flex-row w-[80%] p-6 mt-5">
-      <h1 className="text-2xl font-bold  underline underline-offset-4">
-        {selectedTopic}
-      </h1>
-      <p className="mt-4 text-lg text-gray-700">{content[selectedTopic]}</p>
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis aliquid
-        quos sequi commodi quam optio? Consequuntur totam unde vitae accusamus
-        quos blanditiis optio placeat eius sed molestiae dolorum cumque saepe
-        dolorem sunt, ab, provident pariatur obcaecati in corporis ducimus
-        adipisci. Temporibus voluptatem magnam rerum nihil debitis quos,
-        architecto sed quia praesentium ut assumenda ipsa in officia accusantium
-        dolores, quidem veritatis quae hic porro explicabo repellendus inventore
-        ratione. Mollitia fugit cum eaque, doloribus laboriosam ullam aspernatur
-        fuga, explicabo omnis eius minima quae, magni nesciunt qui fugiat?
-        Nesciunt, illum. Doloremque, ullam. Ut, excepturi. Expedita alias quia
-        laboriosam. Maiores voluptas omnis magni assumenda.
-      </p>
-    </div>
+    <>
+      {/* <div>
+        <SubNav />
+      </div> */}
+
+      <div className="content-container overflow-y-auto h-screen pl-6">
+        <div className="pl-0 flex flex-col gap-3 ">
+          <h1 className="text-4xl font-semibold text-red-600">HTML Tutorial</h1>
+          <p className="text-gray-600">Last Updated : 30 Mar, 2025</p>
+        </div>
+        <div className="pl-0 mt-4">
+          <p className="text-gray-800 text-justify">
+            <strong>HTML</strong> stands for <b>HyperText Markup Language</b>.
+            It is the standard language used to create and structure content on
+            the web. It tells the web browser how to display text, links,
+            images, and other forms of multimedia on a webpage. HTML sets up the
+            basic structure of a website, and then CSS and JavaScript add style
+            and interactivity to make it look and function better.
+          </p>
+          <div className="flex justify-center items-center h-full w-full mt-4 bg-red-100 rounded-2xl">
+            <p className="text-black text-justify p-6 pt-3">
+              <i>
+                How Does HTML Work? - HTML documents are plain-text files saved
+                with an .html extension. Browsers read these documents,
+                interpret the markup (tags and attributes), and render the
+                formatted content on your screen.
+              </i>
+            </p>
+          </div>
+        </div>
+        <div className="mt-10 flex flex-col gap-3">
+          <h2 className="text-3xl font-semibold text-red-600">
+            'Hello World' Page in HTML
+          </h2>
+          <p>
+            To show you how fun and easy HTML is, we have provided a classic
+            example of writing "Hello, World!" in HTML
+          </p>
+          <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <CopyBlock
+              text={htmlTutorial.text}
+              language={htmlTutorial.language}
+              theme={htmlTutorial.theme}
+              wrapLines
+            />
+          </div>
+        </div>
+        <div className="mt-10 flex flex-col gap-3">
+          <h2 className="text-3xl font-semibold text-red-600">
+            Why Learn HTML?
+          </h2>
+          <p>Learning HTML is essential for various practical reasons:</p>
+          <div>
+            <ol className="pl-4 text-lg">
+              <li className="list-decimal">
+                <b>Foundation of Web Development:</b> HTML is the starting point
+                for creating websites. Understanding HTML is crucial for any web
+                development or web design role.
+              </li>
+              <li className="list-decimal">
+                <b>Universal Language of the Web:</b> HTML is the standard
+                markup language used to create the structure of web pages.
+                Knowledge of HTML is necessary to manage any content on the
+                Internet.
+              </li>
+              <li className="list-decimal">
+                <b>Easy to Learn:</b> HTML is straightforward compared to
+                programming languages. Beginners can quickly learn how to create
+                basic websites with just HTML.
+              </li>
+              <li className="list-decimal">
+                <b>Career Opportunities:</b> Proficiency in HTML opens up
+                various career paths, including web developer, content manager,
+                and UX/UI designer roles.
+              </li>
+              <li className="list-decimal">
+                <b>Gateway to Advanced Technologies:</b> Once you master HTML,
+                you can easily move on to learn CSS, JavaScript, and other tools
+                that enhance websites, making them more interactive and visually
+                appealing.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 
