@@ -46,6 +46,30 @@ const HTMLTutorial = () => {
           />
         </div>
       </div>
+      <h3 className="text-2xl font-semibold text-red-600">Table of contents</h3>
+      <ul className="list-disc ml-6 mt-2">
+        <li className="mt-2 text-red-600 underline">
+          <a href="#1">Basic HTML Document</a>
+        </li>
+        <li className="mt-2 text-red-600 underline">
+          <a href="#2">HTML Basic Structure</a>
+        </li>
+        <li className="mt-2 text-red-600 underline">
+          <a href="#3">HTML Headings</a>
+        </li>
+        <li className="mt-2 text-red-600 underline">
+          <a href="#4">HTML Paragraph and Break Elements</a>
+        </li>
+        <li className="mt-2 text-red-600 underline">
+          <a href="#5">HTML Horizontal Line</a>
+        </li>
+        <li className="mt-2 text-red-600 underline">
+          <a href="#6">HTML Images</a>
+        </li>
+        <li className="mt-2 text-red-600 underline">
+          <a href="#7">View HTML Source Code</a>
+        </li>
+      </ul>
       <div className="mt-10 flex flex-col gap-3">
         <h2 className="text-3xl font-semibold text-red-600">Why Learn HTML?</h2>
         <p>Learning HTML is essential for various practical reasons:</p>
