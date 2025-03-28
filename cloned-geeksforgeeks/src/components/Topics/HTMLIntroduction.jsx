@@ -39,34 +39,35 @@ const HTMLIntroduction = () => {
               </div>
             </div>
             <div className="mt-5">
-            <h3 className="text-2xl font-semibold text-red-600">Table of contents</h3>
-      <ul className="list-disc ml-6 mt-2">
-        <li className="mt-2 text-red-600 underline">
-          <a href="#1">Why Learn HTML?</a>
-        </li>
-        <li className="mt-2 text-red-600 underline">
-          <a href="#2">Features of HTML</a>
-        </li>
-        <li className="mt-2 text-red-600 underline">
-          <a href="#3">HTML Element and HTML Tag</a>
-        </li>
-        <li className="mt-2 text-red-600 underline">
-          <a href="#4">HTML Page Structure</a>
-        </li>
-        <li className="mt-2 text-red-600 underline">
-          <a href="#5">Web Browsers</a>
-        </li>
-        <li className="mt-2 text-red-600 underline">
-          <a href="#6">HTML History</a>
-        </li>
-        <li className="mt-2 text-red-600 underline">
-          <a href="#7">Advantages of HTML</a>
-        </li>
-        <li className="mt-2 text-red-600 underline">
-          <a href="#8">Disadvantages of HTML</a>
-        </li>
-      </ul>
+                <h3 className="text-2xl font-semibold text-red-600">Table of contents</h3>
+                <ul className="list-disc ml-6 mt-2">
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#1">Why Learn HTML?</a>
+                  </li>
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#2">Features of HTML</a>
+                  </li>
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#3">HTML Element and HTML Tag</a>
+                  </li>
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#4">HTML Page Structure</a>
+                  </li>
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#5">Web Browsers</a>
+                  </li>
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#6">HTML History</a>
+                  </li>
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#7">Advantages of HTML</a>
+                  </li>
+                  <li className="mt-2 text-red-600 underline">
+                    <a href="#8">Disadvantages of HTML</a>
+                  </li>
+                </ul>
             </div>
+            
     </div>
   );
 };
