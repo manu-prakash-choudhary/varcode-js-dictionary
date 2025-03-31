@@ -144,45 +144,144 @@ const HTMLIntroduction = () => {
         </p>
 
         
-        <div className="mt-6 p-4 border rounded-lg shadow bg-white text-center">
-          
-          <p className="text-red-600 text-lg font-bold">
-            &lt;p&gt; varCODE eduTECH &lt;/p&gt;
-          </p>
+        <div className="w-200 ml-50 mt-6 p-4 border rounded-lg shadow bg-white text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+            {/* <!-- Text for tags and content with boxes underneath --> */}
+            <text x="60" y="40" font-family="monospace" font-size="16">
+              &lt;Button&gt;
+            </text>
+            <text
+              x="210"
+              y="40"
+              font-family="sans-serif"
+              font-size="18"
+              fill="red"
+              font-weight="bold"
+            >
+              varCODE
+            </text>
+            <text x="390" y="40" font-family="monospace" font-size="16">
+              &lt;/Button&gt;
+            </text>
 
-         
-          <div className="mt-4 flex justify-between items-center text-red-600 text-sm relative">
-            
-            <div className="flex flex-col items-center">
-              <span>&lt;p&gt;</span>
-              <div className="w-0.5 h-6 bg-gray-600"></div>
-              <span>Opening Tag</span>
-            </div>
+            {/* <!-- Upward arrows --> */}
+            <line
+              x1="95"
+              y1="50"
+              x2="95"
+              y2="80"
+              stroke="#000"
+              stroke-width="1.5"
+              marker-start="url(#arrowhead)"
+            />
+            <line
+              x1="250"
+              y1="50"
+              x2="250"
+              y2="80"
+              stroke="#000"
+              stroke-width="1.5"
+              marker-start="url(#arrowhead)"
+            />
+            <line
+              x1="425"
+              y1="50"
+              x2="425"
+              y2="80"
+              stroke="#000"
+              stroke-width="1.5"
+              marker-start="url(#arrowhead)"
+            />
 
-           
-            <div className="flex flex-col items-center">
-              <span className="text-red-600">GeeksforGeeks</span>
-              <div className="w-0.5 h-6 bg-gray-600"></div>
-              <span>Content</span>
-            </div>
+            {/* <!-- Labels for the parts --> */}
+            <text
+              x="90"
+              y="100"
+              font-family="sans-serif"
+              font-size="14"
+              text-anchor="middle"
+            >
+              Opening Tag
+            </text>
+            <text
+              x="250"
+              y="100"
+              font-family="sans-serif"
+              font-size="14"
+              text-anchor="middle"
+            >
+              Content
+            </text>
+            <text
+              x="425"
+              y="100"
+              font-family="sans-serif"
+              font-size="14"
+              text-anchor="middle"
+            >
+              Closing Tag
+            </text>
 
-            
-            <div className="flex flex-col items-center">
-              <span>&lt;/p&gt;</span>
-              <div className="w-0.5 h-6 bg-gray-600"></div>
-              <span>Closing Tag</span>
-            </div>
-          </div>
+            {/* <!-- Horizontal lines connecting opening tag and closing tag --> */}
+            <line
+              x1="95"
+              y1="150"
+              x2="95"
+              y2="130"
+              stroke="#000"
+              stroke-width="1.5"
+            />
+            <line
+              x1="95"
+              y1="150"
+              x2="425"
+              y2="150"
+              stroke="#000"
+              stroke-width="1.5"
+            />
+            <line
+              x1="425"
+              y1="150"
+              x2="425"
+              y2="130"
+              stroke="#000"
+              stroke-width="1.5"
+            />
 
-          
-          <div className="relative mt-4 flex items-center">
-            <div className="w-full h-0.5 bg-gray-600"></div>
-            <span className="absolute left-0 -top-3">⬅</span>
-            <span className="absolute right-0 -top-3">➡</span>
-          </div>
+            {/* <!-- Upward arrow for Element label --> */}
+            <line
+              x1="250"
+              y1="150"
+              x2="250"
+              y2="200"
+              stroke="#000"
+              stroke-width="1.5"
+              marker-start="url(#arrowhead)"
+            />
+            <text
+              x="250"
+              y="220"
+              font-family="sans-serif"
+              font-size="14"
+              text-anchor="middle"
+            >
+              Element
+            </text>
 
-          
-          <div className="mt-3 text-red-600">Element</div>
+            {/* <!-- Arrow marker definition --> */}
+            <defs>
+              <marker
+                id="arrowhead"
+                markerWidth="10"
+                markerHeight="7"
+                refX="0"
+                refY="3.5"
+                orient="auto"
+              >
+                <polygon points="10 0, 0 3.5, 10 7" fill="#000" />
+              </marker>
+            </defs>
+          </svg>
         </div>
       </div>
       <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5 ">HTML Page Structure</h3>
