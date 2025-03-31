@@ -9,7 +9,13 @@ import HTMLIntroduction from "./components/Topics/HTMLIntroduction";
 import HTMLEditors from "./components/Topics/HTMLEditors";
 import HTMLComments from "./components/Topics/HTMLComments";
 import HTMLBasics from "./components/Topics/HTMLBasics";
-
+import HTMLElements from "./components/Topics/HTMLElements";
+import HTMLAttributes from "./components/Topics/HTMLAttributes";
+import HTMLHeadings from "./components/Topics/HTMLHeadings";
+import HTMLParagraphs from "./components/Topics/HTMLParagraphs";
+import HTMLTextFormatting from "./components/Topics/HTMLTextFormatting"
+import HTMLQuotations from "./components/Topics/HTMLQuotations";
+import HTMLColors from "./components/Topics/HTMLColors";
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
   return (
@@ -35,6 +41,14 @@ const App = () => {
           <Route path="/html-editors" element={<HTMLEditors />} />
           <Route path="/html-basics" element={<HTMLBasics />} />
           <Route path="/html-comments" element={<HTMLComments />} />
+          <Route path="/html-elements" element={<HTMLElements />} />
+          <Route path="/html-attributes" element={<HTMLAttributes />} />
+          <Route path="/html-headings" element={<HTMLHeadings />} />
+          <Route path="/html-paragraphs" element={<HTMLParagraphs />} />
+          <Route path="/html-text-formatting" element={<HTMLTextFormatting />} />
+          <Route path="/html-quotations" element={<HTMLQuotations />} />
+          <Route path="/html-colors" element={<HTMLColors />} />
+          {/* Add more routes as needed */}
           
         </Route>
       </Routes>
