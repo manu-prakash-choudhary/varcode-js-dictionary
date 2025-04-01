@@ -6,6 +6,15 @@ import Navbar from "./components/Bhanu/Bhanu";
 import Layout from "./components/Layout";
 import HTMLIntroduction from "./components/Topics/HTMLIntroduction";
 import HTMLEditors from "./components/Topics/HTMLEditors";
+import HTMLEntities from "./components/Topics/HTMLEntities";
+import HTMLSymbols from "./components/Topics/HTMLSymbols";
+import HTMLEmojis from "./components/Topics/HTMLEmojis";
+import HTMLCharsets from "./components/Topics/HTMLCharsets";
+import HTMLUrlEncoding from "./components/Topics/HTMLUrlEncoding";
+import HTMLForms from "./components/Topics/HTMLForms";
+import HTMLResponsiveWebDesign from "./components/Topics/HTMLResponsiveWebDesign";
+import HTMLVideo from "./components/Topics/HTMLVideo";
+import HTMLExamples from "./components/Topics/HTMLExamples";
 
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
@@ -29,6 +38,15 @@ const App = () => {
           <Route path="/" element={<Homesection />} />
           <Route path="/html-introduction" element={<HTMLIntroduction />} />
           <Route path="/html-editors" element={<HTMLEditors />} />
+          <Route path="/html-entities" element={<HTMLEntities />} />
+          <Route path="/html-symbols" element={<HTMLSymbols />} />
+          <Route path="/html-emojis" element={<HTMLEmojis />} />
+          <Route path="/html-charsets" element={<HTMLCharsets />} />
+          <Route path="/html-url-encoding" element={<HTMLUrlEncoding />} />
+          <Route path="/html-forms" element={<HTMLForms />} />
+          <Route path="/html-responsive-design" element={<HTMLResponsiveWebDesign />} />
+          <Route path="/html-video" element={<HTMLVideo />} />
+          <Route path="/html-examples" element={<HTMLExamples />} />
         </Route>
       </Routes>
     </Router>
