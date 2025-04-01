@@ -2418,19 +2418,114 @@ export const htmlTutorialReference = {
 <!-- head tag -->
 
 <head>
-    <title>Welcome to Geeksforgeeks</title>
+    <title>Welcome to varcode</title>
 </head>
 <!-- Body tag -->
 
 <body>
-    <h2>Geeksforgeeks</h2>
+    <h2>varcode</h2>
     <p>
-        A Computer Science Portal for Geeks
+        A Computer Science Portal 
     </p>
     <p>
         Please change the code and click the
         Run the button to see the changes.
     </p>
+</body>
+</html>
+`,
+};
+
+export const htmlAttributeReference = {
+    language: "html",
+    theme: "a11y-light",
+    text: `<html>
+<body>
+	<h1>HTML Attributes Example</h1>
+	<img src="https://www.varcode.in/wp-content/uploads/20241230152400887784/Salesforce-Governance-Model.webp" 
+	alt="Example image" width="500">
+</body>
+</html>
+`,
+};
+
+export const htmlGlobalAccesskey = {
+    language: "html",
+    theme: "a11y-light",
+    text: `<html>
+<body>
+    <button accesskey="s">Save</button>
+</body>
+</html>
+`,
+};
+
+export const htmlGlobalAutoFocus = {
+    language: "html",
+    theme: "a11y-light",
+    text: `<html>
+<body>
+    <input type="text" placeholder="Type here..." autofocus />
+</body>
+</html>
+`,
+};
+
+export const htmlGlobalLang = {
+    language: "html",
+    theme: "a11y-light",
+    text: `<html>
+<body>
+    <p lang="es">¡Hola, Mundo!</p>
+</body>
+</html>
+`,
+};
+
+export const htmlGlobalClass = {
+    language: "html",
+    theme: "a11y-light",
+    text: `<html>
+<head>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p class="highlight">This is a highlighted text.</p>
+</body>
+</html>
+`,
+};
+
+export const htmlCompleteRerence = {
+    language: "html",
+    theme: "a11y-light",
+    text: `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Example - 2025</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to HTML5!</h1>
+    <p>The current year is 2025.</p>
 </body>
 </html>
 `,

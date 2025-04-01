@@ -21,6 +21,9 @@ import HTMLSemantic from "./components/Topics/HTMLSemantic";
 import HTMLHyperlinks from "./components/Topics/HTMLHyperlinks";
 import HTMLA_Z_List from "./components/Topics/HTMlTutorialReference/HTMLA_Z_List";
 import HTMLGraphics from "./components/Topics/HTMLGraphics";
+import HTMLCompleteAttribute from "./components/Topics/HTMlTutorialReference/HTMLCompleteAttribute";
+import HTMLGlobalAttribute from "./components/Topics/HTMlTutorialReference/HTMLGlobalAttribute";
+import HTMLComplete from "./components/Topics/HTMlTutorialReference/HTMLComplete";
 
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
@@ -59,6 +62,9 @@ const App = () => {
           <Route path="/html5-semantics" element={<HTMLSemantic />} />
           <Route path="/html-graphics" element={<HTMLGraphics />} />
           <Route path="/html-tags-a-to-z-list" element={<HTMLA_Z_List />} />
+          <Route path="/html-attributes-complete-reference" element={<HTMLCompleteAttribute />} />
+          <Route path="/html-global-attributes" element={<HTMLGlobalAttribute />} />
+          <Route path="/html5-complete-reference" element={<HTMLComplete />} />
         </Route>
       </Routes>
     </Router>
