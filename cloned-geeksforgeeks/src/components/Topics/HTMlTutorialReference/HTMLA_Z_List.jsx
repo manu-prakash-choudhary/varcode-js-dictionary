@@ -609,7 +609,7 @@ const HTMLA_Z_List = () => {
   return (
     <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
       <div className='border-b pb-3 border-gray-200 '>
-        <h1 className="text-3xl font-semibold">HTML Tags – A to Z List</h1>
+        <h1 className="text-3xl text-red-600 font-semibold">HTML Tags – A to Z List</h1>
         <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
       </div>
       <p className="mb-4 mt-5">
@@ -620,8 +620,8 @@ const HTMLA_Z_List = () => {
         <span className='font-semibold'>HTML tags are enclosed in angle brackets <strong>&lt; &gt;</strong> and usually come in pairs: an opening tag and a closing tag. </span>The closing tag has the same text as the opening tag, but with an additional forward-slash <strong>/</strong>. The opening tag marks the beginning of an element, while the closing tag marks the end.
       </p>
 
-      <p className="mb-4">
-        <strong>For example:</strong>
+      <p className="mb-4 text-2xl font-semibold text-red-600">
+        <span >For example:</span>
       </p>
       <ul className="list-disc list-inside mb-4">
         <li><strong>&lt;p&gt;</strong> is an opening tag for a paragraph.</li>
@@ -636,7 +636,7 @@ const HTMLA_Z_List = () => {
         Essential tags for defining an HTML document structure include <span className='font-semibold'>&lt;!DOCTYPE html&gt;</span>, <span className='font-semibold'>&lt;html&gt;</span>, <span className='font-semibold'>&lt;head&gt;</span>, and <span className='font-semibold'>&lt;body&gt;</span>.
       </p>
 
-      <h2 className="text-2xl font-semibold mt-6 mb-2">Basic HTML Tag Example</h2>
+      <h2 className="text-2xl text-red-600 font-semibold mt-6 mb-2">Basic HTML Tag Example</h2>
       <p className="mb-4">Let's see a basic example using the HTML tags.</p>
       <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
@@ -647,7 +647,7 @@ const HTMLA_Z_List = () => {
         />
       </div>
 
-      <div className="text-2xl font-semibold mt-6 mb-4">A to Z HTML Tags</div>
+      <div className="text-2xl text-red-600 font-semibold mt-6 mb-4">A to Z HTML Tags</div>
       <div className="mb-4">
         Let us see the extensive list of HTML tags, from A to Z. Whether you are just starting out or need a quick reference, this list has you covered.
       </div>
@@ -684,7 +684,7 @@ const HTMLA_Z_List = () => {
         </tbody>
       </table>
 
-      <div className="text-2xl mt-4 font-semibold mb-3">Conclusion</div>
+      <div className="text-2xl text-red-600 mt-4 font-semibold mb-3">Conclusion</div>
       <p className="mb-6">
         This A to Z guide of HTML tags serves as a comprehensive resource, whether you're a beginner just starting your web development journey or an experienced developer looking for a quick reference. Remember, the power of HTML lies in its simplicity and versatility. By mastering these tags, you can create engaging, accessible, and SEO-friendly websites that not only look good but also function seamlessly.
       </p>

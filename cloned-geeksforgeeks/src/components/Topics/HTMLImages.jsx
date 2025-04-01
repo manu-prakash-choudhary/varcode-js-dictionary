@@ -8,7 +8,7 @@ const HTMLImages = () => {
     return (
         <div className="content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide">
             <div className='border-b border-gray-200'>
-                <h1 className="text-3xl font-semibold mb-3">HTML Images</h1>
+                <h1 className="text-3xl font-semibold mb-3 text-red-500">HTML Images</h1>
                 <p className="text-gray-500  mb-4">Last Updated &#58; 22 March&#44; 2025</p>
             </div>
             <div className=" mt-4">
@@ -23,7 +23,7 @@ const HTMLImages = () => {
                 </div>
             </div>
 
-            <p className="text-xl font-semibold text-gray-800 mt-5">Basic Example of the &lt;img&gt; Tag&#58;</p>
+            <p className="text-xl font-semibold text-gray-800 mt-5 text-red-500">Basic Example of the &lt;img&gt; Tag&#58;</p>
             <div className="border border-red-400 p-2 mt-5 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlImage.text}
@@ -33,7 +33,7 @@ const HTMLImages = () => {
                 />
             </div>
             <div className="bg-gray-50 p-2 pl-4 rounded-md mt-6 border-l-4 border-red-400">
-                <p className="font-semibold">In this example:</p>
+                <p className="font-semibold text-red-500">In this example:</p>
                 <ul className='list-disc pl-8 text-gray-700  mt-2'>
                     <li>The <span className="font-semibold ">&lt;img&gt; tag</span> is used to embed an image into the webpage.</li>
                     <li><span className=" font-semibold">src attribute:</span> Specifies the source URL of the image, which in this example is <code>https://varcode.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.bab09975.png&w=1920&q=75</code>. The image is loaded from this URL when the webpage is accessed.</li>
@@ -41,12 +41,12 @@ const HTMLImages = () => {
                 </ul>
             </div>
             <div className=" p-2 mt-6">
-                <p className="text-2xl font-semibold text-gray-800 mb-5">Various HTML &lt;img&gt; Tag Attributes:</p>
+                <p className="text-2xl font-semibold mb-5 text-red-500">Various HTML &lt;img&gt; Tag Attributes:</p>
                 <table className="w-full border-collapse border border-gray-300 mt-4">
                     <thead>
-                        <tr className="bg-red-100">
-                            <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Attribute</th>
-                            <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Description</th>
+                        <tr className="bg-gray-200">
+                            <th className="border border-gray-300 px-4 py-2 text-red-500 text-left font-semibold">Attribute</th>
+                            <th className="border border-gray-300 px-4 py-2 text-red-500 text-left font-semibold">Description</th>
                         </tr>
                     </thead>
                     <tbody className="text-gray-700">{
@@ -64,8 +64,8 @@ const HTMLImages = () => {
             </div>
 
             <div className=" p-6 pl-1 mt-2">
-                <h2 className="text-2xl font-semibold text-gray-800">Table of Content</h2>
-                <ul className="list-disc pl-6 text-red-500 underline mt-4">
+                <h2 className="text-2xl font-semibold text-red-600 ">Table of Content</h2>
+                <ul className="list-disc pl-6  underline mt-4">
                     <li><Link to="#alt-attribute">HTML Image tag – alt Attribute</Link></li>
                     <li><Link to="#width-height">Set Image Size – Width and Height Attribute</Link></li>
                     <li><Link to="#titles">Adding Titles to an Image</Link></li>
@@ -76,7 +76,7 @@ const HTMLImages = () => {
                 </ul>
             </div>
             <div className=" p-1 mt-2" id="alt-attribute">
-                <p className="text-2xl font-semibold text-gray-800">HTML Image tag &ndash; alt Attribute</p>
+                <p className="text-2xl font-semibold text-red-600">HTML Image tag &ndash; alt Attribute</p>
                 <p className="text-gray-700 mt-2">
                     The <Link to="#alt-attribute" className="text-red-500 underline">alt attribute</Link> in <code>&lt;img&gt;</code> tag provides a text alternative if the image fails to load. It aids accessibility for users unable to view images due to slow internet, src errors, or screen reader usage.
                 </p>
@@ -90,7 +90,7 @@ const HTMLImages = () => {
                 />
             </div>
             <div className=" p-1 mt-4">
-                <p className="text-2xl font-semibold text-gray-800">Set Image Size – Width and Height Attribute</p>
+                <p className="text-2xl font-semibold text-red-600">Set Image Size – Width and Height Attribute</p>
                 <p className="text-gray-700 mt-4">
                     The <code>width</code> and <code>height</code> attributes are used to specify the width and height of an image. The attribute values are specified in pixels by default. The <code>width</code> and <code>height</code> attributes are always declared in pixels.
                 </p>
@@ -107,7 +107,7 @@ const HTMLImages = () => {
                 />
             </div>
 
-            <p className="text-2xl mt-3 font-semibold text-gray-800">Adding Titles to an Image</p>
+            <p className="text-2xl mt-3 font-semibold text-red-600">Adding Titles to an Image</p>
             <p className="mt-2  text-gray-700">
                 The title attribute is displayed as a tooltip when a user hovers over the image.
                 To add a title to an image, include the title attribute in the&nbsp;
@@ -124,7 +124,7 @@ const HTMLImages = () => {
             </div>
             <p className="mt-1 text-gray-700">Please refer to the <Link to={'#'} className='text-red-500'>HTML title Attribute article</Link> for further details.</p>
 
-            <p className="text-2xl mt-5 font-semibold text-gray-800">Setting Style of an Image</p>
+            <p className="text-2xl mt-5 font-semibold text-red-600">Setting Style of an Image</p>
             <p className="text-gray-700 mt-2 ">
                 In this example, we are using the border property to decorate the image.
                 By default, every picture has a border around it. By using the border attribute,
@@ -142,7 +142,7 @@ const HTMLImages = () => {
                     wrapLines
                 />
             </div>
-            <p className="text-2xl mt-3 font-semibold text-gray-800">Set Image Alignment</p>
+            <p className="text-2xl mt-3 font-semibold text-red-600">Set Image Alignment</p>
             <p className="text-gray-700 mt-2">
                 Aligning an image in HTML involves using the align attribute within the
                 <code className="text-gray-900 font-semibold"> &lt;img&gt;tag</code> to position it horizontally.
@@ -158,7 +158,7 @@ const HTMLImages = () => {
                     wrapLines
                 />
             </div>
-            <p className="text-2xl mt-3 font-semibold text-gray-800">Adding Image as a Link</p>
+            <p className="text-2xl mt-3 font-semibold text-red-600">Adding Image as a Link</p>
             <p className="text-gray-700 mt-2">
                 To add an image as a link, enclose the <code className="text-gray-900">&lt;img&gt;</code>
                 tag within an <code className="text-gray-900">&lt;a&gt;</code> tag, setting the image’s
@@ -185,7 +185,7 @@ const HTMLImages = () => {
                 />
             </div>
 
-            <p className="text-2xl mt-3 font-semibold text-gray-800">Adding Animated Image</p>
+            <p className="text-2xl mt-3 font-semibold text-red-600">Adding Animated Image</p>
             <p className="text-gray-700 mt-2">
                 To add an animated image in HTML, use the <code className="text-gray-900">&lt;img&gt;tag </code>with the src attribute pointing to a GIF file,
                 providing engaging motion to enhance webpage content.

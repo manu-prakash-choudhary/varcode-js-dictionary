@@ -7,7 +7,7 @@ const HTMLSemantic = () => {
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 mb-3 border-gray-200 '>
-                <h1 className="text-3xl font-semibold">HTML5 Semantics</h1>
+                <h1 className="text-3xl font-semibold text-red-600">HTML5 Semantics</h1>
                 <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
             </div>
             <div className="mb-4">
@@ -17,7 +17,7 @@ const HTMLSemantic = () => {
                 For instance, <span className='font-semibold'>&lt;form&gt;</span>, <span className='font-semibold'>&lt;table&gt;</span>, and <span className='font-semibold'>&lt;article&gt;</span> tags clearly define the content and purpose, to the browser.
             </div>
 
-            <div className="text-2xl font-semibold mb-2">Why Use Semantic HTML Tags?</div>
+            <div className="text-2xl font-semibold mb-2 text-red-600">Why Use Semantic HTML Tags?</div>
             <ul className="list-disc list-inside mb-4">
                 <li>
                     <span className=' font-semibold'>Accessibility:</span> Semantic elements make web pages more accessible. Screen readers and other assistive technologies can interpret the structure and navigate the content more efficiently.
@@ -30,7 +30,7 @@ const HTMLSemantic = () => {
                 </li>
             </ul>
 
-            <div className="text-2xl font-semibold mt-6 mb-2">Semantic Elements</div>
+            <div className="text-2xl font-semibold mt-6 mb-2 text-red-600">Semantic Elements</div>
             <div className="mb-4">
                 Here are some of the fundamental HTML5 semantic elements that you should use to structure your web content:
             </div>
@@ -47,7 +47,7 @@ const HTMLSemantic = () => {
             </div>
 
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>1. The &lt;article&gt; Tag</p>
+                <p className='text-2xl font-semibold mb-2 text-red-600'>1. The &lt;article&gt; Tag</p>
                 <p>The <span className='font-semibold'>&lt;article&gt;</span> tag is used for content that stands alone and can be independently distributed or reused, such as a blog post or news article.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -62,7 +62,7 @@ const HTMLSemantic = () => {
             </div>
 
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>2. The &lt;aside&gt; Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>2. The &lt;aside&gt; Tag</p>
                 <p>It is used to place content in a sidebar i.e. aside from the existing content. It is related to surrounding content.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -77,7 +77,7 @@ const HTMLSemantic = () => {
             </div>
 
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>3. The Details and Summary Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>3. The Details and Summary Tag</p>
                 <p>The “details” defines additional details that the user can hide or view. “summary” defines a visible heading for a “details” element.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -92,7 +92,7 @@ const HTMLSemantic = () => {
             </div>
 
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>4. The Figure and Figcaption Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>4. The Figure and Figcaption Tag</p>
                 <p>These are used to add an image to a web page with a small description.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -106,7 +106,7 @@ const HTMLSemantic = () => {
                 </div>
             </div>
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>5. The Header Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>5. The Header Tag</p>
                 <p>As the name suggests, it is for the header of a section introductory of a page. There can be multiple headers on a page.  </p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -120,7 +120,7 @@ const HTMLSemantic = () => {
                 </div>
             </div>
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>6. The Footer Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>6. The Footer Tag</p>
                 <p>Footer located at the bottom of any article or document, they can contain contact details, copyright information etc. There can be multiple footers on a page.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -135,7 +135,7 @@ const HTMLSemantic = () => {
             </div>
 
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>7. The Main Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>7. The Main Tag</p>
                 <p>It defines the main content of the document. The content inside the main tag should be unique. </p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -149,7 +149,7 @@ const HTMLSemantic = () => {
                 </div>
             </div>
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>8. The Section Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>8. The Section Tag</p>
                 <p>A page can be split into sections like Introduction, Contact Information, Details, etc and each of these sections can be in a different section tag.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -163,7 +163,7 @@ const HTMLSemantic = () => {
                 </div>
             </div>
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>9. The nav Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>9. The nav Tag</p>
                 <p>It is used to define a set of navigation links in the form of a navigation bar or nav menu.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
@@ -178,7 +178,7 @@ const HTMLSemantic = () => {
             </div>
 
             <div className='mt-6'>
-                <p className='text-2xl font-semibold mb-2'>9. The Mark Tag</p>
+                <p className='text-2xl text-red-600 font-semibold mb-2'>10. The Mark Tag</p>
                 <p>It is used to highlight the text.</p>
                 <p className='text-2xl font-semibold mt-2'>Example :</p>
 
@@ -192,7 +192,7 @@ const HTMLSemantic = () => {
                 </div>
             </div>
 
-            <div className="text-2xl mt-5 font-semibold mb-4">Best Practices for Using HTML5 Semantic Elements</div>
+            <div className="text-2xl text-red-600 mt-5 font-semibold mb-4">Best Practices for Using HTML5 Semantic Elements</div>
 
             <ul className="list-disc list-inside mb-8">
                 <li>
@@ -206,7 +206,7 @@ const HTMLSemantic = () => {
                 </li>
             </ul>
 
-            <div className="text-2xl font-semibold mb-2">Supported Browsers</div>
+            <div className="text-2xl text-red-600 font-semibold mb-2">Supported Browsers</div>
 
             <ul className="list-disc list-inside">
                 <li className='font-semibold'>Google Chrome: 1</li>

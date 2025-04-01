@@ -7,7 +7,7 @@ const HTMLLayout = () => {
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 mb-3 border-gray-200 '>
-                <h1 className="text-3xl font-semibold">HTML Layout</h1>
+                <h1 className="text-3xl font-semibold text-red-600">HTML Layout</h1>
                 <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
             </div>
             <p className="mb-4">
@@ -56,11 +56,11 @@ const HTMLLayout = () => {
                     <li><span className='font-semibold' >&lt;footer&gt;</span> includes the footer information.</li>
                 </ul>
 
-                <div className="font-semibold text-2xl mt-6 mb-5 ">Layout Components</div>
+                <div className="font-semibold text-2xl mt-6 mb-5 text-red-600 ">Layout Components</div>
 
                 <table className="text-left w-[70%] border-collapse border border-gray-300">
                     <thead>
-                        <tr className='text-xl'>
+                        <tr className='font-semibold text-red-600'>
                             <th className="border border-gray-300 px-4 py-4 w-[30%]">Layouts</th>
                             <th className="border border-gray-300 px-4 py-4">Descriptions</th>
                         </tr>
@@ -109,7 +109,7 @@ const HTMLLayout = () => {
                     <li><span className='font-semibold' >&lt;aside&gt;</span> contains supplementary information, such as an &ldquo;About Me&rdquo; section</li>
                 </ul>
 
-                <div className="font-semibold text-xl mb-5">Styled Layout with Semantic Tags</div>
+                <div className="font-semibold text-xl mt-5 mb-5 text-red-600">Styled Layout with Semantic Tags</div>
                 <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlLayout3.text}
@@ -124,7 +124,7 @@ const HTMLLayout = () => {
                 <li><span className="font-semibold">Main:</span> The <span className='font-medium'>&lt;main&gt;</span> element holds the primary content, ensuring semantic clarity and improved accessibility.</li>
             </ul>
 
-            <div className="font-semibold text-2xl mb-4 mt-2">Techniques for Creating HTML Layouts</div>
+            <div className="font-semibold text-2xl mb-4 mt-2 text-red-600">Techniques for Creating HTML Layouts</div>
 
             <p className="mb-2">There are several techniques to create multi-column layouts in HTML:</p>
 
@@ -147,7 +147,7 @@ const HTMLLayout = () => {
                 HTML is the foundation of web pages and is used for webpage development by structuring websites and web apps. You can learn HTML from the ground up by following this <a href="#" className="text-red-500 underline">HTML Tutorial</a> and <a href="#" className="text-red-500 underline">HTML Examples</a>.
             </p>
 
-            <div className="font-semibold text-2xl mb-4 mt-6">Best Practices for HTML Layout</div>
+            <div className="font-semibold text-2xl mb-4 mt-6 text-red-600">Best Practices for HTML Layout</div>
 
             <ul className="list-disc list-inside">
                 <li>Use semantic HTML5 elements like <span className='font-medium'>&lt;header&gt;</span>, <span className='font-medium'>&lt;nav&gt;</span>, <span className='font-medium'>&lt;main&gt;</span>, and <span className='font-medium'>&lt;footer&gt;</span> to clearly define the structure of your webpage.</li>

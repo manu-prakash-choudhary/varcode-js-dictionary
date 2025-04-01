@@ -6,7 +6,7 @@ const HTMLUnorderedList = () => {
   return (
     <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
       <div className='border-b pb-3 border-gray-200 '>
-        <h1 className="text-3xl font-semibold">HTML Unordered Lists</h1>
+        <h1 className="text-3xl font-semibold text-red-600">HTML Unordered Lists</h1>
         <p className="text-gray-500 text-[1rem] mt-2">Last Updated : 25 March, 2025</p>
       </div>
       <p className="mt-4">
@@ -27,7 +27,7 @@ const HTMLUnorderedList = () => {
 </ul>`}
         </pre>
       </div>
-      <h2 className="text-2xl font-semibold mt-6">HTML Unordered Lists Examples</h2>
+      <h2 className="text-2xl font-semibold mt-6 text-red-600">HTML Unordered Lists Examples</h2>
       <p className="mt-2">Below are some examples showing the use of HTML Unordered lists.</p>
       <h3 className="font-bold mt-4">Example 1:</h3>
       <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
@@ -46,10 +46,10 @@ const HTMLUnorderedList = () => {
       </div>
 
       <div className='mt-1'>
-        <p className="text-2xl font-semibold mt-6">HTML Unordered Lists Examples</p>
+        <p className="text-2xl font-semibold mt-6 text-red-600">HTML Unordered Lists Examples</p>
         <p className="mt-2">Below are some examples showing the use of HTML Unordered lists.</p>
         <p className="font-semibold mt-4">Example 1:</p>
-        <p className="text-2xl font-semibold mt-4">Unordered Lists Style Types</p>
+        <p className="text-2xl font-semibold mt-4 text-red-600">Unordered Lists Style Types</p>
         <table className="w-[50%] ml-[20%] border-collapse border border-gray-300 mt-4">
           <thead>
             <tr className="bg-gray-100">
@@ -134,7 +134,7 @@ const HTMLUnorderedList = () => {
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
-      <p className="mt-6 text-2xl font-semibold">-&gt; Nested Unordered List</p>
+      <p className="mt-6 text-2xl font-semibold text-red-600">-&gt; Nested Unordered List</p>
       <p className="mt-2">
         An Unordered List can be nested, i.e., the list can be defined inside of another list.
       </p>
@@ -153,7 +153,7 @@ const HTMLUnorderedList = () => {
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
-      <p className="mt-6 text-2xl font-semibold">-&gt; Horizontal Unordered List</p>
+      <p className="mt-6 text-2xl font-semibold text-red-600">-&gt; Horizontal Unordered List</p>
       <p className="mt-2">
         An Unordered list can also be aligned in the Horizontal manner, which acts similar to the Nav bar.
       </p>
@@ -172,7 +172,7 @@ const HTMLUnorderedList = () => {
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
-      <p className='text-2xl font-semibold mt-6 mb-2'>
+      <p className='text-2xl font-semibold mt-6 mb-2 text-red-600'>
         Use Cases of Unordered Lists
       </p>
       <p>Unordered lists are incredibly versatile. Here are some common use cases:</p>

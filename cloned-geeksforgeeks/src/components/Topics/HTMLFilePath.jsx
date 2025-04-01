@@ -6,7 +6,7 @@ const HTMLFilePath = () => {
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 mb-3 border-gray-200 '>
-                <h1 className="text-3xl font-semibold">HTML File Paths</h1>
+                <h1 className="text-3xl font-semibold text-red-600">HTML File Paths</h1>
                 <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
             </div>
             <p className="mb-4">
@@ -17,7 +17,7 @@ const HTMLFilePath = () => {
                 To insert a file in a web page, its source must be known. For example, the syntax (&lt;img src=&quot; &quot; alt=&quot; &quot;&gt;) is used to insert an image file, where the path of the file is mentioned in the source (src).
             </p>
 
-            <div className="font-semibold text-2xl mb-2">Types of File Paths</div>
+            <div className="font-semibold text-2xl mb-2 text-red-600">Types of File Paths</div>
 
             <p className="mb-4">
                 There are two main types of HTML File Paths:
@@ -28,7 +28,7 @@ const HTMLFilePath = () => {
                 <li>Relative File Paths</li>
             </ol>
 
-            <div className="font-semibold text-xl mb-2">1. Absolute File Paths</div>
+            <div className="font-semibold text-xl mb-2 text-red-600">1. Absolute File Paths</div>
 
             <ul className="list-disc list-inside mb-4">
                 <li>Point directly to a resource&apos;s location on the internet and include the full URL, which consists of the protocol (http:// or https://), domain, and path to the resource.</li>
@@ -52,7 +52,7 @@ const HTMLFilePath = () => {
                 />
             </div>
 
-            <div className="font-semibold text-xl mb-2 mt-6 ">2. Relative File Paths</div>
+            <div className="font-semibold text-xl mb-2 mt-6 text-red-600 ">2. Relative File Paths</div>
 
             <ul className="list-disc list-inside mb-4">
                 <li>Specify the path to a resource in relation to the location of the HTML file currently being viewed.</li>
@@ -76,7 +76,7 @@ const HTMLFilePath = () => {
                 />
             </div>
 
-            <div className="font-semibold text-2xl mt-3 mb-2">Relative Path Variants</div>
+            <div className="font-semibold text-2xl mt-3 text-red-600 mb-2">Relative Path Variants</div>
 
             <ul className="list-disc list-inside mb-4 mt-4">
                 <li>
@@ -109,7 +109,7 @@ const HTMLFilePath = () => {
                 </code>
             </div>
 
-            <div className="font-semibold text-2xl mb-3 mt-6">Best Practices for Using HTML File Paths</div>
+            <div className="font-semibold text-2xl mb-3 mt-6 text-red-600">Best Practices for Using HTML File Paths</div>
 
             <ul className="list-disc list-inside">
                 <li>

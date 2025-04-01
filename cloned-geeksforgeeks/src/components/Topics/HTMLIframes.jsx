@@ -7,7 +7,7 @@ const HTMLIframes = () => {
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 mb-3 border-gray-200 '>
-                <h1 className="text-3xl font-semibold">HTML Iframes</h1>
+                <h1 className="text-3xl font-semibold text-red-600">HTML Iframes</h1>
                 <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
             </div>
 
@@ -32,7 +32,7 @@ const HTMLIframes = () => {
                 </li>
             </ul>
 
-            <p className="font-semibold text-2xl mb-2">Syntax:</p>
+            <p className="font-semibold text-2xl text-red-600 mb-2">Syntax:</p>
             <div className="bg-red-100 p-3 rounded-lg mb-4">
                 <code className="text-sm">
                     &lt;iframe src="URL" title="description"&gt;&lt;/iframe&gt;
@@ -48,7 +48,7 @@ const HTMLIframes = () => {
                 </li>
             </ul>
 
-            <h2 className="text-2xl font-semibold mb-4 mt-6">HTML Iframes Examples</h2>
+            <h2 className="text-2xl text-red-600 font-semibold mb-4 mt-6">HTML Iframes Examples</h2>
 
             <h3 className="text-lg font-semibold mb-4">Example 1: Basic Iframe Embedding</h3>
 
@@ -73,7 +73,7 @@ const HTMLIframes = () => {
                 </li>
             </ul>
 
-            <div className="font-semibold text-2xl mb-2">Supported Attributes of the &lt;iframe&gt; Tag</div>
+            <div className="font-semibold text-2xl text-red-600 mb-2">Supported Attributes of the &lt;iframe&gt; Tag</div>
 
             <table className="w-full mt-4 text-left border-collapse border border-gray-300">
                 <thead >
@@ -134,7 +134,7 @@ const HTMLIframes = () => {
                 </tbody>
             </table>
 
-            <div className="font-semibold text-xl mb-4 mt-4">Example 2: Using Height and Width attribute</div>
+            <div className="font-semibold text-xl mb-4 mt-4 text-red-600">Example 2: Using Height and Width attribute</div>
             <p className="mb-4">
                 The height and width attributes are used to specify the size of the iframe. The attribute values are specified in pixels by default. You can use pixels or percentages (e.g., &ldquo;80%&rdquo;).
             </p>
@@ -147,7 +147,7 @@ const HTMLIframes = () => {
                 />
             </div>
 
-            <div className="font-semibold text-xl mb-4 mt-4">Example 3: Removing Borders from Iframe</div>
+            <div className="font-semibold text-xl mb-4 mt-4 text-red-600">Example 3: Removing Borders from Iframe</div>
             <p className="mb-4">
                 By default, iframe has a border around it. To remove the border, we must use the style attribute and use the <Link to={'/'} className='underline text-red-500'>CSS border property</Link>.</p>
             <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
@@ -159,7 +159,7 @@ const HTMLIframes = () => {
                 />
             </div>
 
-            <div className="font-semibold text-xl mb-4 mt-4">Example 4: Styling Iframe Border Using CSS</div>
+            <div className="font-semibold text-xl mb-4 mt-4 text-red-600">Example 4: Styling Iframe Border Using CSS</div>
             <p className="mb-4">
                 You can change the size, style, and color of the iframe border using CSS.
             </p>
@@ -172,7 +172,7 @@ const HTMLIframes = () => {
                 />
             </div>
 
-            <div className="font-semibold text-xl mb-4 mt-4">Example 5: Iframe Target in Link</div>
+            <div className="font-semibold text-xl mb-4 mt-4 text-red-600">Example 5: Iframe Target in Link</div>
             <p className="mb-4">
                 You can target an iframe with links by using the name attribute of the iframe and the target attribute of the link.
             </p>
@@ -185,7 +185,7 @@ const HTMLIframes = () => {
                 />
             </div>
 
-            <div className="font-semibold text-2xl mb-2 mt-5">Best Practices for Using Iframes</div>
+            <div className="font-semibold text-2xl text-red-600 mb-2 mt-5">Best Practices for Using Iframes</div>
 
             <p className="mb-4">
                 While iframes offer significant flexibility, they should be used wisely to ensure they enhance rather than detract from the user experience.
@@ -203,7 +203,7 @@ const HTMLIframes = () => {
                 </li>
             </ul>
 
-            <div className="font-semibold text-2xl mb-2">Supported Browsers</div>
+            <div className="font-semibold text-2xl text-red-600 mb-2">Supported Browsers</div>
 
             <ul className="list-disc list-inside">
                 <li><Link className='underline text-red-500'>Google Chrome</Link></li>

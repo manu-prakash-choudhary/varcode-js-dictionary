@@ -7,7 +7,7 @@ const HTMLGraphics = () => {
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 mb-5 border-gray-200 '>
-                <h1 className="text-3xl font-semibold">SVG Tutorial</h1>
+                <h1 className="text-3xl font-semibold text-red-600">SVG Tutorial</h1>
                 <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
             </div>
             <p className="mb-4">
@@ -19,7 +19,7 @@ const HTMLGraphics = () => {
             </p>
             <img className='mt-3 ml-8 mb-5' src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220131111737/SVG-Tutorial.png" alt="img" />
 
-            <div className="text-2xl font-semibold mb-4 mt-8">What is SVG?</div>
+            <div className="text-2xl font-semibold mb-4 text-red-600 mt-8">What is SVG?</div>
             <p className="mb-4">
                 SVG is an acronym for <span className='font-semibold'>Scalable Vector Graphics</span>. It is used on the Web to create vector-based graphics. The graphics are defined in XML format, and each element and attribute in SVG files can be animated.
             </p>
@@ -27,7 +27,7 @@ const HTMLGraphics = () => {
                 SVG is recommended by W3C and can be integrated with other standards such as CSS, DOM, XSL, and JavaScript.
             </p>
 
-            <div className="text-xl font-semibold mb-4">Why Learn SVG?</div>
+            <div className="text-xl font-semibold mb-4 text-red-600">Why Learn SVG?</div>
             <ol className="list-decimal list-inside mb-4">
                 <li>
                     <span className='font-semibold'>Dynamic Graphics:</span> SVG allows developers to create interactive and dynamic graphics, enhancing user interactivity. It is particularly useful for data visualizations, interactive maps, and other engaging web elements.
@@ -46,7 +46,7 @@ const HTMLGraphics = () => {
                 </li>
             </ol>
 
-            <div className="text-2xl font-semibold mb-4 mt-8">How SVG Integrates with HTML?</div>
+            <div className="text-2xl font-semibold mb-4 mt-8 text-red-600">How SVG Integrates with HTML?</div>
             <p>
                 There are several ways to use SVG within HTML:
             </p>
@@ -69,7 +69,7 @@ const HTMLGraphics = () => {
                 </li>
             </ol>
 
-            <div className="text-2xl font-semibold mb-2">SVG Examples</div>
+            <div className="text-2xl font-semibold mb-2 text-red-600">SVG Examples</div>
             <p>
                 In this example, we demonstrates an <span className='font-semibold'>inline SVG example</span>, showcasing a red circle created using the <span className='font-semibold'>&lt;svg&gt;</span> element.
             </p>
@@ -93,7 +93,7 @@ const HTMLGraphics = () => {
                 />
             </div>
 
-            <div className="text-2xl font-semibold mb-4">SVG Tutorial</div>
+            <div className="text-2xl font-semibold mb-4 text-red-600">SVG Tutorial</div>
             <p className="mb-4">
                 Prerequisites: For learning the basics of SVG, it would be helpful to have knowledge of XML, HTML, and JavaScript.
             </p>
@@ -113,8 +113,6 @@ const HTMLGraphics = () => {
                     <Link to={'/'} className="text-red-500 underline">SVG in HTML</Link>
                 </li>
             </ul>
-
-            <div className="text-xl mt-6 font-semibold mb-4">SVG Elements</div>
 
 
 

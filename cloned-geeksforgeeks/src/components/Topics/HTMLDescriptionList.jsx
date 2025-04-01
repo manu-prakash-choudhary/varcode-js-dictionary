@@ -6,7 +6,7 @@ import { CopyBlock } from "react-code-blocks";
 const HTMLDescriptionList = () => {
   return (
     <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
-      <h1 className="text-3xl font-semibold mb-2">HTML Description Lists</h1>
+      <h1 className="text-3xl font-semibold mb-2 text-red-600">HTML Description Lists</h1>
       <p className="text-gray-600 text-sm mb-4">Last Updated: 16 Dec, 2024</p>
       <p className="text-lg">
         An <span className='font-semibold'>HTML Description List</span> is not as commonly used as unordered or
@@ -37,7 +37,7 @@ const HTMLDescriptionList = () => {
   <dd>Strong coffee brewed with steam through ground beans.</dd>
 </dl>`}
       </pre>
-      <p className="text-xl font-semibold mt-6 mb-2">HTML Description Lists Examples</p>
+      <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">HTML Description Lists Examples</p>
       <p className="text-lg font-semibold">Example 1:</p>
       <p className="text-lg">
         In this example, we demonstrate a description list with terms and their descriptions.
@@ -51,7 +51,7 @@ const HTMLDescriptionList = () => {
         />
       </div>
 
-      <p className="text-2xl font-semibold mt-6 mb-2">Nested Description List</p>
+      <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">Nested Description List</p>
       <p className="text-lg">
         A nested description list is when we add a description list inside another description list. This allows for organizing related terms and their definitions in a hierarchical structure, as demonstrated in the example:
       </p>
@@ -65,7 +65,7 @@ const HTMLDescriptionList = () => {
         />
       </div>
 
-      <p className='font-semibold text-2xl mt-3'>Why Use Description Lists?</p>
+      <p className='font-semibold text-2xl text-red-600 mt-5'>Why Use Description Lists?</p>
       <p className='text-md mt-2'>Description lists are particularly useful for web pages that require definitions or detailed explanations of terms. They help in creating organized, easy-to-read content for:</p>
           <ul className="list-disc ml-8 mt-4">
             <li>FAQs</li>

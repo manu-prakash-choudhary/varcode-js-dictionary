@@ -7,7 +7,7 @@ const HTMLTable = () => {
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 border-gray-200 '>
-                <h1 className="text-3xl font-semibold">HTML Tables</h1>
+                <h1 className="text-3xl font-semibold text-red-600">HTML Tables</h1>
                 <p className="text-gray-500 text-sm mt-3">Last Updated : 05 Feb, 2025</p>
             </div>
             <p className="mt-4 text-md ">
@@ -15,7 +15,7 @@ const HTMLTable = () => {
                 page, making it easy to display information like schedules, statistics, or other
                 structured data in a clear format.
             </p>
-            <h2 className="text-xl font-semibold mt-6 ">What is an HTML Table?</h2>
+            <h2 className="text-2xl font-semibold mt-6 text-red-600">What is an HTML Table?</h2>
             <p className="mt-2 text-md">
                 An HTML table is created using the <code >&lt;table&gt;</code> tag. Inside this tag, you use
             </p>
@@ -37,7 +37,7 @@ const HTMLTable = () => {
                 which can contain text, images, lists, or even another table.
             </p>
             <img src="./htmlTable.png" alt="htmlTable" style={{ height: "40%", width: "50%", marginLeft: '20%', marginTop: "10px" }} />
-            <p className='text-2xl font-semibold mt-4 '>HTML Table Code Example</p>
+            <p className='text-2xl font-semibold mt-4 text-red-600'>HTML Table Code Example</p>
 
             <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
@@ -53,7 +53,7 @@ const HTMLTable = () => {
                 <p className='text-center'>Html Table</p>
             </div>
 
-            <p className="text-2xl font-medium mt-3 ">In this Example:</p>
+            <p className="text-2xl font-medium mt-3 text-red-600">In this Example:</p>
             <ul className="list-disc list-inside mt-4 ">
                 <li>
                     <code>&lt;table&gt;</code>: This tag starts the table. Everything between the opening{" "}
@@ -86,12 +86,12 @@ const HTMLTable = () => {
                 and three columns (Firstname, Lastname, Age), showing the names and ages of Priya, Arun, and Sam.
             </p>
 
-            <p className="text-2xl mt-5 font-semibold mb-4">Tags used in HTML Tables</p>
+            <p className="text-2xl mt-5 font-semibold mb-4 text-red-600">Tags used in HTML Tables</p>
             <table className="w-[70%] border border-gray-300 text-left">
                 <thead>
                     <tr className="bg-gray-100 text-xl font-semibold">
-                        <th className="border border-gray-300 px-4 py-4">HTML Tags</th>
-                        <th className="border border-gray-300 px-4 py-4">Descriptions</th>
+                        <th className="border border-gray-300 px-4 py-4 text-red-600">HTML Tags</th>
+                        <th className="border border-gray-300 px-4 py-4 text-red-600">Descriptions</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -118,7 +118,7 @@ const HTMLTable = () => {
             </table>
 
             <div className='mt-5 '>
-                <p className='text-2xl font-semibold'>Another Example of HTML Table:</p>
+                <p className='text-2xl font-semibold text-red-600'>Another Example of HTML Table:</p>
                 <p className='mt-4 text-lg'>Creating a simple table in HTML using a table tag. </p>
 
                 <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
@@ -136,13 +136,13 @@ const HTMLTable = () => {
                 </div>
             </div>
 
-            <p className="text-3xl font-semibold mt-4 text-gray-800">Styling HTML Tables</p>
+            <p className="text-3xl font-semibold mt-4 text-red-600">Styling HTML Tables</p>
             <p className="text-gray-600 mt-2">
                 Styling an HTML table can significantly improve its appearance and readability. You can use
                 <a href="#" className="text-red-500 underline"> CSS (Cascading Style Sheets)</a>
                 to add styles such as borders, background colors, text alignments, and much more. Here are some basic styles to make your table look neater and more professional:
             </p>
-            <p className="text-2xl font-semibold text-gray-800 mt-4">1. Adding a Border to an HTML Table</p>
+            <p className="text-2xl font-semibold text-red-600 mt-4">1. Adding a Border to an HTML Table</p>
             <p className="text-gray-600 mt-2">
                 A border is set using the CSS border property. If you do not specify a border for the table, it will be displayed without borders.
             </p>
@@ -171,7 +171,7 @@ const HTMLTable = () => {
                 <p className='text-center text-gray-500 text-sm italic'>HTML Table with border</p>
             </div>
 
-            <p className="text-2xl font-semibold text-gray-800 mt-6">2. Adding Collapsed Borders in an HTML Table</p>
+            <p className="text-2xl font-semibold text-red-600 mt-6">2. Adding Collapsed Borders in an HTML Table</p>
             <p className="text-gray-600 mt-2">
                 For borders to collapse into one border, add the CSS border-collapse property.
             </p>
@@ -201,7 +201,7 @@ const HTMLTable = () => {
                 <p className='text-center text-gray-500 text-sm italic'>HTML Table with Collapsed Borders</p>
             </div>
 
-            <p className="text-2xl font-semibold text-gray-800 mt-6">3. Adding Cell Padding in an HTML Table</p>
+            <p className="text-2xl font-semibold text-red-600 mt-6">3. Adding Cell Padding in an HTML Table</p>
             <p className="text-gray-600 mt-2">
                 Cell padding specifies the space between the cell content and its borders. If we do not specify a padding, the table cells will be displayed without padding.
             </p>
@@ -228,7 +228,7 @@ const HTMLTable = () => {
                 <p className='text-center text-gray-500 text-sm italic'>Adding Table cell padding</p>
             </div>
 
-            <p className="text-2xl font-semibold text-gray-800 mt-6">4. Adding Left Align Headings in an HTML Table</p>
+            <p className="text-2xl font-semibold text-red-600 mt-6">4. Adding Left Align Headings in an HTML Table</p>
             <p className="text-gray-600 mt-2">
                 By default, the table headings are bold and centered. To left-align the table headings, we must use the CSS text-align property.
             </p>
@@ -258,7 +258,7 @@ const HTMLTable = () => {
             </div>
 
             <div className="mt-4">
-                <p className="text-2xl font-semibold">5. Adding Border Spacing in an HTML Table</p>
+                <p className="text-2xl font-semibold text-red-600">5. Adding Border Spacing in an HTML Table</p>
                 <p className="mt-2 text-gray-700">
                     Border spacing specifies the space between the cells. To set the border-spacing for a table, we must use the CSS
                     <code className="px-1 bg-gray-200 rounded">border-spacing</code> property.
@@ -291,7 +291,7 @@ const HTMLTable = () => {
             </div>
 
             <div className='mt-4'>
-                <p className="text-2xl font-semibold mt-6">6. Adding Cells that Span Many Columns in HTML Tables</p>
+                <p className="text-2xl font-semibold mt-6 text-red-600">6. Adding Cells that Span Many Columns in HTML Tables</p>
                 <p className="mt-2 text-gray-700">
                     To make a cell span more than one column, we must use the <strong >col-span</strong> attribute.
                 </p>
@@ -315,7 +315,7 @@ const HTMLTable = () => {
             </div>
 
             <div className='mt-4'>
-                <p className="text-2xl font-semibold mt-6">7. Adding Cells that span many rows in HTML Tables</p>
+                <p className="text-2xl font-semibold mt-6 text-red-600">7. Adding Cells that span many rows in HTML Tables</p>
                 <p className="mt-2 text-gray-700">
                     To make a cell span more than one row, we must use the rowspan attribute.
                 </p>
@@ -339,7 +339,7 @@ const HTMLTable = () => {
             </div>
 
             <div className='mt-4'>
-                <p className="text-2xl font-semibold mt-6">8. Adding a Caption in an HTML Table</p>
+                <p className="text-2xl font-semibold mt-6 text-red-600">8. Adding a Caption in an HTML Table</p>
                 <p className="mt-2 text-gray-700">
                     To add a <Link to={'/'} className='text-red-500 underline'> caption</Link> to a table, we must use the “caption” tag.
                 </p>
@@ -368,7 +368,7 @@ const HTMLTable = () => {
             </div>
 
             <div className='mt-4'>
-                <p className="text-2xl font-semibold mt-6">9. Adding a Background Colour to the Table</p>
+                <p className="text-2xl font-semibold mt-6 text-red-600">9. Adding a Background Colour to the Table</p>
                 <p className="mt-2 text-gray-700">
                     A color can be added as a background in an HTML table using the “background-color” option.
                 </p>
@@ -399,7 +399,7 @@ const HTMLTable = () => {
             </div>
 
             <div className='mt-4'>
-                <p className="text-2xl font-semibold mt-6">10. Creating Nested Tables</p>
+                <p className="text-2xl font-semibold mt-6 text-red-600">10. Creating Nested Tables</p>
                 <p className="mt-2 text-gray-700">
                 Nesting tables simply means making a Table inside another Table. Nesting tables can lead to complex tables layouts, which are visually interesting and have the potential of introducing errors. 
                 </p>

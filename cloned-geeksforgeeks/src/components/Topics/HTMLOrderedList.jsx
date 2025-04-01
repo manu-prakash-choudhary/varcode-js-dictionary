@@ -6,11 +6,11 @@ const HTMLOrderedList = () => {
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 border-gray-200 '>
-                <h1 className="text-3xl font-semibold">HTML Ordered Lists</h1>
+                <h1 className="text-3xl text-red-600 font-semibold">HTML Ordered Lists</h1>
                 <p className="text-gray-500 text-[1rem] mt-3">Last Updated : 25 March, 2025</p>
             </div>
 
-            <p className='mt-4'> <span className="font-semibold text-2xl">HTML Ordered List  </span>
+            <p className='mt-4'> <span className="font-semibold text-xl">HTML Ordered List  </span>
                 is created by the HTML <span className='font-semibold'>&lt;ol&gt; tag</span>, to display elements in an ordered form, either numerical or alphabetical.
                 Each item within the list is placed within a &lt;li&gt; tag, which stands for “list item”.
             </p>
@@ -28,7 +28,7 @@ const HTMLOrderedList = () => {
 </ol>`}
             </pre>
 
-            <p className="text-2xl font-semibold mt-4">Example – Creating a Basic Ordered List</p>
+            <p className="text-2xl font-semibold mt-4 text-red-600 mb-2">Example – Creating a Basic Ordered List</p>
             <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlBasicOrderedList.text}
@@ -39,7 +39,7 @@ const HTMLOrderedList = () => {
             </div>
 
             <div className='mt-4'>
-                <p className="text-2xl font-semibold mb-1">HTML Ordered Lists – Type Attribute</p>
+                <p className="text-2xl font-semibold mb-1 text-red-600">HTML Ordered Lists – Type Attribute</p>
                 <p>
                     The type attribute of <span className='font-medium'>&lt;ol&gt; tag</span> specifies the order we want to create.
                 </p>
@@ -68,7 +68,7 @@ const HTMLOrderedList = () => {
                 </table>
             </div>
 
-            <p className="text-2xl font-semibold mt-6 mb-2">1. Number – Ordered List</p>
+            <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">1. Number – Ordered List</p>
             <p>
                 To create an ordered list in HTML with numerical markers, which is the default behavior for ordered lists,
                 you simply use the &lt;ol&gt; (ordered list) tag without specifying a type attribute.
@@ -82,7 +82,7 @@ const HTMLOrderedList = () => {
                 />
             </div>
 
-            <p className="text-2xl font-semibold mt-6 mb-2">2. Uppercase Letters – Ordered List</p>
+            <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">2. Uppercase Letters – Ordered List</p>
             <p>
                 To create an ordered list in HTML that uses uppercase letters for the list markers, you can use the type attribute on the  &lt;ol&gt;tag and set it to "A".
             </p>
@@ -96,7 +96,7 @@ const HTMLOrderedList = () => {
                 />
             </div>
 
-            <p className="text-2xl font-semibold mt-6 mb-2">3. Lowercase Letters – Ordered List</p>
+            <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">3. Lowercase Letters – Ordered List</p>
             <p>
                 To create an ordered list in HTML that uses lowercase letters for the list markers, you can use the type attribute on the &lt;ol&gt;tag and set it to "a".
             </p>
@@ -111,7 +111,7 @@ const HTMLOrderedList = () => {
             </div>
 
             <div className='mt-3'>
-                <p className="text-2xl font-semibold mt-6 mb-2">4. Uppercase Roman Numbers – Ordered List</p>
+                <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">4. Uppercase Roman Numbers – Ordered List</p>
                 <p>
                     To create an ordered list in HTML with uppercase Roman numerals as the markers, you can use the type attribute on the  &lt;ol&gt;tag and set it to "I".
                 </p>
@@ -127,7 +127,7 @@ const HTMLOrderedList = () => {
             </div>
 
             <div className='mt-3'>
-                <p className="text-2xl font-semibold mt-6 mb-2">5. Lowercase Roman Numbers – Ordered List</p>
+                <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">5. Lowercase Roman Numbers – Ordered List</p>
                 <p>
                     To create an ordered list in HTML with lowercase Roman numerals as the markers, you can use the type attribute on the &lt;ol&gt;tag and set it to "i".
                 </p>
@@ -142,7 +142,7 @@ const HTMLOrderedList = () => {
                 </div>
             </div>
             <div className='mt-3'>
-                <p className="text-2xl font-semibold mt-6 mb-2">→ Reverse Ordered List in HTML</p>
+                <p className="text-2xl font-semibold mt-6 mb-2 text-red-600">→ Reverse Ordered List in HTML</p>
                 <p>
                     To create a reverse-ordered list in HTML, you can <span className='font-medium'>use the ‘reversed’ attribute in the &lt;ol&gt; tag</span>.
                     This will make the list count down from the highest number.
@@ -160,7 +160,7 @@ const HTMLOrderedList = () => {
             </div>
 
             <div className='mt-3'>
-                <p className="text-2xl font-semibold mt-6">→ Control List Counting</p>
+                <p className="text-2xl font-semibold mt-6 text-red-600">→ Control List Counting</p>
                 <p>
                     To control list counting, <span className='font-medium'>use the ‘start’ attribute in the &lt;ol&gt; tag</span> to set the starting number for the ordered list.
                 </p>
@@ -179,7 +179,7 @@ const HTMLOrderedList = () => {
             </div>
 
             <div className='mt-3'>
-                <p className="text-2xl font-semibold mt-6 mb-2">→ Nested Ordered Lists</p>
+                <p className="text-2xl font-semibold mt-6 text-red-600 mb-2">→ Nested Ordered Lists</p>
                 <p>
                     Nested ordered lists <span className='font-semibold'>use &lt;ol&gt; inside &lt;li&gt; tags</span> to create sublists, making content more organized.
                 </p>

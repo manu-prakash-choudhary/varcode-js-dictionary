@@ -47,7 +47,7 @@ const HTMLFavicon = () => {
   return (
     <div className='content-container overflow-y-auto h-screen pl-6 text-lg tracking-wide'>
       <div className='border-b border-gray-200'>
-        <h1 className="text-3xl font-semibold mb-2">HTML Favicon</h1>
+        <h1 className="text-3xl font-semibold mb-2 text-red-600">HTML Favicon</h1>
         <p className="text-gray-500 text-md  mb-3">Last Updated &#58; 22 March&#44; 2025</p>
       </div>
       <p className="mt-2 text-gray-800 leading-relaxed ">
@@ -69,7 +69,7 @@ const HTMLFavicon = () => {
         </li>
       </ul>
 
-      <h3 className="mt-5 text-2xl font-semibold text-gray-900">How to Implement a Favicon in HTML</h3>
+      <h3 className="mt-5 text-2xl font-semibold text-red-600">How to Implement a Favicon in HTML</h3>
       <p className="mt-2 text-gray-800">
         To add a favicon to your HTML document, you’ll need to reference it in the
         <code> &lt;head&gt; </code> section of your HTML code.
@@ -110,7 +110,7 @@ const HTMLFavicon = () => {
         </div>
       )}
 
-      <p className=" mt-7 text-2xl font-semibold">In this example:</p>
+      <p className=" mt-7 text-2xl font-semibold text-red-600">In this example:</p>
 
       <ul className="mt-3 space-y-2  text-gray-800 list-disc list-inside">
         <li>
@@ -131,7 +131,7 @@ const HTMLFavicon = () => {
         <strong>Note:</strong> Major browsers are not supported by the sizing property of the favicon.
       </div>
 
-      <h2 className="text-2xl mt-7 font-semibold">List of Favicon Sizes</h2>
+      <h2 className="text-2xl mt-7 font-semibold text-red-600">List of Favicon Sizes</h2>
       <p className="mt-2  text-gray-800">
         Different devices and browsers may require favicons of various sizes. Here’s a list of common favicon sizes:
       </p>
@@ -173,7 +173,7 @@ const HTMLFavicon = () => {
         </table>
       </div>
 
-      <p className="text-2xl mt-5 font-semibold mb-4">Favicon File Format Support</p>
+      <p className="text-2xl mt-5 font-semibold mb-4 text-red-600">Favicon File Format Support</p>
       <p className="mb-4 ">Here's a table summarizing the common file formats supported for favicons:</p>
       <table className="w-full">
         <thead className="bg-gray-100">

@@ -7,7 +7,7 @@ const HTMLHyperlinks = () => {
   return (
     <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
       <div className='border-b pb-3 mb-3 border-gray-200 '>
-        <h1 className="text-3xl font-semibold">HTML Links Hyperlinks</h1>
+        <h1 className="text-3xl text-red-600 font-semibold">HTML Links Hyperlinks</h1>
         <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
       </div>
       <div className='mt-6'>
@@ -19,7 +19,7 @@ const HTMLHyperlinks = () => {
           The basic attributes of the <code>&lt;a&gt;</code> tag include <code>href</code>, <code>title</code>, and <code>target</code>, among others.
         </p>
 
-        <div className="font-semibold mb-2 text-2xl">Basic Syntax of an HTML Link:</div>
+        <div className="font-semibold text-red-600 mb-2 text-2xl">Basic Syntax of an HTML Link:</div>
 
         <div className="bg-red-100 p-4 rounded mb-4">
           <code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code>
@@ -29,7 +29,7 @@ const HTMLHyperlinks = () => {
           <strong>Note:</strong> A hyperlink can be represented by an image or any other HTML element, not just text.
         </p>
 
-        <div className="font-semibold mb-2 text-2xl">A Simple HTML Link Example</div>
+        <div className="font-semibold text-red-600 mb-2 text-2xl">A Simple HTML Link Example</div>
 
         <p>
           In this example, we contains a paragraph instructing users to click on the link labeled <a href="https://www.varcode.in/" className="text-red-500 underline">varcode</a>, which directs to the website "https://www.varcode.in/".
@@ -49,12 +49,12 @@ const HTMLHyperlinks = () => {
       </div>
 
       <ul className="list-disc list-inside mb-8">
-        <li>An <span className="underline font-medium text-xl">unvisited link</span> is underlined and blue.</li>
-        <li>A <span className="underline font-medium text-xl ">visited link</span> is underlined and purple.</li>
-        <li>An <span className="underline font-medium text-xl ">active link</span> is underlined and red.</li>
+        <li>An <span className="text-red-500 underline font-medium text-xl">unvisited link</span> is underlined and blue.</li>
+        <li>A <span className="text-red-500 underline font-medium text-xl ">visited link</span> is underlined and purple.</li>
+        <li>An <span className="text-red-500 underline font-medium text-xl ">active link</span> is underlined and red.</li>
       </ul>
 
-      <div className="text-2xl font-semibold mb-2">HTML Links - Target Attribute</div>
+      <div className="text-2xl text-red-600 font-semibold mb-2">HTML Links - Target Attribute</div>
 
       <div className="mb-4">
         The <code>target</code> attribute in the <code>&lt;a&gt;</code> tag specifies where to open the linked document. It controls whether the link opens in the same window, a new window, or a specific frame.
@@ -63,8 +63,8 @@ const HTMLHyperlinks = () => {
       <table className="w-[60%] text-left border-collapse border border-gray-300">
         <thead>
           <tr>
-            <th className="border border-gray-300 bg-gray-200 font-semibold text-2xl px-4 py-5">Attribute</th>
-            <th className="border border-gray-300 bg-gray-200 font-semibold text-2xl px-4 py-5">Description</th>
+            <th className="border border-gray-300 text-red-500 bg-gray-200 font-semibold text-2xl px-4 py-5">Attribute</th>
+            <th className="border border-gray-300 text-red-500 bg-gray-200 font-semibold text-2xl px-4 py-5">Description</th>
           </tr>
         </thead>
         <tbody>
@@ -99,7 +99,7 @@ const HTMLHyperlinks = () => {
           wrapLines
         />
       </div>
-      <div className="text-2xl mt-5 font-semibold mb-2">Linking Different HTML Elements</div>
+      <div className="text-2xl mt-5 font-semibold mb-2 text-red-500">Linking Different HTML Elements</div>
 
       <div className="mb-4">
         Below are examples of how to link different HTML elements with their respective code snippets
@@ -108,8 +108,8 @@ const HTMLHyperlinks = () => {
       <table className="w-full text-left border-collapse border border-gray-300 mb-8">
         <thead>
           <tr>
-            <th className="border border-gray-300 p-5 bg-gray-200 font-semibold text-xl">Element to Interlink</th>
-            <th className="border border-gray-300 p-5 bg-gray-200 font-semibold text-xl">Specific Code</th>
+            <th className="border border-gray-300 p-5 bg-gray-200 text-red-500 font-semibold text-xl">Element to Interlink</th>
+            <th className="border border-gray-300 p-5 bg-gray-200 text-red-500 font-semibold text-xl">Specific Code</th>
           </tr>
         </thead>
         <tbody>
@@ -140,7 +140,7 @@ const HTMLHyperlinks = () => {
         </tbody>
       </table>
 
-      <div className="text-2xl font-semibold mb-2">Supported Browsers</div>
+      <div className="text-2xl font-semibold mb-2 text-red-500">Supported Browsers</div>
 
       <ul className="list-disc list-inside">
         <li><Link className='text-red-500 underline'>Google Chrome</Link>5.0</li>
