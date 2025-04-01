@@ -1085,3 +1085,167 @@ export const HTMLColors5={
 </html>
 `,
 }
+
+
+//html tutorial reference
+
+export const HTMLtr1={
+    language:"html",
+    theme:"a11y-light",
+    text:`<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title>HTML5 MathML</title> 
+</head> 
+
+<body style="text-align:center;"> 
+
+	<h1 style="color:red"> 
+		varCODE 
+	</h1> 
+
+	<h3>HTML5 MathML</h3> 
+
+	<!--start tag of the whole representation-->
+	<math> 
+
+		<!-- Creating Matrix -->
+		<mrow> 
+			<mi>A</mi> 
+			<mo>=</mo> 
+
+			<mfenced open="[" close="]"> 
+
+				<mtable> 
+					<mtr> 
+						<mtd> 
+							<mi>a</mi> 
+						</mtd> 
+						<mtd> 
+							<mi>b</mi> 
+						</mtd> 
+					</mtr> 
+
+					<mtr> 
+						<mtd> 
+							<mi>x</mi> 
+						</mtd> 
+						<mtd> 
+							<mi>y</mi> 
+						</mtd> 
+					</mtr> 
+
+				</mtable> 
+
+			</mfenced> 
+		</mrow> 
+
+		<!-- Creating equation -->
+		<br><br> 
+		<msub> 
+			<mi>varCODE</mi> 
+			<mn>4</mn> 
+		</msub> 
+		<mo>+</mo> 
+		<mn>varCODE</mn> 
+		<mo>=</mo> 
+		<msub> 
+			<mi>V</mi> 
+		</msub> 
+		<mo>→</mo> 
+		<msub> 
+			<mi>e</mi> 
+			<mn>2</mn> 
+		</msub> 
+		<mo>→</mo> 
+		<mi>k</mi> 
+		<mi>s</mi> 
+		<mn>4 
+		</mn> 
+		<msub> 
+			<mi>V</mi> 
+		</msub> 
+		<mo>→</mo> 
+		<msub> 
+			<mi>e</mi> 
+			<mn>2</mn> 
+		</msub> 
+		<mo>→</mo> 
+		<mi>k</mi> 
+		<mi>s</mi> 
+	</math> 
+</body> 
+
+</html>
+`,
+}
+
+
+export const HTMLtr2={
+    language:"html",
+    theme:"a11y-light",
+    text:`<html>
+<head>
+	<script>
+		function changeText() {
+			document.getElementById("demo").textContent = "Hello, World!";
+		}
+	</script>
+</head>
+<body>
+	<p id="demo">Original Text</p>
+	<button onclick="changeText()">Change Text</button>
+</body>
+</html>
+`,
+}
+
+export const HTMLtr3={
+    language:"html",
+    theme:"a11y-light",
+    text:`<html>
+<body>
+	<audio controls>
+		<source src="audiofile.mp3" type="audio/mpeg">
+		audio element.
+	</audio>
+	<br><br>
+	<video width="320" height="240" controls>
+		<source src="videofile.mp4" type="video/mp4">
+		video Element.
+	</video>
+</body>
+</html>
+
+`,
+}
+
+
+export const HTMLtr4={
+    language:"html",
+    theme:"a11y-theme",
+    text:`<!DOCTYPE html> 
+<html> 
+<body> 
+<center> 
+<h1 style="color:red;"> 
+	varCODE
+</h1> 
+<b>SVG Polygon</b> 
+<center> 
+	
+	
+  <svg width="200px"
+		height="200px"> 
+		<!-- try different pairs and make different shapes-->
+		<polygon points="100, 100 15, 205 150, 7 20, 0"
+				fill="red"
+				stroke="yellow"/> 
+	</svg> 
+</center> 
+</body> 
+</html>
+`,
+
+}

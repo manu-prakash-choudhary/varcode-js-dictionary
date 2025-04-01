@@ -16,6 +16,10 @@ import HTMLParagraphs from "./components/Topics/HTMLParagraphs";
 import HTMLTextFormatting from "./components/Topics/HTMLTextFormatting"
 import HTMLQuotations from "./components/Topics/HTMLQuotations";
 import HTMLColors from "./components/Topics/HTMLColors";
+import HTMLMathML from "./components/Topics/HTMLMathML";
+import HTMLDomRef from "./components/Topics/HTMLDomRef";
+import HTMLAVRef from "./components/Topics/HTMLAVRef";
+import HTMLSvg1Ref from "./components/Topics/HTMLSvg1Ref";
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
   return (
@@ -48,6 +52,10 @@ const App = () => {
           <Route path="/html-text-formatting" element={<HTMLTextFormatting />} />
           <Route path="/html-quotations" element={<HTMLQuotations />} />
           <Route path="/html-colors" element={<HTMLColors />} />
+          <Route path="/html5-mathml-complete-reference" element={<HTMLMathML />} />
+          <Route path="/html-dom-complete-reference" element={<HTMLDomRef />} />
+          <Route path="/html-dom-audio-video-complete-reference" element={<HTMLAVRef />} />
+          <Route path="/svg-element-complete-reference" element={<HTMLSvg1Ref />} />
           {/* Add more routes as needed */}
           
         </Route>
