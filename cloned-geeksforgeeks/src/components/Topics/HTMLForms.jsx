@@ -17,7 +17,7 @@ const HTMLForms = () => {
         buttons, and submit buttons.
       </p>
       <div>
-        <p className="text-lg font-bold text-600 pt-4">Table of Content</p>
+        <p className="text-lg font-bold text-red-500 pt-4">Table of Content</p>
       </div>
       <div>
         <ul
@@ -73,7 +73,7 @@ const HTMLForms = () => {
       </div>
       <br />
       <p>
-        <b>Syntax :</b>
+        <b className="text-lg font-bold text-red-500">Syntax :</b>
       </p>
       <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
@@ -86,7 +86,7 @@ const HTMLForms = () => {
       </div>
 
       <div>
-        <p className="text-lg font-bold text-600">Form Elements</p>
+        <p className="text-lg font-bold text-red-500">Form Elements</p>
         <p>
           The HTML <code>&lt;form&gt;</code> comprises several elements, each
           serving a unique purpose. For instance, the <code>&lt;label&gt;</code>{" "}
@@ -249,7 +249,7 @@ const HTMLForms = () => {
       </div>
       <br />
       <div>
-        <p className="text-lg font-bold text-600">
+        <p className="text-lg font-bold text-red-500">
           Commonly Used Input Types in HTML Forms
         </p>
         <p>
@@ -406,9 +406,9 @@ const HTMLForms = () => {
       </div>
       <br/>
       <div>
-        <p className="text-lg font-bold text-black-600 pt-4 pb-2">HTML Forms Example</p>
-        <p style={{paddingBottom: "10px"}}><b>Example 1 : Basic HTML Forms</b></p>
-        <p><b>Example : </b>This HTML form collects user personal information such as username and password with a button to submit the form.</p>
+        <p className="text-lg font-bold text-red-500 pt-4 pb-2">HTML Forms Example</p>
+        <p style={{paddingBottom: "10px"}}><b className="text-lg font-bold text-red-500">Example 1 : Basic HTML Forms</b></p>
+        <p><b className="text-lg font-bold text-red-500">Example : </b>This HTML form collects user personal information such as username and password with a button to submit the form.</p>
       </div>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
@@ -419,12 +419,12 @@ const HTMLForms = () => {
         />
       </div>
       <div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <img src="../HTMLFormsEX1.png" width="455" height="604" className="mx-auto item-center" />
       </div>
       <br/>
       <div>
-        <p style={{paddingBottom: "10px"}}><b>Example 2 : Advance HTML Forms</b></p>
+        <p style={{paddingBottom: "10px"}}><b className="text-lg font-bold text-red-500">Example 2 : Advance HTML Forms</b></p>
         <p>This HTML form collects user personal information, including name, email, password, gender, date of birth, and address. It features proper styling for input fields and submission buttons.</p>
       </div>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
@@ -436,18 +436,18 @@ const HTMLForms = () => {
         />
         </div>
         <div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <img src="../HTMLFormsEX2.gif" alt="HTMLForm3" width="455" height="604" loading="lazy" className="mx-auto item-center" />
       </div>
       <br/>
       <div>
         <p>Here are some of the key attributes that can be used with the &lt;form&gt; element :</p>
-        <p style={{ paddingTop: "5px" }}>1. <b>action :</b>This attribute specifies where to send the form-data when a form is submitted. The value of this attribute is typically a URL.</p>
-        <p style={{ paddingTop: "5px" }}>2. <b>method :</b>This attribute specifies which HTTP method used to send the form-data. The values can be GET or POST.</p>
-        <p style={{ paddingTop: "5px" }}>3. <b>target :</b>This attribute specifies where to display the response received after submitting the form. The values can be <b>“_blank”, “_self”, “_parent”, “_top”,</b> or the name of an iframe.</p>
-        <p style={{ paddingTop: "5px" }}>4. <b>enctype :</b>This attribute is used when method=“post”. It specifies how the form-data should be encoded when submitting it to the server. The values can be <b>“application/x-www-form-urlencoded”, “multipart/form-data”, or “text/plain”</b>.</p>
-        <p style={{ paddingTop: "5px" }}>5. <b>autocomplete :</b>This attribute specifies whether a form should have autocomplete on or off. When autocomplete is on, the browser automatically completes values based on values that the user has entered before.</p>
-        <p style={{ paddingTop: "5px" }}>6. <b>novalidate :</b>This Boolean attribute specifies that the form-data should not be validated on submission.</p>
+        <p style={{ paddingTop: "5px" }}>1. <b className="text-lg font-bold text-red-500">action :</b>This attribute specifies where to send the form-data when a form is submitted. The value of this attribute is typically a URL.</p>
+        <p style={{ paddingTop: "5px" }}>2. <b className="text-lg font-bold text-red-500">method :</b>This attribute specifies which HTTP method used to send the form-data. The values can be GET or POST.</p>
+        <p style={{ paddingTop: "5px" }}>3. <b className="text-lg font-bold text-red-500">target :</b>This attribute specifies where to display the response received after submitting the form. The values can be <b className="text-lg font-bold text-500">“_blank”, “_self”, “_parent”, “_top”,</b> or the name of an iframe.</p>
+        <p style={{ paddingTop: "5px" }}>4. <b className="text-lg font-bold text-red-500">enctype :</b>This attribute is used when method=“post”. It specifies how the form-data should be encoded when submitting it to the server. The values can be <b className="text-lg font-bold text-500">“application/x-www-form-urlencoded”, “multipart/form-data”, or “text/plain”</b>.</p>
+        <p style={{ paddingTop: "5px" }}>5. <b className="text-lg font-bold text-red-500">autocomplete :</b>This attribute specifies whether a form should have autocomplete on or off. When autocomplete is on, the browser automatically completes values based on values that the user has entered before.</p>
+        <p style={{ paddingTop: "5px" }}>6. <b className="text-lg font-bold text-red-500">novalidate :</b>This Boolean attribute specifies that the form-data should not be validated on submission.</p>
       </div>
     </div>
   );

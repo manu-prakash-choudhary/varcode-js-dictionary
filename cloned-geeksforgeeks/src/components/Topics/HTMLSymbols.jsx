@@ -28,14 +28,14 @@ const HTMLSymbols = () => {
 
       <br />
 
-      <p style={{ fontWeight: "bold", color: "black" }}>Commonly Used HTML Symbols</p>
+      <p style={{ fontWeight: "bold", color: "red", marginBottom:"10px"}}>Commonly Used HTML Symbols</p>
 
       {/* Wrapper div for symbols section */}
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            1. <span className="text-xl">© :</span> Copyright Sign :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            1. <span className="text-xl ">© :</span> Copyright Sign :
           </p>
 
           <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4"
@@ -70,7 +70,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             2. <span className="text-xl"> ® :</span> Registered Trade Mark Sign :
           </p>
 
@@ -106,7 +106,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             3. <span className="text-xl"> ™ :</span> Trade Mark Sign :
 
           </p>
@@ -143,7 +143,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             4. <span className="text-xl"> @ :</span> At Symbol Sign :
 
           </p>
@@ -180,7 +180,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             5. <span className="text-xl"> ¶ :</span> Paragraph Sign :
 
           </p>
@@ -217,7 +217,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             6. <span className="text-xl"> § :</span> Section Sign :
 
           </p>
@@ -254,7 +254,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             7. <span className="text-xl"> ℂ :</span> Double-Struck Capital C :
 
           </p>
@@ -291,7 +291,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             8. <span className="text-xl"> ℅ :</span> Care Of :
 
           </p>
@@ -328,7 +328,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             9. <span className="text-xl"> ℊ :</span> Script Small g Syntax :
 
           </p>
@@ -365,7 +365,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             10. <span className="text-xl"> ℋ :</span> Script Capital h Syntax :
 
           </p>
@@ -402,8 +402,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            11. <span className="text-xl"> ℌ :</span> Black-Letter Capital h Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            11. <span className="text-xl"> ℌ :</span> red-Letter Capital h Syntax :
 
           </p>
  
@@ -439,7 +439,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             12. <span className="text-xl"> ℍ :</span> Double-Struck Capital h Syntax :
 
           </p>
@@ -476,12 +476,12 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             13. <span className="text-xl"> ℎ :</span> Planckh Constant Syntax :
 
           </p>
 
-          <div
+          <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4"
             // style={{
             //   backgroundColor: "#eeeeee",
             //   padding: "10px",
@@ -513,7 +513,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             14. <span className="text-xl"> ℏ :</span> Planck Constant Over Two pi Syntax :
 
           </p>
@@ -551,7 +551,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             15. <span className="text-xl"> ℐ :</span> Script Capital i Syntax :
 
           </p>
@@ -588,8 +588,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            16. <span className="text-xl"> ℑ :</span>  Black-Letter Capital Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            16. <span className="text-xl"> ℑ :</span>  red-Letter Capital Syntax :
 
           </p>
 
@@ -625,7 +625,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             17. <span className="text-xl"> ℒ :</span> Script Capital l Syntax :
 
           </p>
@@ -662,7 +662,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             18. <span className="text-xl"> ℓ :</span> Script Small l Syntax :
 
           </p>
@@ -699,7 +699,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             19. <span className="text-xl"> ℕ :</span> &nopf; Syntax :
 
           </p>
@@ -736,7 +736,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             20. <span className="text-xl"> № :</span> Numero Sign Syntax :
 
           </p>
@@ -773,7 +773,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             21. <span className="text-xl"> ℗ :</span> Sound Recording Copyright Syntax :
 
           </p>
@@ -810,7 +810,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             22. <span className="text-xl"> ℘ :</span> Script Capital p Syntax  :
 
           </p>
@@ -847,7 +847,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             23. <span className="text-xl"> ℚ :</span> Double-Struck Capital q Syntax :
 
           </p>
@@ -884,7 +884,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             24. <span className="text-xl"> ” : ”</span> Sign Syntax :
 
           </p>
@@ -921,7 +921,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             25. <span className="text-xl"> ℛ :</span> Script Capital r Syntax :
 
           </p>
@@ -958,8 +958,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            26. <span className="text-xl"> ℜ :</span> Black-Letter Capital r Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            26. <span className="text-xl"> ℜ :</span> red-Letter Capital r Syntax :
 
           </p>
 
@@ -995,7 +995,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             27. <span className="text-xl"> ℝ :</span> Double-Struck Capital r Syntax :
 
           </p>
@@ -1032,7 +1032,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             28. <span className="text-xl"> ℞ :</span> Prescription Take Syntax :
 
           </p>
@@ -1069,7 +1069,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             29. <span className="text-xl"> ℤ :</span> Double-Struck Capital z Syntax :
 
           </p>
@@ -1106,7 +1106,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             30. <span className="text-xl"> ℧ :</span> Inverted Ohm Sign :
 
           </p>
@@ -1143,8 +1143,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            31. <span className="text-xl"> ℨ :</span> Black-Letter Capital z Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            31. <span className="text-xl"> ℨ :</span> red-Letter Capital z Syntax :
 
           </p>
 
@@ -1180,7 +1180,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             32. <span className="text-xl"> ℩ :</span> Turned Greek Small Letter Iota Syntax :
 
           </p>
@@ -1217,7 +1217,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             33. <span className="text-xl"> ℬ :</span> Script Capital b Syntax :
 
           </p>
@@ -1254,8 +1254,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            34. <span className="text-xl"> ℭ :</span> Black-Letter Capital c Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            34. <span className="text-xl"> ℭ :</span> red-Letter Capital c Syntax :
 
           </p>
 
@@ -1291,7 +1291,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             35. <span className="text-xl"> ℯ :</span> Script Small e Syntax :
 
           </p>
@@ -1328,7 +1328,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             36. <span className="text-xl"> ℰ :</span> Script Small e Syntax :
 
           </p>
@@ -1365,7 +1365,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             37. <span className="text-xl"> ℱ :</span> Script Capital f Syntax :
 
           </p>
@@ -1402,7 +1402,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             38. <span className="text-xl"> ℳ :</span> Script Capital m Syntax :
 
           </p>
@@ -1439,7 +1439,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             39. <span className="text-xl"> ℴ :</span> Script Capital o Syntax :
 
           </p>
@@ -1476,7 +1476,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             40. <span className="text-xl"> ℵ :</span> Alef Symbol Syntax :
 
           </p>
@@ -1513,7 +1513,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             41. <span className="text-xl"> ℶ :</span> Bet Symbol Syntax  :
 
           </p>
@@ -1550,7 +1550,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             42. <span className="text-xl"> ℷ :</span>  Gimel Symbol Syntax :
 
           </p>
@@ -1587,7 +1587,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             43. <span className="text-xl"> ℸ :</span> Dalet Symbol Syntax :
 
           </p>
@@ -1624,7 +1624,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             44. <span className="text-xl"> ⅆ :</span> Double-Struck Italic Small d Syntax :
 
           </p>
@@ -1661,7 +1661,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             45. <span className="text-xl"> ⅇ :</span> Double-Struck Italic Small e Syntax :
 
           </p>
@@ -1698,7 +1698,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             46. <span className="text-xl"> ⅈ :</span> Double-Struck Italic Small i Syntax :
 
           </p>
@@ -1735,8 +1735,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            47. <span className="text-xl"> ★ :</span> Black Star Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            47. <span className="text-xl"> ★ :</span> red Star Syntax :
 
           </p>
 
@@ -1772,7 +1772,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             48. <span className="text-xl"> ☆ :</span> White Star Syntax :
 
           </p>
@@ -1809,8 +1809,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            49. <span className="text-xl"> ☎ :</span> Black Telephone Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            49. <span className="text-xl"> ☎ :</span> red Telephone Syntax :
 
           </p>
 
@@ -1846,7 +1846,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             50. <span className="text-xl"> ♀ :</span> Female Sign Syntax :
 
           </p>
@@ -1883,7 +1883,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             51. <span className="text-xl"> ♂ :</span> Male Sign Syntax :
 
           </p>
@@ -1920,8 +1920,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            52. <span className="text-xl"> ♠ :</span> Black Spade Suit Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            52. <span className="text-xl"> ♠ :</span> red Spade Suit Syntax :
 
           </p>
 
@@ -1957,8 +1957,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            53. <span className="text-xl"> ♣ :</span> Black Club Suit Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            53. <span className="text-xl"> ♣ :</span> red Club Suit Syntax :
 
           </p>
 
@@ -1994,8 +1994,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            54. <span className="text-xl"> ♥ :</span> Black heart Suit Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            54. <span className="text-xl"> ♥ :</span> red heart Suit Syntax :
 
           </p>
 
@@ -2031,8 +2031,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            55. <span className="text-xl"> ♦ :</span> Black Diamond Suit Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            55. <span className="text-xl"> ♦ :</span> red Diamond Suit Syntax :
 
           </p>
 
@@ -2068,7 +2068,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             56. <span className="text-xl"> ♪ :</span> Eighth Note Syntax :
 
           </p>
@@ -2105,7 +2105,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             57. <span className="text-xl"> ♭ :</span> Music Flat Sign Syntax :
 
           </p>
@@ -2142,7 +2142,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             58. <span className="text-xl"> ♮ :</span> Music Natural Sign Syntax :
 
           </p>
@@ -2179,7 +2179,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             59. <span className="text-xl"> ♯ :</span> Music Sharp Sign Syntax :
 
           </p>
@@ -2216,7 +2216,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             60. <span className="text-xl"> ✓ :</span> Check Mark Syntax :
 
           </p>
@@ -2253,7 +2253,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             61. <span className="text-xl"> ✗ :</span> Ballot x Syntax :
 
           </p>
@@ -2290,7 +2290,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             62. <span className="text-xl"> ✠ :</span> Maltese Cross Syntax :
 
           </p>
@@ -2327,8 +2327,8 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
-            63. <span className="text-xl"> ✶ :</span> Six pointed Black Star Syntax :
+          <p className="text-lg font-bold text-red-500 pb-2">
+            63. <span className="text-xl"> ✶ :</span> Six pointed red Star Syntax :
 
           </p>
 
@@ -2364,7 +2364,7 @@ const HTMLSymbols = () => {
       <div>
         {/* Copyright Sign */}
         <div className="mb-6">
-          <p className="text-lg font-bold">
+          <p className="text-lg font-bold text-red-500 pb-2">
             64. <span className="text-xl"> ❘ :</span> Light Vertical Bar Syntax :
 
           </p>

@@ -22,7 +22,7 @@ const HTMLResponsiveWebDesign = () => {
       </div>
       <br />
       <p style={{ paddingBottom: "5px" }}>
-        <b>HTML Responsive Web Design</b> is a modern approach to web
+        <b className="text-lg font-bold text-500">HTML Responsive Web Design</b> is a modern approach to web
         development that ensures web pages look great on any device, from phones
         and tablets to desktop computers.
       </p>
@@ -42,11 +42,11 @@ const HTMLResponsiveWebDesign = () => {
         />
       </div>
       <div>
-        <p className="text-lg font-bold text-600 pt-4">
+        <p className="text-lg font-bold text-red-500 pt-4">
           What is Responsive Web Design?
         </p>
         <p style={{ paddingTop: "5px" }}>
-          <b>Responsive Web Design</b> is an approach to web development that
+          <b className="text-lg font-bold text-red-500">Responsive Web Design</b> is an approach to web development that
           ensures web pages render well on a variety of devices and window or
           screen sizes. It involves using fluid grids, flexible images, and CSS
           media queries to adapt the layout of a website dynamically based on
@@ -60,11 +60,11 @@ const HTMLResponsiveWebDesign = () => {
         </p>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 pt-4">
+      <p className="text-lg font-bold text-red-500 pt-4">
         Examples of HTML Responsive Web Design
       </p>
       <div>
-        <p className="text-lg font-bold text-600 pt-4">Table of Content</p>
+        <p className="text-lg font-bold text-red-500 pt-4">Table of Content</p>
       </div>
       <div>
         <ul
@@ -120,8 +120,8 @@ const HTMLResponsiveWebDesign = () => {
         </ul>
       </div>
       <div>
-        <p className="pt-4">
-          <b>1. HTML Viewport meta tag for Responsive Web Design</b>
+        <p className="pt-4 text-lg text-red-500">
+          <b className="text-lg font-bold text-red-500">1. HTML Viewport meta tag for Responsive Web Design</b>
         </p>
 
         <p style={{ paddingTop: "5px" }}>
@@ -143,7 +143,7 @@ const HTMLResponsiveWebDesign = () => {
           </span>
         </p>
         <br/>
-      <p><b>Syntax :</b></p>
+      <p><b className="text-lg font-bold text-red-500">Syntax :</b></p>
       </div>
       <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
@@ -152,7 +152,7 @@ const HTMLResponsiveWebDesign = () => {
           </code>
         </pre>
       </div>
-      <p><b>Example :</b> Use of the HTML viewport meta tag for responsive pages.</p>
+      <p><b className="text-lg font-bold text-red-500">Example :</b> Use of the HTML viewport meta tag for responsive pages.</p>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
           text={htmlWebExample1.text}
@@ -161,18 +161,18 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../1.mp4" controls="" preload="none"></video>
         </div>
         <div>
-          <p className="text-lg font-bold text-600 pb-4">2. Responsive Images</p>
+          <p className="text-lg font-bold text-red-500 pb-4">2. Responsive Images</p>
           <p>Responsive images play a key role in responsive websites. These are images that can adjust their size, getting bigger or smaller, based on the width of the browser. By being responsive, images enhance user experience across different devices with varying screen sizes. The following are the techniques to use the responsive images :</p>
-          <p className="text-lg font-bold text-600 pt-4">2.1 Using width Property</p>
+          <p className="text-lg font-bold text-red-500 pt-4">2.1 Using width Property</p>
           <p className="text-lg pt-4">The image can be responsive & scale up & down with the help of CSS width property by setting its value as 100%.</p>
         </div>
         <br/>
-        <p className="text-lg font-bold text-600 ">Syntax :</p>
+        <p className="text-lg font-bold text-red-500 ">Syntax :</p>
         <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
           <code>
@@ -180,7 +180,7 @@ const HTMLResponsiveWebDesign = () => {
           </code>
         </pre>
       </div>
-      <p><b>Example :</b>In this example, we will use the image width property to occupy 100% of the screen width.</p>
+      <p><b className="text-lg font-bold text-red-500">Example :</b>In this example, we will use the image width property to occupy 100% of the screen width.</p>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
           text={htmlWebExample2.text}
@@ -189,16 +189,16 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../2.mp4" controls="" preload="none"></video>
         </div>
         <div>
-          <p className="text-lg font-bold text-600 pt-4 pb-4">2.2 Using the max-width Property</p>
+          <p className="text-lg font-bold text-red-500 pt-4 pb-4">2.2 Using the max-width Property</p>
           <p>The max-width property sets the maximum width of an element. It restricts the element’s width from exceeding a certain value. If the content is larger than this maximum width, it wraps to the next line. However, if the content is smaller, the property has no impact. Also, if the content is larger than its original size, it won’t scale up beyond the specified max-width.</p>
         </div>
         <br/>
-        <p className="text-lg font-bold text-600 ">Syntax :</p>
+        <p className="text-lg font-bold text-red-500 ">Syntax :</p>
         <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
           <code>
@@ -206,7 +206,7 @@ const HTMLResponsiveWebDesign = () => {
           </code>
         </pre>
       </div>
-      <p><b>Example : Implementation of the max-width Property for making the Responsive Images.</b></p>
+      <p><b className="text-lg font-bold text-red-500 pb-3">Example : Implementation of the max-width Property for making the Responsive Images.</b></p>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
           text={htmlWebExample22.text}
@@ -215,15 +215,15 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../3.mp4" controls="" preload="none"></video>
         </div>
         <div>
-          <p className="text-lg font-bold text-600 pt-4 pb-4">2.3 Responsive Image for different Browser Width</p>
+          <p className="text-lg font-bold text-red-500 pt-4 pb-4">2.3 Responsive Image for different Browser Width</p>
           <p className=" pb-2">To make images responsive, HTML provides the <code>&lt;picture&gt;</code> element. It gives web developers the flexibility to specify different image resources depending on the size of the browser window.</p>
         </div>
-        <p><b>Example : Implementation of the max-width Property for making the Responsive Images.</b></p>
+        <p><b className="text-lg font-bold text-red-500">Example : Implementation of the max-width Property for making the Responsive Images.</b></p>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
           text={htmlWebExample23.text}
@@ -232,14 +232,14 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../4.mp4" controls="" preload="none"></video>
         </div>
         <div>
-          <p className="text-lg font-bold text-600 pb-4">3. Responsive Texts</p>
+          <p className="text-lg font-bold text-red-500 pb-4">3. Responsive Texts</p>
           <p className="pb-4">In this method, we set font sizes using %, vw, vh, etc. This ensures that text sizes are responsive, adjusting automatically until reaching a certain limit. Once the limit is reached, the content is justified to fit within the available width.</p>
-          <p><b>Example : This example demonstrates Responsive Web Design by making Responsive Texts.</b></p>
+          <p><b className="text-lg font-bold text-red-500">Example : This example demonstrates Responsive Web Design by making Responsive Texts.</b></p>
         </div>
         <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
@@ -249,12 +249,12 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../5.mp4" controls="" preload="none"></video>
         </div>
         <div>
-          <p className="text-lg font-bold text-600 pb-4">4. CSS Media Queries</p>
+          <p className="text-lg font-bold text-red-500 pb-4">4. CSS Media Queries</p>
           <p>
            <span>
               The&nbsp;
@@ -277,7 +277,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>Orientation.</li>
           <li>Resolution.</li>
         </ul>
-        <p className="text-lg font-bold text-600 pt-4">Syntax :</p>
+        <p className="text-lg font-bold text-red-500 pt-4">Syntax :</p>
         <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
         <code>
@@ -288,7 +288,7 @@ const HTMLResponsiveWebDesign = () => {
       </pre>
       </div>
       <div>
-      <p><b>Example: In this example, we will use screen size in a media query to make the webpage responsive according to different breakpoints.</b></p>
+      <p><b className="text-lg font-bold text-red-500">Example: In this example, we will use screen size in a media query to make the webpage responsive according to different breakpoints.</b></p>
         </div>
         <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
@@ -298,18 +298,18 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output : Background color and font size transition for width less than 800px.</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output : Background color and font size transition for width less than 800px.</b></p>
         <div>
         <video src="../6.mp4" controls="" preload="none"></video>
         </div>
         <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
-        <p><b>Note : </b>Sometimes, this method doesn’t show the correct output on Google Chrome.</p>
+        <p><b className="text-lg font-bold text-red-500">Note : </b>Sometimes, this method doesn’t show the correct output on Google Chrome.</p>
       </div>
       <div>
-        <p className="text-lg font-bold text-600 pt-4">5. Responsive Layouts</p>
+        <p className="text-lg font-bold text-red-500 pt-4">5. Responsive Layouts</p>
         <p>The responsive layout module of CSS includes the following properties.</p>
       </div>
-      <p className="text-lg font-bold text-600 pt-4">5.1 Using flexbox property</p>
+      <p className="text-lg font-bold text-red-500 pt-4">5.1 Using flexbox property</p>
       <div>
         <p>
           In this approach, we will use&nbsp;
@@ -322,7 +322,7 @@ const HTMLResponsiveWebDesign = () => {
           &nbsp;to make the page responsive. Display layouts like flexbox, inline, blocks, and grids can be used to make the design responsive. CSS flexbox property auto adjusts the content (no. of columns in a row) according to the screen width as shown in the output gif.
         </p>
       </div>
-      <p className="text-lg font-bold text-600 pt-4">Syntax :</p>
+      <p className="text-lg font-bold text-red-500 pt-4">Syntax :</p>
         <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
         <code>
@@ -334,7 +334,7 @@ const HTMLResponsiveWebDesign = () => {
 
       </div>
       <div>
-      <p><b>Example : In this example, we will use display type flexbox to show adjust items automatically according to the screen size.</b></p>
+      <p><b className="text-lg font-bold text-red-500">Example : In this example, we will use display type flexbox to show adjust items automatically according to the screen size.</b></p>
         </div>
         <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
@@ -344,13 +344,13 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../7.mp4" controls="" preload="none"></video>
         </div>
-        <p><b>Note :</b> Sometimes, this method doesn’t show the correct output on Google Chrome.</p>
+        <p><b className="text-lg font-bold text-red-500">Note :</b> Sometimes, this method doesn’t show the correct output on Google Chrome.</p>
         <br/>
-        <p className="text-lg font-bold text-600 pt-4">5.2 Using CSS Grids</p>
+        <p className="text-lg font-bold text-red-500 pt-4">5.2 Using CSS Grids</p>
         <div>
         <p>
           This approach uses a &nbsp;
@@ -363,7 +363,7 @@ const HTMLResponsiveWebDesign = () => {
           &nbsp;to create a 2D layout along with other grid options. It allows us to decide the number of columns we want to keep and instead of rearranging the columns like Flexbox, it adjusts the content within individual column elements.
         </p>
         </div>
-        <p className="text-lg font-bold text-600 pt-4">Syntax :</p>
+        <p className="text-lg font-bold text-red-500 pt-4">Syntax :</p>
         <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
         <code>
@@ -376,7 +376,7 @@ const HTMLResponsiveWebDesign = () => {
       </pre>
       </div>
       <div>
-      <p><b>Example : In this example, CSS Grid layout is used to arrange contents in 2D form, i.e., rows and columns.</b></p>
+      <p><b className="text-lg font-bold text-red-500">Example : In this example, CSS Grid layout is used to arrange contents in 2D form, i.e., rows and columns.</b></p>
         </div>
         <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
@@ -386,15 +386,15 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../8.mp4" controls="" preload="none"></video>
         </div>
-        <p><b>Note :</b> Sometimes, this method doesn’t show the correct output on Google Chrome.</p>
+        <p><b className="text-lg font-bold text-red-500">Note :</b> Sometimes, this method doesn’t show the correct output on Google Chrome.</p>
         <br/>
-        <p className="text-lg font-bold text-600 pt-4">5.3 Using CSS MultiColumn</p>
+        <p className="text-lg font-bold text-red-500 pt-4">5.3 Using CSS MultiColumn</p>
         <p className="pt-4">It is similar to grids. CSS MulotiColumn allows developers to choose the properties like no. of columns, width, gap, etc. for each column. These values remain unchanged but the content inside the columns adjusts.</p>
-        <p className="text-lg font-bold text-600 pt-4">Syntax :</p>
+        <p className="text-lg font-bold text-red-500 pt-4">Syntax :</p>
         <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
         <code>
@@ -408,7 +408,7 @@ const HTMLResponsiveWebDesign = () => {
       </pre>
       </div>
       <div>
-      <p><b>Example : This example uses CSS MultiColumn for content division into a specific number of columns.</b></p>
+      <p><b className="text-lg font-bold text-red-500">Example : This example uses CSS MultiColumn for content division into a specific number of columns.</b></p>
         </div>
         <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 pb-4 ">
         <CopyBlock
@@ -418,7 +418,7 @@ const HTMLResponsiveWebDesign = () => {
           wrapLines
         />
         </div>
-        <p><b>Output :</b></p>
+        <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
         <video src="../9.mp4" controls="" preload="none"></video>
         </div>

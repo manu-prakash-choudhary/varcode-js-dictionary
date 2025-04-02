@@ -23,7 +23,7 @@ const HTMLExamples = () => {
         </p>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         1. Basic HTML Tags and Structure
       </p>
       <div>
@@ -41,7 +41,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -51,7 +51,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -218,7 +218,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         2. HTML Attributes
       </p>
       <div>
@@ -236,7 +236,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -246,7 +246,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -369,7 +369,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         3. HTML Text Formatting
       </p>
       <div>
@@ -387,7 +387,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -397,7 +397,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -630,7 +630,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         4. HTML Lists and Tables
       </p>
       <div>
@@ -648,7 +648,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -658,7 +658,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -891,7 +891,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         5. HTML Multimedia
       </p>
       <div>
@@ -909,7 +909,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -919,7 +919,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -998,7 +998,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         6. Styling with HTML and CSS
       </p>
       <div>
@@ -1016,7 +1016,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -1026,7 +1026,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -1168,7 +1168,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         7. HTML Links
       </p>
       <div>
@@ -1186,7 +1186,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -1196,7 +1196,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -1381,7 +1381,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         8. HTML Forms
       </p>
       <div>
@@ -1399,7 +1399,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -1409,7 +1409,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -1510,7 +1510,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         9. HTML Forms
       </p>
       <div>
@@ -1528,7 +1528,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -1538,7 +1538,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -1684,7 +1684,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         10. HTML Comments
       </p>
       <div>
@@ -1702,7 +1702,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -1712,7 +1712,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -1791,7 +1791,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         11.HTML Block and Inline Elements
       </p>
       <div>
@@ -1809,7 +1809,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -1819,7 +1819,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
@@ -1905,7 +1905,7 @@ const HTMLExamples = () => {
         </div>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 padding-bottom-5">
+      <p className="text-lg font-bold text-red-500 padding-bottom-5">
         12. Advanced Features
       </p>
       <div>
@@ -1923,7 +1923,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   S.No
@@ -1933,7 +1933,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Topic Name
