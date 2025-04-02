@@ -35,22 +35,22 @@ const HTMLEntities = () => {
     </div>
     <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "1.6" }}>
       {/* Syntax Section */}
-      <p style={{ fontWeight: "bold", color: "black" }}>Syntax :</p>
+      <p style={{ fontWeight: "bold", color: "red" }}>Syntax :</p>
       <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <code>&amp;entity_name; or &amp; #entity_number;</code>
       </div>
 
       {/* Note Section */}
       <p style={{ marginTop: "10px" }}>
-        <b style={{ color: "black" }}>Note :</b>{" "}
-        <span style={{ fontStyle: "italic", color: "black" }}>
+        <b style={{ color: "red" }}>Note :</b>{" "}
+        <span style={{ fontStyle: "italic", color: "red" }}>
           Entity names are case-sensitive.
         </span>
       </p>
 
 
       {/* Commonly Used HTML Entities Section */}
-      <h2 style={{ fontWeight: "bold", marginTop: "15px", color: "black" }}>Commonly Used HTML Entities</h2>
+      <h2 style={{ fontWeight: "bold", marginTop: "15px", color: "red" }}>Commonly Used HTML Entities</h2>
       <p>
         Some commonly used symbols with their Entity name and Entity numbers are listed below :
       </p>
@@ -59,10 +59,10 @@ const HTMLEntities = () => {
         <table className="table-auto border-collapse border border-gray-600">
         <thead>
           <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Symbols</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Description</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Entity Name</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Entity Number</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Symbols</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Description</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Entity Name</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Entity Number</th>
           </tr>
         </thead>
           <tbody>
@@ -86,7 +86,7 @@ const HTMLEntities = () => {
             </tr>
             <tr>
               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&reg;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Registeblack trademark</td>
+              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Registered trademark</td>
               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;reg;</td>
               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#174;</td>
             </tr>
@@ -206,7 +206,7 @@ const HTMLEntities = () => {
             </tr>
             <tr>
               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>♥</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>BLACK HEART SUIT</td>
+              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>red HEART SUIT</td>
               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;hearts;</td>
               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#9829;</td>
             </tr>
@@ -240,14 +240,14 @@ const HTMLEntities = () => {
       <br/>
       <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "2" }}>
       {/* Title */}
-      <h1><b style={{ color: "black" }}>Examples of HTML Entities</b></h1>
+      <h1><b style={{ color: "red" }}>Examples of HTML Entities</b></h1>
 
       {/* Example Description */}
       <p>
         <div classname="mb=4"></div>
-        <b style={{ color: "black" }}>Example :</b> In this example, we display various currency symbols using entity representations :
+        <b style={{ color: "red" }}>Example :</b> In this example, we display various currency symbols using entity representations :
       </p>
-      <div className="border border-black-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mb-4 ">
+      <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mb-4 ">
         <CopyBlock
           text={htmlEntities.text}
           language={htmlEntities.language}
@@ -259,7 +259,7 @@ const HTMLEntities = () => {
     
     {/* <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "1.6" }}>
       {/* Table of Content Header */}
-      <h2><b style={{ color: "black" }}>Table of Content</b></h2>
+      <h2><b style={{ color: "red" }}>Table of Content</b></h2>
 
       <div>
         <ul
@@ -319,7 +319,7 @@ const HTMLEntities = () => {
 
       <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "1.6", maxWidth: "auto" }}>
       {/* Title */}
-      <h2><b style={{ color: "black" }}>Reserved Characters</b></h2>
+      <h2><b style={{ color: "red" }}>Reserved Characters</b></h2>
 
       {/* Description */}
       <p>
@@ -340,8 +340,8 @@ const HTMLEntities = () => {
         {/* Table Header */}
         <thead>
           <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Reserved Character</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Entity Name</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Reserved Character</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Entity Name</th>
           </tr>
         </thead>
 
@@ -370,7 +370,7 @@ const HTMLEntities = () => {
 
     <div style={{ fontFamily: "Arial, sans-serif", lineHeight: "1.6", maxWidth: "auto" }}>
       {/* Title */}
-      <h2><b style={{ color: "black" }}>Other Characters</b></h2>
+      <h2><b style={{ color: "red" }}>Other Characters</b></h2>
 
       {/* Description */}
       <p>
@@ -390,8 +390,8 @@ const HTMLEntities = () => {
         {/* Table Header */}
         <thead>
           <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Character</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Entities</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Character</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Entities</th>
           </tr>
         </thead>
 
@@ -418,13 +418,13 @@ const HTMLEntities = () => {
 
       {/* Example */}
       <p style={{ fontWeight: "bold", marginTop: "20px", marginBottom: "10px" }}>
-        <span style={{ color: "black" }}>Example :</span>{" "}
+        <span style={{ color: "red" }}>Example :</span>{" "}
         <span style={{ fontWeight: "normal" }}>
           Illustration of the use of special characters that are directly not available to type from the keyboard.
         </span>
       </p>
     </div>
-    <div className="border border-black-400 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+    <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlEntitiesNew.text}
           language={htmlEntitiesNew.language}
@@ -433,7 +433,7 @@ const HTMLEntities = () => {
         />
       </div>
       <div style={{ paddingleft: "0px", fontFamily: "Arial, sans-serif", padding:"5px" }}>
-      <h2><b style={{ color: "black" }}>Non - Breaking Space</b></h2>
+      <h2><b style={{ color: "red" }}>Non - Breaking Space</b></h2>
       <p>
         It is used to provide space that will not break into a new line. This
         HTML entity is represented by <code>&amp;nbsp;</code> that will separate
@@ -443,7 +443,7 @@ const HTMLEntities = () => {
         define a hyphen character (-) that does not break into a new line.
       </p>
       <div style={{ fontFamily: "Arial, sans-serif", padding: "0px" }}>
-      <h3 style={{ fontWeight: "bold", color: "black" }}>Example :</h3>
+      <h3 style={{ fontWeight: "bold", color: "red" }}>Example :</h3>
       <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
         <li>12:00 PM</li>
         <li>256 km/h</li>
@@ -456,7 +456,7 @@ const HTMLEntities = () => {
       </p>
       <br/>
 
-      <h2><b style={{ color: "black" }}>Combining Diacritical Marks</b></h2>
+      <h2><b style={{ color: "red" }}>Combining Diacritical Marks</b></h2>
       <p>
         A diacritical mark is a symbol added to a letter. Marks like the grave
         accent (`) and acute accent (´) are examples of diacritical marks. They
@@ -472,10 +472,10 @@ const HTMLEntities = () => {
         <table className="table-auto border-collapse border border-gray-600">
         <thead>
           <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Mark</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Character</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Construct (HTML Code)</th>
-            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Final Result</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Mark</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Character</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Construct (HTML Code)</th>
+            <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Final Result</th>
           </tr>
         </thead>
           <tbody>
@@ -533,16 +533,16 @@ const HTMLEntities = () => {
       </div>
       <br/>
       <div style={{ fontFamily: "Arial, sans-serif", padding: "0px" }}>
-      <h2 style={{ fontWeight: "bold", color: "black" }}>Best Practices for Using HTML Entities</h2>
+      <h2 style={{ fontWeight: "bold", color: "red" }}>Best Practices for Using HTML Entities</h2>
       <ul style={{ listStyleType: "disc", listStylePosition: "inside", paddingRight: "20px" }}>
         <li>
-          <b style={{ color: "black" }}>Use Named Entities When Possible :</b> Named entities (<code>&amp;lt;</code> instead of <code>&amp;#60;</code>) are easier to remember and make your code more readable.
+          <b style={{ color: "red" }}>Use Named Entities When Possible :</b> Named entities (<code>&amp;lt;</code> instead of <code>&amp;#60;</code>) are easier to remember and make your code more readable.
         </li>
         <li>
-          <b style={{ color: "black" }}>Verify Entity Codes :</b> Always check your entity codes to ensure they display correctly across all browsers and platforms.
+          <b style={{ color: "red" }}>Verify Entity Codes :</b> Always check your entity codes to ensure they display correctly across all browsers and platforms.
         </li>
         <li>
-          <b style={{ color: "black" }}>Use Entities for Readability and Compliance :</b> Besides reserved characters, use entities to improve the readability of your code and to comply with HTML standards, especially when dealing with characters that may not be directly supported by your page’s charset.
+          <b style={{ color: "red" }}>Use Entities for Readability and Compliance :</b> Besides reserved characters, use entities to improve the readability of your code and to comply with HTML standards, especially when dealing with characters that may not be directly supported by your page’s charset.
         </li>
       </ul>
     </div>

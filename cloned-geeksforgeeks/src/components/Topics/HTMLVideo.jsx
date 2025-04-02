@@ -30,8 +30,8 @@ const HTMLVideo = () => {
         </a>
         .
       </p>
-      <p className="pt-3">
-        <b>Syntax :</b>
+      <p className="pt-3 font-bold text-red-500">
+        Syntax :
       </p>
       <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
         <pre>
@@ -95,7 +95,7 @@ const HTMLVideo = () => {
           </li>
         </ul>
       </div>
-      <p className="text-lg font-bold text-600 pt-4">HTML Video Tags</p>
+      <p className="text-lg font-bold text-red-500 pt-4">HTML Video Tags</p>
 
       <p className="pb-4">
         Here are the HTML tags used for adding video content :{" "}
@@ -116,7 +116,7 @@ const HTMLVideo = () => {
         </ul>
       </div>
       <div>
-        <p className="text-lg font-bold text-600 pt-4 pb-3">
+        <p className="text-lg font-bold text-red-500 pt-4 pb-3">
           Supported Formats
         </p>
         <p>
@@ -139,7 +139,7 @@ const HTMLVideo = () => {
                   padding: "10px",
                   border: "1px solid #ddd",
                   textAlign: "center",
-                  color: "black",
+                  color: "red",
                 }}
               >
                 Browser
@@ -149,7 +149,7 @@ const HTMLVideo = () => {
                   padding: "10px",
                   border: "1px solid #ddd",
                   textAlign: "center",
-                  color: "black",
+                  color: "red",
                 }}
               >
                 MP4
@@ -159,7 +159,7 @@ const HTMLVideo = () => {
                   padding: "10px",
                   border: "1px solid #ddd",
                   textAlign: "center",
-                  color: "black",
+                  color: "red",
                 }}
               >
                 WebM
@@ -169,7 +169,7 @@ const HTMLVideo = () => {
                   padding: "10px",
                   border: "1px solid #ddd",
                   textAlign: "center",
-                  color: "black",
+                  color: "red",
                 }}
               >
                 OGG
@@ -371,7 +371,7 @@ const HTMLVideo = () => {
         </table>
       </div>
       <br />
-      <p className="text-lg font-bold text-600 pt-4 pb-3">
+      <p className="text-lg font-bold text-red-500 pt-4 pb-3">
         Additional Attributes
       </p>
       <div className="flex mt-4">
@@ -389,7 +389,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Attributes
@@ -399,7 +399,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    color: "black",
+                    color: "red",
                   }}
                 >
                   Description
@@ -590,9 +590,9 @@ const HTMLVideo = () => {
         </div>
       </div>
       <div className="m-2">
-        <h3 className="font-semibold">More Examples of HTML video</h3>
+        <h3 className="font-bold text-red-500">More Examples of HTML video</h3>
         <br />
-        <h1 className="font-bold mb-5">Responsive Video with Poster Image</h1>
+        <h1 className="font-bold mb-5 text-red-500">Responsive Video with Poster Image</h1>
       </div>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 p-5 pt-0 pb-0 ">
         <CopyBlock
@@ -618,7 +618,7 @@ const HTMLVideo = () => {
           </li>
         </ul>
       </div>
-      <h1 className="font-bold m-3 ml-0 text-xl">
+      <h1 className="font-bold mb-2 text-red-500 m-3 ml-0 text-xl">
         Customized Video Controls with Autoplay and Loop
       </h1>
       <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4 p-5 pt-0 pb-0 ">
@@ -633,7 +633,7 @@ const HTMLVideo = () => {
         <ul className="list-disc  text-base">
           <li className="">
             The video is styled with a green border, rounded corners, and a
-            black background to enhance its appearance.
+            red background to enhance its appearance.
           </li>
           <li>
             The{" "}
@@ -649,28 +649,28 @@ const HTMLVideo = () => {
           </li>
         </ul>
       </div>
-      <h1 className="text-xl font-semibold m-5 mt-1 ml-0">
+      <h1 className="text-xl font-bold text-red-500 m-5 mt-1 ml-0">
         {" "}
         Best Practices for &lt;Video&gt; HTML Element
       </h1>
       <div className="p-2 ml-5">
         <ul className="list-disc text-base">
           <li className="">
-            <span className="font-bold">Provide Multiple Formats:</span>
+            <span className="font-bold text-red-500">Provide Multiple Formats:</span>
             &nbsp;Include various video formats (e.g., MP4, WebM) to ensure
             compatibility across different browsers.
           </li>
           <li>
-            <span className="font-bold">Optimize Video Size:</span>
+            <span className="font-bold text-red-500">Optimize Video Size:</span>
             &nbsp;Compress videos to reduce loading times, enhancing user experience.
           </li>
           <li>
-            <span className="font-bold">Use the controls Attribute:</span>
+            <span className="font-bold text-red-500">Use the controls Attribute:</span>
             &nbsp;Add playback controls to allow users to play, pause, and adjust
             volume.
           </li>
           <li>
-            <span className="font-bold"> Set Appropriate Dimensions:</span>{" "}
+            <span className="font-bold text-red-500"> Set Appropriate Dimensions:</span>{" "}
             &nbsp;Define width and height to maintain consistent layout and prevent
             layout shifts.
           </li>

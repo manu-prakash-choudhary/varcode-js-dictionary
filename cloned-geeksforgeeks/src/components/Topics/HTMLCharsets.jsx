@@ -10,78 +10,78 @@ const HTMLCharsets = () => {
       <br />
       <div>
         <p className="text-gray-800 text-justify mb-4">
-          <b>HTML charsets</b> define how characters are represented in a web document. The character encoding ensures that text appears correctly across different devices and platforms.
+          <b className="text-lg text-red-500">HTML charsets</b> define how characters are represented in a web document. The character encoding ensures that text appears correctly across different devices and platforms.
         </p>
         <p>
           The <code>&lt;meta&gt;</code> tag’s <code>charset</code> attribute is used to specify which character encoding the HTML document uses. By setting the charset, we ensure proper rendering of special characters, symbols, and text.
         </p>
       </div>
       <br/>
-      <h1><b className="text-lg font-bold text-600">Common Character Encodings</b></h1>
+      <h1><b className="text-lg font-bold text-red-500">Common Character Encodings</b></h1>
       <br />
       <div>
-        <p><b>1. ASCII</b></p>
+        <p><b className="text-lg text-red-500">1. ASCII</b></p>
         <br/>
         <p>The American Standard Code for Information Interchange (ANSII) created this character encoding. This character encoding is used in C/C++ programming.</p>
         <p style={{ paddingTop: "10px" }}>It has 128 alphanumeric characters consisting of alphabets(A-Z) and (a-z) and some special symbols like + – * / ( ) @ etc.</p>
       </div>
       <br/>
       <div>
-        <p><b>2. ANSI (Windows-1252)</b></p>
+        <p><b className="text-lg text-red-500">2. ANSI (Windows-1252)</b></p>
         <br/>
         <p>American National Standards Institute (ANSI) created character encoding supported 256 characters. It is used as the default character set in Microsoft Windows. </p>
       </div>
       <br/>
       <div>
-        <p><b>3. ISO-8859-1</b></p>
+        <p><b className="text-lg text-red-500">3. ISO-8859-1</b></p>
         <br/>
         <p>It is used as the default character set of HTML4 and also supports 256 characters. The International Standards Organization (ISO) defines the standard character sets for different alphabets/languages. It contains numbers, upper and lowercase English letters, and some special characters.</p>
       </div>
       <br />
       <div>
-        <p><b>4. UTF-8</b></p>
+        <p><b className="text-lg text-red-500">4. UTF-8</b></p>
         <br/>
         <p>UTF-8 and UTF-16 standards was developed by Unicode Consortium, because the ISO-8859 character-sets are limited, and not compatible a multilingual environment. It consists all the character and punctuation symbols.</p>
-        <p style={{ paddingTop: "5px" }}><b>Attribute</b></p>
+        <p style={{ paddingTop: "5px" }}><b className="text-lg text-red-500">Attribute</b></p>
         <p>Web browser must know the character encoding standard used in the html page and this we do as given below.</p>
       </div>
       <br/>
-        <p><b>Example:</b></p>
+        <p><b className="text-lg text-red-500">Example:</b></p>
         <div>
           <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
-            <li><b>HTML 4</b></li>
+            <li><b className="text-lg text-red-500">HTML 4</b></li>
             <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
               <code>&lt;meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"&gt;</code>
             </div>
-            <li><b>HTML 5</b></li>
+            <li><b className="text-lg text-red-500">HTML 5</b></li>
             <div className="bg-[#eeeeee] p-4 rounded-2xl mb-4">
               <code>&lt;meta charset="UTF-8"&gt;</code>
             </div>
           </ul>
-          <p><b>Note :</b></p>
+          <p><b className="text-lg text-red-500">Note :</b></p>
           <div>
             <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
-              <li>The first values from 0 to 127 are consideblack as the <b>“Standard”</b> ASCII character set.</li>
-              <li>Characters with values from 128 to 255 are the <b>“Extended”</b> Character set.</li>
+              <li>The first values from 0 to 127 are consideblack as the <b className="text-lg text-500">“Standard”</b> ASCII character set.</li>
+              <li>Characters with values from 128 to 255 are the <b className="text-lg text-500">“Extended”</b> Character set.</li>
             </ul>
           </div>
           <br/>
-            <p><b>Why Character Encoding is Important?</b></p>
+            <p><b className="text-lg text-red-500">Why Character Encoding is Important?</b></p>
           <div>
           <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
-              <li><b>Consistency :</b> Encoding defines how text, numbers, and symbols are interpreted, ensuring that content appears correctly regardless of the user’s device or browser.</li>
-              <li><b>Global Compatibility :</b> Without proper encoding, characters in different languages or special symbols may display as unreadable or incorrect.</li>
-              <li><b>Web Development :</b> By specifying the charset, you avoid issues with rendering characters and improve your site’s accessibility across diverse languages.</li>
+              <li><b className="text-lg text-red-500">Consistency :</b> Encoding defines how text, numbers, and symbols are interpreted, ensuring that content appears correctly regardless of the user’s device or browser.</li>
+              <li><b className="text-lg text-red-500">Global Compatibility :</b> Without proper encoding, characters in different languages or special symbols may display as unreadable or incorrect.</li>
+              <li><b className="text-lg text-red-500">Web Development :</b> By specifying the charset, you avoid issues with rendering characters and improve your site’s accessibility across diverse languages.</li>
             </ul>
           </div>
           <br/>
           <div>
-            <p><b>Character set for different Character Encoding Standard</b></p>
+            <p><b className="text-lg text-red-500">Character set for different Character Encoding Standard</b></p>
             <p>Following list shows different character encoding standards with their characters and their assigned number codes.</p>
           </div>
           <br/>
           <div>
-            <p><b>Table 1 (ASCII Device Control Characters)</b></p>
+            <p><b className="text-lg text-red-500">Table 1 (ASCII Device Control Characters)</b></p>
             <br/>
             <p>This table contains Characters which are designed to control hardware devices. These are also known as control characters.</p>
           </div>
@@ -91,9 +91,9 @@ const HTMLCharsets = () => {
               <table className="table-auto border-collapse border border-gray-600">
               <thead>
                 <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Numbers</th>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Characters</th>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Descriptions</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Numbers</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Characters</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Descriptions</th>
                 </tr>
               </thead>
                 <tbody>
@@ -268,14 +268,14 @@ const HTMLCharsets = () => {
           </div>
           <br/>
           <div>
-            <p><b>Table 2 :</b> This table contains characters having the same numbers assigned in different character encoding.</p>
+            <p><b className="text-lg text-red-500">Table 2 :</b> This table contains characters having the same numbers assigned in different character encoding.</p>
             <div className="flex mt-4">
               <table className="table-auto border-collapse border border-gray-600">
               <thead>
                 <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Numbers</th>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Characters</th>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Descriptions</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Numbers</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Characters</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Descriptions</th>
                 </tr>
               </thead>
                 <tbody>
@@ -764,14 +764,15 @@ const HTMLCharsets = () => {
             </div>
           </div>
         </div>
+        <br/>
         <div>
-            <p><b>Table 3 :</b> This table contains character having different character encoding.</p>
+            <p><b className="text-lg text-red-500">Table 3 :</b> This table contains character having different character encoding.</p>
             <div className="flex mt-4">
               <table className="table-auto border-collapse border border-gray-600">
               <thead>
                 <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Numbers</th>
-                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "black" }}>Characters</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Numbers</th>
+                  <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>Characters</th>
                 </tr>
               </thead>
                 <tbody>
