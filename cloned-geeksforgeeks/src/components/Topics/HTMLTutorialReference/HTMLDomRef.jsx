@@ -1,6 +1,6 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
-import { HTMLtr1, HTMLtr2 } from "../../utils/CodeBlocks";
+import { HTMLtr1, HTMLtr2 } from "../../../utils/CodeBlocks";
 import {
   dom1,
   dom2,
@@ -25,7 +25,7 @@ import {
   windowProp,
   storageMethods,
   storageProp,
-} from "../../utils/HTMLTutorialRef";
+} from "../../../utils/HTMLTutorialRef";
 const HTMLDomRef = () => {
   return (
     <div className="content-container overflow-y-auto h-screen pl-6">

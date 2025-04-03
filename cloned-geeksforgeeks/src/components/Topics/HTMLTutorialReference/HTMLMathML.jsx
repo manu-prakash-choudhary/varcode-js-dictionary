@@ -1,7 +1,7 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
-import {HTMLtr1,} from "../../utils/CodeBlocks";
-import {data,} from "../../utils/HTMLTutorialRef";
+import {HTMLtr1,} from "../../../utils/CodeBlocks";
+import {data,} from "../../../utils/HTMLTutorialRef";
 const HTMLMathML= () => {
   return (
     <div className="content-container overflow-y-auto h-screen pl-6">

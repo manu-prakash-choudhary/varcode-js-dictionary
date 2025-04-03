@@ -1,7 +1,7 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
-import {HTMLtr1, HTMLtr2,HTMLtr3} from "../../utils/CodeBlocks";
-import {data1,data2,} from "../../utils/HTMLTutorialRef";
+import {HTMLtr1, HTMLtr2,HTMLtr3} from "../../../utils/CodeBlocks";
+import {data1,data2,} from "../../../utils/HTMLTutorialRef";
 const HTMLAVRef= () => {
   return (
     <div className="content-container overflow-y-auto h-screen pl-6">
