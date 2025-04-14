@@ -16,10 +16,10 @@ import HTMLParagraphs from "./components/Topics/HTMLParagraphs";
 import HTMLTextFormatting from "./components/Topics/HTMLTextFormatting"
 import HTMLQuotations from "./components/Topics/HTMLQuotations";
 import HTMLColors from "./components/Topics/HTMLColors";
-import HTMLMathML from "./components/Topics/HTMLMathML";
-import HTMLDomRef from "./components/Topics/HTMLDomRef";
-import HTMLAVRef from "./components/Topics/HTMLAVRef";
-import HTMLSvg1Ref from "./components/Topics/HTMLSvg1Ref";
+import HTMLMathML from "./components/Topics/HTMLTutorialReference/HTMLMathML";
+import HTMLDomRef from "./components/Topics/HTMLTutorialReference/HTMLDomRef";
+import HTMLAVRef from "./components/Topics/HTMLTutorialReference/HTMLAVRef";
+import HTMLSvg1Ref from "./components/Topics/HTMLTutorialReference/HTMLSvg1Ref";
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
   return (
