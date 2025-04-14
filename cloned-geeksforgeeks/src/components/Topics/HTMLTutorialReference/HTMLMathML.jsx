@@ -44,7 +44,7 @@ const HTMLMathML= () => {
           {data.map((item, index) => (
             <tr key={index} className="border">
               <td className="border px-4 py-2">
-                <a href="#" className="text-red-600 underline">{item.tag}</a>
+                <a href="#" className="text-red-600 ">{item.tag}</a>
               </td>
               <td className="border px-4 py-2">{item.description}</td>
               <td className="border px-4 py-2">
