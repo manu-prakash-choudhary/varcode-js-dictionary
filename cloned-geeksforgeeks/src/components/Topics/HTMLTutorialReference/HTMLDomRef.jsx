@@ -26,20 +26,62 @@ import {
   storageMethods,
   storageProp,
 } from "../../../utils/HTMLTutorialRef";
+
 const HTMLDomRef = () => {
+  // Table component to reduce repetition
+  const ReferenceTable = ({ title, data, keyField = "tag", descField = "description" }) => (
+    <>
+      {title && (
+        <h4 className="text-base md:text-lg text-gray-700 mt-4 md:mt-5 mb-3 md:mb-5 font-bold">
+          {title}
+        </h4>
+      )}
+      <div className="overflow-x-auto py-2 px-0 md:p-4">
+        <table className="w-full border border-gray-300 text-left text-sm md:text-base">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border px-2 md:px-4 py-1 md:py-2">{title?.includes("Methods") ? "Methods" : "Properties"}</th>
+              <th className="border px-2 md:px-4 py-1 md:py-2">Description</th>
+              <th className="border px-2 md:px-4 py-1 md:py-2">Example</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map((item, index) => (
+              <tr key={index} className="border">
+                <td className="border px-2 md:px-4 py-1 md:py-2">
+                  <a href="#" className="text-red-600">
+                    {item[keyField] || item.method || item.property}
+                  </a>
+                </td>
+                <td className="border px-2 md:px-4 py-1 md:py-2">{item[descField]}</td>
+                <td className="border px-2 md:px-4 py-1 md:py-2">
+                  <button className="border px-2 md:px-3 py-1 text-xs md:text-sm text-red-600 border-red-600 rounded">
+                    Try
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  );
+
   return (
-    <div className="content-container overflow-y-auto h-screen pl-6">
-      <div className="pl-0 flex flex-col gap-3 ">
-        <h1 className="text-4xl font-semibold text-red-600">
+    <div className="content-container overflow-y-auto h-screen px-3 md:px-6 max-w-full">
+      <div className="flex flex-col gap-2 md:gap-3">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-red-600">
           HTML DOM Complete Reference
         </h1>
-        <p className="text-gray-600">Last Updated : 30 Mar, 2025</p>
+        <p className="text-sm md:text-base text-gray-600">Last Updated: 30 Mar, 2025</p>
       </div>
-      <h4 className="text-gray-700 mt-5 mb-5">
+      
+      <h4 className="text-gray-700 mt-4 md:mt-5 mb-4 md:mb-5 text-sm md:text-base">
         <b>HTML DOM (Document Object Model)</b> is a programming interface that
         represents the elements of an HTML document in a tree-like structure.
       </h4>
-      <ul className="list-disc ml-6 text-gray-700">
+      
+      <ul className="list-disc ml-4 md:ml-6 text-sm md:text-base text-gray-700">
         <li>
           Allows developers to change content and layout using JavaScript.
         </li>
@@ -48,12 +90,13 @@ const HTMLDomRef = () => {
           Facilitates the addition, removal, or modification of HTML elements.
         </li>
       </ul>
-      <div className="text-gray-700 mt-5 mb-5">
-        <h4 className="text-gray-800 text-lg">
+      
+      <div className="text-gray-700 mt-4 md:mt-5 mb-4 md:mb-5">
+        <h4 className="text-gray-800 text-base md:text-lg">
           <b>Example:</b>
         </h4>
 
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-5 mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 md:mt-5 mb-3 md:mb-5">
           <CopyBlock
             text={HTMLtr2.text}
             language={HTMLtr2.language}
@@ -62,726 +105,95 @@ const HTMLDomRef = () => {
           />
         </div>
       </div>
-      <h3 className="text-lg font-semibold text-red-600">
+      
+      <h3 className="text-base md:text-lg font-semibold text-red-600">
         HTML DOM Attribute Object:
       </h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom1.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.tag}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom2.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.tag}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      
+      <ReferenceTable title="Methods:" data={dom1} />
+      <ReferenceTable title="Properties:" data={dom2} />
 
-      {/* console object methods */}
-      <h3 className="text-lg font-semibold text-red-600">
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
         Console Object Methods:
       </h3>
+      
+      <ReferenceTable data={dom3} keyField="method" />
 
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom3.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      {/* Document Object Properties: */}
-      <h3 className="text-lg font-semibold text-red-600">
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
         Document Object Properties:
       </h3>
+      
+      <ReferenceTable data={dom4} keyField="property" />
+      <ReferenceTable title="Methods:" data={dom5} keyField="method" />
+      <ReferenceTable title="Collections:" data={dom6} keyField="property" />
+      <ReferenceTable title="Properties:" data={dom7} keyField="property" />
+      <ReferenceTable title="Methods:" data={dom8} keyField="method" />
 
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom4.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      {/* methods */}
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom5.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      {/* collections */}
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Collections:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Collection</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom6.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      {/* property */}
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom7.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      {/* methods */}
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {dom8.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      {/* Geolocation Object: */}
-
-      <h3 className="text-lg font-semibold text-red-600">
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
         Geolocation Object:
       </h3>
+      
+      <ReferenceTable title="Properties:" data={geoLocationProp} keyField="property" />
 
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {geoLocationProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
+        History Object:
+      </h3>
+      
+      <ReferenceTable title="Methods:" data={historyMethods} keyField="method" />
+      <ReferenceTable title="Properties:" data={historyProp} keyField="property" />
 
-      <h3 className="text-lg font-semibold text-red-600">History Object:</h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {historyMethods.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {historyProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <h3 className="text-lg font-semibold text-red-600">
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
         DOM HTMLCollection:
       </h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {hcMethods.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {hcProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      
+      <ReferenceTable title="Methods:" data={hcMethods} keyField="method" />
+      <ReferenceTable title="Properties:" data={hcProp} keyField="property" />
 
-      <h3 className="text-lg font-semibold text-red-600">Location Object</h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {locationMethods.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {locationProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
+        Location Object:
+      </h3>
+      
+      <ReferenceTable title="Methods:" data={locationMethods} keyField="method" />
+      <ReferenceTable title="Properties:" data={locationProp} keyField="property" />
 
-      <h3 className="text-lg font-semibold text-red-600">
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
         The Navigator Object:
       </h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {navigatorMethods.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {navigatorProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+      
+      <ReferenceTable title="Methods:" data={navigatorMethods} keyField="method" />
+      <ReferenceTable title="Properties:" data={navigatorProp} keyField="property" />
 
-      <h3 className="text-lg font-semibold text-red-600">Screen Object:</h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {screenProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <h3 className="text-lg font-semibold text-red-600">Style Object:</h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {styleProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <h3 className="text-lg font-semibold text-red-600">Window Object:</h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {windowMethods.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {windowProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <h3 className="text-lg font-semibold text-red-600">Storage Object:</h3>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Methods:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Methods</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {storageMethods.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.method}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-      <h4 className="texl-l text-gray-700 mt-5 mb-5 font-bold">Properties:</h4>
-      <div className="overflow-x-auto p-4">
-        <table className="w-full border border-gray-300 text-left">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border px-4 py-2">Properties</th>
-              <th className="border px-4 py-2">Description</th>
-              <th className="border px-4 py-2">Example</th>
-            </tr>
-          </thead>
-          <tbody>
-            {storageProp.map((item, index) => (
-              <tr key={index} className="border">
-                <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 ">
-                    {item.property}
-                  </a>
-                </td>
-                <td className="border px-4 py-2">{item.description}</td>
-                <td className="border px-4 py-2">
-                  <button className="border px-3 py-1 text-red-600 border-red-600 rounded">
-                    Try
-                  </button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <h3 className="text-lg font-semibold text-red-600">
-      Best Practices for HTML DOM
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
+        Screen Object:
       </h3>
-      <ul className="list-disc ml-6 text-gray-700 mt-5 text-lg">
+      
+      <ReferenceTable title="Properties:" data={screenProp} keyField="property" />
+
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
+        Style Object:
+      </h3>
+      
+      <ReferenceTable title="Properties:" data={styleProp} keyField="property" />
+
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
+        Window Object:
+      </h3>
+      
+      <ReferenceTable title="Methods:" data={windowMethods} keyField="method" />
+      <ReferenceTable title="Properties:" data={windowProp} keyField="property" />
+
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
+        Storage Object:
+      </h3>
+      
+      <ReferenceTable title="Methods:" data={storageMethods} keyField="method" />
+      <ReferenceTable title="Properties:" data={storageProp} keyField="property" />
+
+      <h3 className="text-base md:text-lg font-semibold text-red-600 mt-4 md:mt-6">
+        Best Practices for HTML DOM
+      </h3>
+      
+      <ul className="list-disc ml-4 md:ml-6 text-sm md:text-base lg:text-lg text-gray-700 mt-3 md:mt-5 mb-6">
         <li>
           <b>Use getElementById() for Performance:</b> Access elements by their id for faster and more efficient DOM manipulation.
         </li>
