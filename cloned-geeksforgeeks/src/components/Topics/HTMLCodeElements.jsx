@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlCode1, htmlCode2, htmlCode3, htmlCode4, htmlCode5 } from '../../utils/CodeBlocks'
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom'
 
 const HTMLCodeElements = () => {
@@ -18,11 +19,11 @@ const HTMLCodeElements = () => {
 
                 <h2 className="text-2xl text-red-600 font-semibold mb-2 mt-6">Table of Content</h2>
                 <ul className="list-disc list-inside mb-4 ">
-                    <li><Link to="/code" className="text-red-500 underline">The &lt;code&gt; Tag</Link></li>
-                    <li><Link to="/kbd" className="text-red-500 underline">The &lt;kbd&gt; Tag</Link></li>
-                    <li><Link to="/pre" className="text-red-500 underline">The &lt;pre&gt; Tag</Link></li>
-                    <li><Link to="/samp" className="text-red-500 underline">The &lt;samp&gt; Tag</Link></li>
-                    <li><Link to="/var" className="text-red-500 underline">The &lt;var&gt; Tag</Link></li>
+                    <li><Link to="/code" >The &lt;code&gt; Tag</Link></li>
+                    <li><Link to="/kbd" >The &lt;kbd&gt; Tag</Link></li>
+                    <li><Link to="/pre" >The &lt;pre&gt; Tag</Link></li>
+                    <li><Link to="/samp" >The &lt;samp&gt; Tag</Link></li>
+                    <li><Link to="/var" >The &lt;var&gt; Tag</Link></li>
                 </ul>
 
                 <h2 className="text-2xl text-red-600 font-semibold mt-6 mb-2">The &lt;code&gt; Tag</h2>
@@ -213,6 +214,17 @@ const HTMLCodeElements = () => {
                     <li>Opera</li>
                     <li>Safari</li>
                 </ul>
+            </div>
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
             </div>
 
         </div>

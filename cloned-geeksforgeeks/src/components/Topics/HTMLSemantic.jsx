@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlSemanticArticle, htmlSemanticAside, htmlSemanticDetails, htmlSemanticFigure, htmlSemanticHeader, htmlSemanticFooter, htmlSemanticMain, htmlSemanticSection, htmlSemanticNav, htmlSemanticMark } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 
 const HTMLSemantic = () => {
     const arr = ["article", "aside", "details", "figcaption", "figure", "footer", "header", "main", "mark", "nav", "section"]
@@ -38,7 +39,7 @@ const HTMLSemantic = () => {
             <ol className="list-decimal list-inside">
                 {arr.map((item, index) => (
                     <li key={index}>
-                        <span className='text-red-500 underline'>&lt;{item}&gt;</span>
+                        <span className='text-red-500 hover:underline hover:cursor-pointer'>&lt;{item}&gt;</span>
                     </li>
                 ))}
             </ol>
@@ -215,7 +216,17 @@ const HTMLSemantic = () => {
                 <li className='font-semibold'>Opera: 15</li>
                 <li className='font-semibold'>Safari: 4</li>
             </ul>
-
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

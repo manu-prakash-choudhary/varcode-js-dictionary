@@ -118,8 +118,8 @@ export const htmlImage = {
 
 <body>
     <img src=
-"https://varcode.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.bab09975.png&w=1920&q=75" 
-         alt="varcode image" />
+"https://varcode.in/_next/image?url=%2F_next%2Fstatic%2Fmedia
+%2Flogo.bab09975.png&w=1920&q=75" alt="varcode image" />
 </body>
 
 </html>

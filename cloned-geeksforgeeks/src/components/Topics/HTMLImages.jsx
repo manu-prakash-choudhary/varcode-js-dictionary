@@ -2,6 +2,7 @@ import React from 'react';
 import { htmlImage, htmlImagetag, htmlImageSetSize, htmlImageAddTitle, htmlStyleImage, htmlImageAlignment, htmlAddImageLink, htmlAddingAnimatedImage } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
 import { Link } from 'react-router-dom';
+import { FaAngleRight } from "react-icons/fa6";
 import HTMLAttribute from "../../utils/HTMLAttribute";
 
 const HTMLImages = () => {
@@ -52,7 +53,7 @@ const HTMLImages = () => {
                     <tbody className="text-gray-700">{
                         HTMLAttribute.map((attr, index) => (
                             <tr key={index} className="">
-                                <td className="border border-gray-300 px-4 py-3 text-red-500 underline">
+                                <td className="border border-gray-300 px-4 py-3 text-red-500 hover:underline">
                                     <Link to="/">{attr.name}</Link>
                                 </td>
                                 <td className="border text-md text-gray-700 border-gray-300 px-4 py-3">{attr.desc}</td>
@@ -65,7 +66,7 @@ const HTMLImages = () => {
 
             <div className=" p-6 pl-1 mt-2">
                 <h2 className="text-2xl font-semibold text-red-600 ">Table of Content</h2>
-                <ul className="list-disc pl-6  underline mt-4">
+                <ul className="list-disc pl-6   mt-4">
                     <li><Link to="#alt-attribute">HTML Image tag – alt Attribute</Link></li>
                     <li><Link to="#width-height">Set Image Size – Width and Height Attribute</Link></li>
                     <li><Link to="#titles">Adding Titles to an Image</Link></li>
@@ -78,7 +79,7 @@ const HTMLImages = () => {
             <div className=" p-1 mt-2" id="alt-attribute">
                 <p className="text-2xl font-semibold text-red-600">HTML Image tag &ndash; alt Attribute</p>
                 <p className="text-gray-700 mt-2">
-                    The <Link to="#alt-attribute" className="text-red-500 underline">alt attribute</Link> in <code>&lt;img&gt;</code> tag provides a text alternative if the image fails to load. It aids accessibility for users unable to view images due to slow internet, src errors, or screen reader usage.
+                    The <Link to="#alt-attribute" className="text-red-500 ">alt attribute</Link> in <code>&lt;img&gt;</code> tag provides a text alternative if the image fails to load. It aids accessibility for users unable to view images due to slow internet, src errors, or screen reader usage.
                 </p>
             </div>
             <div className="border border-red-400 p-2 mt-5 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
@@ -95,7 +96,7 @@ const HTMLImages = () => {
                     The <code>width</code> and <code>height</code> attributes are used to specify the width and height of an image. The attribute values are specified in pixels by default. The <code>width</code> and <code>height</code> attributes are always declared in pixels.
                 </p>
                 <p className="text-gray-700 mt-2">
-                    Please refer to the <Link to="#" className="text-red-500 underline">How to set the width and height of an image using HTML?</Link> article for further details.
+                    Please refer to the <Link to="#" className="text-red-500 ">How to set the width and height of an image using HTML?</Link> article for further details.
                 </p>
             </div>
             <div className="border border-red-400 p-2 mt-5 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
@@ -198,6 +199,17 @@ const HTMLImages = () => {
                     theme={htmlAddingAnimatedImage.theme}
                     wrapLines
                 />
+            </div>
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     );
