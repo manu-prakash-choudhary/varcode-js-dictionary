@@ -5,8 +5,6 @@ export const subNavLinks = [
   { name: "HTML Basics", path: "/html-basics" },
   { name: "HTML Comments", path: "/html-comments" },
   { name: "HTML Elements", path: "/html-elements" },
-  { name: "HTML Exercises", path: "/html-exercises" },
-  { name: "HTML Tags", path: "/html-tags" },
   { name: "HTML Attributes", path: "/html-attributes" },
   { name: "HTML Headings", path: "/html-headings" },
   { name: "HTML Paragraphs", path: "/html-paragraphs" },

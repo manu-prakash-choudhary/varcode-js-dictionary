@@ -79,7 +79,7 @@ const HTMLDomRef = () => {
             {dom1.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.tag}
                   </a>
                 </td>
@@ -108,7 +108,7 @@ const HTMLDomRef = () => {
             {dom2.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.tag}
                   </a>
                 </td>
@@ -142,7 +142,7 @@ const HTMLDomRef = () => {
             {dom3.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -176,7 +176,7 @@ const HTMLDomRef = () => {
             {dom4.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -207,7 +207,7 @@ const HTMLDomRef = () => {
             {dom5.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -238,7 +238,7 @@ const HTMLDomRef = () => {
             {dom6.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -269,7 +269,7 @@ const HTMLDomRef = () => {
             {dom7.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -300,7 +300,7 @@ const HTMLDomRef = () => {
             {dom8.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -336,7 +336,7 @@ const HTMLDomRef = () => {
             {geoLocationProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -367,7 +367,7 @@ const HTMLDomRef = () => {
             {historyMethods.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -396,7 +396,7 @@ const HTMLDomRef = () => {
             {historyProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -429,7 +429,7 @@ const HTMLDomRef = () => {
             {hcMethods.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -458,7 +458,7 @@ const HTMLDomRef = () => {
             {hcProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -489,7 +489,7 @@ const HTMLDomRef = () => {
             {locationMethods.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -518,7 +518,7 @@ const HTMLDomRef = () => {
             {locationProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -551,7 +551,7 @@ const HTMLDomRef = () => {
             {navigatorMethods.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -580,7 +580,7 @@ const HTMLDomRef = () => {
             {navigatorProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -611,7 +611,7 @@ const HTMLDomRef = () => {
             {screenProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -642,7 +642,7 @@ const HTMLDomRef = () => {
             {styleProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -673,7 +673,7 @@ const HTMLDomRef = () => {
             {windowMethods.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -702,7 +702,7 @@ const HTMLDomRef = () => {
             {windowProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
@@ -733,7 +733,7 @@ const HTMLDomRef = () => {
             {storageMethods.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.method}
                   </a>
                 </td>
@@ -762,7 +762,7 @@ const HTMLDomRef = () => {
             {storageProp.map((item, index) => (
               <tr key={index} className="border">
                 <td className="border px-4 py-2">
-                  <a href="#" className="text-red-600 underline">
+                  <a href="#" className="text-red-600 ">
                     {item.property}
                   </a>
                 </td>
