@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlCompleteRerence } from "../../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const HTMLComplete = () => {
@@ -124,7 +125,7 @@ const HTMLComplete = () => {
             {tagsData.map((tag, index) => (
               <tr key={index}>
                 <td className="px-5 border border-gray-400 py-4 whitespace-nowrap">
-                  <div className="text-red-500 font-medium underline">
+                  <div className="text-red-500 font-medium hover:underline">
                     <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
                   </div>
                 </td>
@@ -158,6 +159,17 @@ const HTMLComplete = () => {
           </li>
         </ul>
       </div >
+      <div className="min-h-20 mt-5  w-full">
+        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+          <div></div>
+          <div>
+            <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+              Next Article
+              <FaAngleRight />
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

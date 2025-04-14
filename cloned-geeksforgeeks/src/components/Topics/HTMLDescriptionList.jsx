@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlDescriptionListEx1, htmlDescriptionListEx2 } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 
 
 const HTMLDescriptionList = () => {
@@ -67,14 +68,24 @@ const HTMLDescriptionList = () => {
 
       <p className='font-semibold text-2xl text-red-600 mt-5'>Why Use Description Lists?</p>
       <p className='text-md mt-2'>Description lists are particularly useful for web pages that require definitions or detailed explanations of terms. They help in creating organized, easy-to-read content for:</p>
-          <ul className="list-disc ml-8 mt-4">
-            <li>FAQs</li>
-            <li>Glossaries</li>
-            <li>Product descriptions</li>
-            <li>Technical specifications</li>
-            <li>Any content where terms need definitions</li>
-          </ul>
-          
+      <ul className="list-disc ml-8 mt-4">
+        <li>FAQs</li>
+        <li>Glossaries</li>
+        <li>Product descriptions</li>
+        <li>Technical specifications</li>
+        <li>Any content where terms need definitions</li>
+      </ul>
+      <div className="min-h-20 mt-5  w-full">
+        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+          <div></div>
+          <div>
+            <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+              Next Article
+              <FaAngleRight />
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

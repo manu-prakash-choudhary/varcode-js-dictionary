@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlInlineEx1, htmlInlineEx2, htmlInlineEx3 } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const HTMLInlineBlock = () => {
@@ -42,10 +43,10 @@ const HTMLInlineBlock = () => {
                 it occupies the whole horizontal space of its parent element & the height is equal to the content's height.
             </p>
 
-            <p class="text-xl font-semibold mt-5 mb-3">Supported tags:</p>
+            <p class=" font-semibold mt-5 mb-3 text-2xl text-red-500" >Supported tags:</p>
             {
                 arr.map((item, index) => (
-                    <ul key={index} class="list-disc pl-5 underline text-red-500">
+                    <ul key={index} class="list-disc pl-5 hover:underline ">
                         <li class="mb-2"> <Link to={`/html/tags/${item}`}>&lt;{item}&gt; Tag</Link></li>
                     </ul>
                 ))
@@ -79,7 +80,7 @@ const HTMLInlineBlock = () => {
             <p className='text-2xl text-red-600 font-semibold mb-3'>Supported tags:</p>
             {
                 arr2.map((item, index) => (
-                    <ul key={index} class="list-disc pl-5 underline text-red-500">
+                    <ul key={index} class="list-disc pl-5 ">
                         <li class="mb-2"> <Link to={`/html/tags/${item}`}>&lt;{item}&gt; Tag</Link></li>
                     </ul>
                 ))
@@ -102,6 +103,17 @@ const HTMLInlineBlock = () => {
                     theme={htmlInlineEx3.theme}
                     wrapLines
                 />
+            </div>
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     )

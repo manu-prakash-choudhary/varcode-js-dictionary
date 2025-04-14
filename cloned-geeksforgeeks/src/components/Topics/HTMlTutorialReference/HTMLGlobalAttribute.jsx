@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlGlobalAccesskey, htmlGlobalAutoFocus, htmlGlobalLang, htmlGlobalClass } from "../../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const HTMLGlobalAttribute = () => {
@@ -33,7 +34,7 @@ const HTMLGlobalAttribute = () => {
         { tag: 'title', description: 'It is used to define the title of an HTML document, sets the title in the browser toolbar, and provides the title for the web page when it is added to favorites.' },
         { tag: 'translate', description: 'The translate attribute in HTML is used to specify whether the content of an element is translated or not.' },
         { tag: 'wrap', description: 'The wrap attribute specifies how text should be wrapped in a <textarea> element (either by spaces or by the browser’s default). It determines how text is handled when the form is submitted.' },
-       ];
+    ];
     return (
         <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
             <div className='border-b pb-3 border-gray-200 '>
@@ -123,7 +124,7 @@ const HTMLGlobalAttribute = () => {
             </ul>
             <div className="mb-8 mt-5">
                 <div className="text-2xl text-red-600 font-semibold mt-6 mb-4">List of Global Attributes:</div>
-               
+
                 <table className="w-[80%]">
                     <thead>
                         <tr>
@@ -136,7 +137,7 @@ const HTMLGlobalAttribute = () => {
                         {tagsData.map((tag, index) => (
                             <tr key={index}>
                                 <td className="px-5 border border-gray-400 py-4 whitespace-nowrap">
-                                    <div className="text-red-500 font-medium underline">
+                                    <div className="text-red-500 font-medium hover:underline">
                                         <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
                                     </div>
                                 </td>
@@ -167,6 +168,17 @@ const HTMLGlobalAttribute = () => {
                     </li>
                 </ul>
             </div >
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

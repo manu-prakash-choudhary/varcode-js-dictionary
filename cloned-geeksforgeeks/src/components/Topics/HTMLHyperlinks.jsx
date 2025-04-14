@@ -2,6 +2,7 @@ import React from 'react'
 import { htmlLink1, htmlLink2 } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
 import { Link } from 'react-router-dom';
+import { FaAngleRight } from "react-icons/fa6";
 
 const HTMLHyperlinks = () => {
   return (
@@ -49,9 +50,9 @@ const HTMLHyperlinks = () => {
       </div>
 
       <ul className="list-disc list-inside mb-8">
-        <li>An <span className="text-red-500 underline font-medium text-xl">unvisited link</span> is underlined and blue.</li>
-        <li>A <span className="text-red-500 underline font-medium text-xl ">visited link</span> is underlined and purple.</li>
-        <li>An <span className="text-red-500 underline font-medium text-xl ">active link</span> is underlined and red.</li>
+        <li>An <span className="text-red-500 font-medium text-xl">unvisited link</span> is underlined and blue.</li>
+        <li>A <span className="text-red-500 font-medium text-xl ">visited link</span> is underlined and purple.</li>
+        <li>An <span className="text-red-500 font-medium text-xl ">active link</span> is underlined and red.</li>
       </ul>
 
       <div className="text-2xl text-red-600 font-semibold mb-2">HTML Links - Target Attribute</div>
@@ -143,12 +144,23 @@ const HTMLHyperlinks = () => {
       <div className="text-2xl font-semibold mb-2 text-red-500">Supported Browsers</div>
 
       <ul className="list-disc list-inside">
-        <li><Link className='text-red-500 underline'>Google Chrome</Link>5.0</li>
-        <li><Link className='text-red-500 underline'>Edge </Link>12 </li>
-        <li><Link className='text-red-500 underline'>Mozilla </Link>4.0 </li>
-        <li><Link className='text-red-500 underline'>Safari </Link>5.0 </li>
-        <li><Link className='text-red-500 underline'>Opera </Link>11.1 </li>
+        <li><Link className='text-red-500'>Google Chrome</Link>5.0</li>
+        <li><Link className='text-red-500'>Edge </Link>12 </li>
+        <li><Link className='text-red-500'>Mozilla </Link>4.0 </li>
+        <li><Link className='text-red-500'>Safari </Link>5.0 </li>
+        <li><Link className='text-red-500'>Opera </Link>11.1 </li>
       </ul>
+      <div className="min-h-20 mt-5  w-full">
+        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+          <div></div>
+          <div>
+            <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+              Next Article
+              <FaAngleRight />
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

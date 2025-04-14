@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { htmlLayout1, htmlLayout2, htmlLayout3 } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 
 const HTMLLayout = () => {
     return (
@@ -15,7 +16,7 @@ const HTMLLayout = () => {
             </p>
 
             <p className="mb-4">
-                HTML layout is achieved through elements like <Link to={'/'} className='underline text-red-500' >&lt;header&gt;</Link>, <Link to={'/'} className='underline text-red-500' >&lt;nav&gt;</Link>, <Link to={'/'} className='underline text-red-500' >&lt;main&gt;</Link>, <Link to={'/'} className='underline text-red-500' >&lt;article&gt;</Link>, <Link to={'/'} className='underline text-red-500' >&lt;section&gt;</Link>, <Link to={'/'} className='underline text-red-500' >&lt;aside&gt;</Link>, and <Link to={'/'} className='underline text-red-500' >&lt;footer&gt;</Link> which help organize content, define the page&apos;s sections, and improve SEO.
+                HTML layout is achieved through elements like <Link to={'/'} className=' text-red-500' >&lt;header&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;nav&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;main&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;article&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;section&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;aside&gt;</Link>, and <Link to={'/'} className=' text-red-500' >&lt;footer&gt;</Link> which help organize content, define the page&apos;s sections, and improve SEO.
             </p>
 
             <div className="border border-gray-400 w-[60%] ml-30">
@@ -130,7 +131,7 @@ const HTMLLayout = () => {
 
             <ul className="list-disc list-inside mb-4">
                 <li>
-                    <span className="font-semibold">CSS Frameworks (like <Link className='text-red-500 underline' to={'/https://getbootstrap.com/docs/5.0/getting-started/introduction/'}>Bootstrap</Link>):</span> Speed up layout design with pre-built components and grid systems.
+                    <span className="font-semibold">CSS Frameworks (like <Link className='text-red-500 ' to={'/https://getbootstrap.com/docs/5.0/getting-started/introduction/'}>Bootstrap</Link>):</span> Speed up layout design with pre-built components and grid systems.
                 </li>
                 <li>
                     <span className="font-semibold">CSS Float Property:</span> A classic method for positioning elements, though it requires careful handling to avoid layout issues with normal document flow.
@@ -144,7 +145,7 @@ const HTMLLayout = () => {
             </ul>
 
             <p className="mb-4">
-                HTML is the foundation of web pages and is used for webpage development by structuring websites and web apps. You can learn HTML from the ground up by following this <a href="#" className="text-red-500 underline">HTML Tutorial</a> and <a href="#" className="text-red-500 underline">HTML Examples</a>.
+                HTML is the foundation of web pages and is used for webpage development by structuring websites and web apps. You can learn HTML from the ground up by following this <a href="#" className="text-red-500 ">HTML Tutorial</a> and <a href="#" className="text-red-500 ">HTML Examples</a>.
             </p>
 
             <div className="font-semibold text-2xl mb-4 mt-6 text-red-600">Best Practices for HTML Layout</div>
@@ -153,6 +154,17 @@ const HTMLLayout = () => {
                 <li>Use semantic HTML5 elements like <span className='font-medium'>&lt;header&gt;</span>, <span className='font-medium'>&lt;nav&gt;</span>, <span className='font-medium'>&lt;main&gt;</span>, and <span className='font-medium'>&lt;footer&gt;</span> to clearly define the structure of your webpage.</li>
                 <li>Ensure responsive design by using relative units and media queries to make your layout adaptable to different screen size</li>
             </ul>
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

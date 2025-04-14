@@ -2,6 +2,7 @@ import React from 'react'
 import { htmlLists, htmlUnorderedLists, htmlOrderedLists, htmlDescriptionLists } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
 import { Link } from 'react-router-dom';
+import { FaAngleRight } from "react-icons/fa6";
 
 const HTMLList = () => {
     return (
@@ -71,7 +72,7 @@ const HTMLList = () => {
                     ].map((item, index) => (
                         <tr key={index} className="border border-gray-300">
                             <td className="border border-gray-300 px-4 py-2">
-                                <Link to={`${item.tag}`} className="text-red-500 underline">&lt;{item.tag}&gt;</Link>
+                                <Link to={`${item.tag}`} className="text-red-500 ">&lt;{item.tag}&gt;</Link>
                             </td>
                             <td className="border border-gray-300 px-4 py-2 text-[1rem]">{item.desc}</td>
                         </tr>
@@ -80,10 +81,10 @@ const HTMLList = () => {
             </table>
 
             <h3 className="text-2xl text-red-600 font-semibold mt-6 mb-3">Table of Content</h3>
-            <ul className="list-disc pl-5 text-red-500">
-                <li><a href="#ul" className="underline">1. Using HTML Unordered List or Bulleted List</a></li>
-                <li><a href="#ol" className="underline">2. Using HTML Ordered List</a></li>
-                <li><a href="#dl" className="underline">3. Using HTML Description List</a></li>
+            <ul className="list-disc pl-5 ">
+                <li><a href="#ul">1. Using HTML Unordered List or Bulleted List</a></li>
+                <li><a href="#ol">2. Using HTML Ordered List</a></li>
+                <li><a href="#dl">3. Using HTML Description List</a></li>
             </ul>
             <div className='mt-6'>
                 <p className="text-2xl font-semibold mb-2 text-red-600">1. Using HTML Unordered List or Bulleted List</p>
@@ -91,7 +92,7 @@ const HTMLList = () => {
                     Unordered lists are ideal for scenarios where the sequence of the items is not important.
                 </p>
                 <p className="mb-4">
-                    The <a href="#" className="text-red-500 underline">unordered list</a> items are marked with bullets, also known as bulleted lists.
+                    The <a href="#" className="text-red-500 ">unordered list</a> items are marked with bullets, also known as bulleted lists.
                     An unordered list starts with the &lt;ul&gt; tag, and each list item begins with the &lt;li&gt; tag.
                 </p>
 
@@ -108,10 +109,10 @@ const HTMLList = () => {
                 <p className="mb-2">This tag contains two attributes which are listed below:</p>
                 <ul className="list-disc pl-5">
                     <li>
-                        <a href="#" className="text-red-500 underline">compact</a>: It will render the list smaller.
+                        <a href="#" className="text-red-500 ">compact</a>: It will render the list smaller.
                     </li>
                     <li>
-                        <a href="#" className="text-red-500 underline">type</a>: It specifies which kind of marker is used in the list.
+                        <a href="#" className="text-red-500 ">type</a>: It specifies which kind of marker is used in the list.
                     </li>
                 </ul>
 
@@ -134,7 +135,7 @@ const HTMLList = () => {
                     Ordered lists are used when the items need to follow a specific sequence.
                 </p>
                 <p className="mb-4">
-                    In an <a href="#" className="text-red-500 underline">Ordered list</a> all list items are marked with numbers by default. An ordered list starts with the &lt;ol&gt; tag, and each list item begins with the &lt;li&gt; tag.
+                    In an <a href="#" className="text-red-500 ">Ordered list</a> all list items are marked with numbers by default. An ordered list starts with the &lt;ol&gt; tag, and each list item begins with the &lt;li&gt; tag.
                 </p>
 
                 <p className="font-bold mb-2 ">Syntax:</p>
@@ -149,16 +150,16 @@ const HTMLList = () => {
                 <p className="font-semibold text-2xl  bold mt-4">Attributes:</p>
                 <ul className="list-disc pl-5">
                     <li>
-                        <a href="#" className="text-red-500 underline">compact</a>: It defines the list should be compacted (compact attribute is not supported in HTML5. Use CSS instead.).
+                        <a href="#" className="text-red-500 ">compact</a>: It defines the list should be compacted (compact attribute is not supported in HTML5. Use CSS instead.).
                     </li>
                     <li>
-                        <a href="#" className="text-red-500 underline">reversed</a>: It defines that the order will be descending.
+                        <a href="#" className="text-red-500 ">reversed</a>: It defines that the order will be descending.
                     </li>
                     <li>
-                        <a href="#" className="text-red-500 underline">start</a>: It defines from which number or alphabet the order will start.
+                        <a href="#" className="text-red-500 ">start</a>: It defines from which number or alphabet the order will start.
                     </li>
                     <li>
-                        <a href="#" className="text-red-500 underline">type</a>: It defines which type(1, A, a, I, and i) of the order you want in your list of numeric, alphabetic, or roman numbers.
+                        <a href="#" className="text-red-500 ">type</a>: It defines which type(1, A, a, I, and i) of the order you want in your list of numeric, alphabetic, or roman numbers.
                     </li>
                 </ul>
 
@@ -182,7 +183,7 @@ const HTMLList = () => {
             <div className='mt-5'>
                 <p className="text-2xl font-semibold mb-2 text-red-600">3. Using HTML Description List</p>
                 <p className="mb-4">
-                    A <a href="#" className="text-red-500 underline">description list</a> is a list of terms, with a description of each term. Description lists are less common but very useful for definitions, glossaries, or any other key-value pairs of items.
+                    A <a href="#" className="text-red-500 ">description list</a> is a list of terms, with a description of each term. Description lists are less common but very useful for definitions, glossaries, or any other key-value pairs of items.
                 </p>
                 <p className="mb-4">
                     The &lt;dl&gt; tag defines the description list, the &lt;dt&gt; tag defines the term name, and the &lt;dd&gt; tag describes each term.
@@ -230,6 +231,17 @@ const HTMLList = () => {
                     <span className="font-semibold text-xl">Accessibility:</span> Make sure your lists are accessible. Properly structured lists help screen readers interpret the content accurately, enhancing the accessibility of your website.
                 </li>
             </ul>
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
 
         </div>
     )

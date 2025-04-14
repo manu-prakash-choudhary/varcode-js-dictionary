@@ -51,9 +51,9 @@ const SubNav = () => {
 
   return (
     <nav className="hidden md:flex bg-transparent backdrop-blur-lg bg-white/20 border border-white/20 text-gray-800 py-3 px-4 shadow-lg items-center sticky top-0 z-50">
-      {/* Gradient overlay for left fade effect */}
+      {/* Left fade overlay */}
       <div className="absolute left-0 w-16 h-full bg-gradient-to-r from-red-600 to-transparent z-10"></div>
-      
+
       <button
         className={`absolute left-2 w-8 h-8 flex items-center justify-center bg-red-700/60 backdrop-blur-sm hover:bg-white/20 text-white hover:text-red-600 rounded-full shadow-md z-20 transition-all duration-200 ${
           isScrolling ? "scale-90" : "scale-100"
@@ -91,12 +91,12 @@ const SubNav = () => {
           </Link>
         ))}
       </div>
-      
-      {/* Gradient overlay for right fade effect */}
+
+      {/* Right fade overlay */}
       <div className="absolute right-0 w-16 h-full bg-gradient-to-l from-red-600 to-transparent z-10"></div>
-      
+
       <button
-        className={`absolute right-2 w-8 h-8 flex items-center justify-center bg-red-700/60 backdrop-blur-sm hover:bg-white/20 text-white hover:text-red-600 rounded-full shadow-md z-20 transition-all duration-200  ${
+        className={`absolute right-2 w-8 h-8 flex items-center justify-center bg-red-700/60 backdrop-blur-sm hover:bg-white/20 text-white hover:text-red-600 rounded-full shadow-md z-20 transition-all duration-200 ${
           isScrolling ? "scale-90" : "scale-100"
         }`}
         onClick={() => scrollNav("right")}

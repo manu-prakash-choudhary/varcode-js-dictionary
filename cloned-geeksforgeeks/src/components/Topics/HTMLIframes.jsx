@@ -2,6 +2,7 @@ import React from 'react';
 import { htmlIframeEx1, htmlIframeEx2, htmlIframeEx3, htmlIframeEx4, htmlIframeEx5 } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
 import { Link } from 'react-router-dom';
+import { FaAngleRight } from "react-icons/fa6";
 
 const HTMLIframes = () => {
     return (
@@ -78,11 +79,11 @@ const HTMLIframes = () => {
             <table className="w-full mt-4 text-left border-collapse border border-gray-300">
                 <thead >
                     <tr>
-                        <th className="border font-semibold border-gray-300 px-4 py-3">Attributes</th>
-                        <th className="border font-semibold border-gray-300 px-4 py-3">Description</th>
+                        <th className="border text-2xl font-semibold border-gray-300 px-4 py-3">Attributes</th>
+                        <th className="border text-2xl font-semibold border-gray-300 px-4 py-3">Description</th>
                     </tr>
                 </thead>
-                <tbody className='text-sm'>
+                <tbody >
                     <tr>
                         <td className="border border-gray-300 px-4 py-3">allow</td>
                         <td className="border border-gray-300 px-4 py-3">Specifies a set of extra restrictions on the content that can be loaded in an &lt;iframe&gt;.</td>
@@ -206,12 +207,23 @@ const HTMLIframes = () => {
             <div className="font-semibold text-2xl text-red-600 mb-2">Supported Browsers</div>
 
             <ul className="list-disc list-inside">
-                <li><Link className='underline text-red-500'>Google Chrome</Link></li>
-                <li><Link className='underline text-red-500'>Edge</Link></li>
-                <li><Link className='underline text-red-500'>Firefox</Link></li>
-                <li><Link className='underline text-red-500'>Opera</Link></li>
-                <li><Link className='underline text-red-500'>Safari</Link></li>
+                <li><Link className=' text-red-500'>Google Chrome</Link></li>
+                <li><Link className=' text-red-500'>Edge</Link></li>
+                <li><Link className=' text-red-500'>Firefox</Link></li>
+                <li><Link className=' text-red-500'>Opera</Link></li>
+                <li><Link className=' text-red-500'>Safari</Link></li>
             </ul>
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

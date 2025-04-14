@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlTables, htmlAnotherTables, htmlTableBorder, htmlTableCollapseBorder, htmlTableCellPadding, htmlTableLeftAlign, htmlTableBorderSpacing, htmlTableCellCol, htmlTableCellrow, htmlTableCaption, htmlTableBackgroundColour, htmlNestedTable } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
 const HTMLTable = () => {
@@ -109,7 +110,7 @@ const HTMLTable = () => {
                     ].map((item, index) => (
                         <tr key={index} className="border border-gray-300">
                             <td className="border border-gray-300 px-4 py-4 text-red-500">
-                                <a href="#" className="underline">{item.tag}</a>
+                                <a href="#" >{item.tag}</a>
                             </td>
                             <td className="border border-gray-300 px-4 py-4">{item.desc}</td>
                         </tr>
@@ -273,7 +274,7 @@ const HTMLTable = () => {
                 </div>
                 <p className="mt-4 font-semibold">Example:</p>
                 <p className="text-gray-700">
-                    Explains the <a href="#" className="text-red-500 underline">border space</a> property to make the space between the Table cells.
+                    Explains the <a href="#" className="text-red-500 ">border space</a> property to make the space between the Table cells.
                 </p>
                 <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
@@ -297,7 +298,7 @@ const HTMLTable = () => {
                 </p>
                 <p className="mt-2 font-semibold">Example:</p>
                 <p className="text-gray-700">
-                    Use of <Link to={'/'} className="text-red-500 underline">colspan attribute</Link> in HTML.
+                    Use of <Link to={'/'} className="text-red-500 ">colspan attribute</Link> in HTML.
                 </p>
                 <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
@@ -321,7 +322,7 @@ const HTMLTable = () => {
                 </p>
                 <p className="mt-2 font-semibold">Example:</p>
                 <p className="text-gray-700">
-                    Use of <Link to={'/'} className="text-red-500 underline">rowspan attribute</Link> in HTML.
+                    Use of <Link to={'/'} className="text-red-500 ">rowspan attribute</Link> in HTML.
                 </p>
                 <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
@@ -341,7 +342,7 @@ const HTMLTable = () => {
             <div className='mt-4'>
                 <p className="text-2xl font-semibold mt-6 text-red-600">8. Adding a Caption in an HTML Table</p>
                 <p className="mt-2 text-gray-700">
-                    To add a <Link to={'/'} className='text-red-500 underline'> caption</Link> to a table, we must use the “caption” tag.
+                    To add a <Link to={'/'} className='text-red-500 '> caption</Link> to a table, we must use the “caption” tag.
                 </p>
                 <p className='mt-2 font-semibold text-2xl'>Syntax :</p>
                 <div className="bg-red-100 p-4 rounded-lg mt-2">
@@ -401,7 +402,7 @@ const HTMLTable = () => {
             <div className='mt-4'>
                 <p className="text-2xl font-semibold mt-6 text-red-600">10. Creating Nested Tables</p>
                 <p className="mt-2 text-gray-700">
-                Nesting tables simply means making a Table inside another Table. Nesting tables can lead to complex tables layouts, which are visually interesting and have the potential of introducing errors. 
+                    Nesting tables simply means making a Table inside another Table. Nesting tables can lead to complex tables layouts, which are visually interesting and have the potential of introducing errors.
                 </p>
                 <p className="mt-4 text-xl font-semibold">Example: <span className='text-lg font-normal'>Nesting of HTML Table.</span></p>
 
@@ -417,6 +418,17 @@ const HTMLTable = () => {
                 <div className='flex justify-center flex-col'>
                     <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.29.26-PM.png" alt="table border" className='w-[40%] h-[8rem] ml-[29%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 italic text-sm'>Nested HTML Table</p>
+                </div>
+            </div>
+            <div className="min-h-20 mt-5  w-full">
+                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

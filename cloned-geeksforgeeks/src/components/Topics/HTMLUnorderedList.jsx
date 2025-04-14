@@ -1,6 +1,7 @@
 import React from 'react'
 import { htmlUnorderedListEx1, htmlUnorderedListEx2, htmlUnorderedListEx3, htmlUnorderedListEx4, htmlNestedUnorderedList, htmlHorizontalUnorderedList, } from "../../utils/CodeBlocks";
 import { CopyBlock } from "react-code-blocks";
+import { FaAngleRight } from "react-icons/fa6";
 
 const HTMLUnorderedList = () => {
   return (
@@ -187,7 +188,17 @@ const HTMLUnorderedList = () => {
           <span className='font-semibold'>Content Breakdown:</span> Breaking down complex content into bullet points to improve comprehension.
         </li>
       </ul>
-
+      <div className="min-h-20 mt-5  w-full">
+        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+          <div></div>
+          <div>
+            <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+              Next Article
+              <FaAngleRight />
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
