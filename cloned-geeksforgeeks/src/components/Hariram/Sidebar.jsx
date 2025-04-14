@@ -30,21 +30,33 @@ const Sidebar = () => {
             htmlTopics.map((topic, index) => (
               <li key={index}>
                 {topic.subTopics ? (
-                  <div className=" border-b-1 border-gray-400">
-                    <div 
-                      className={`flex justify-between items-center cursor-pointer font-semibold p-2 rounded transition-all ${openMenu === topic.title ? 'bg-red-200 ' : 'bg-gray-100'}`}
+                  <div className="border-b border-gray-400">
+                    <div
+                      className={`flex justify-between items-center cursor-pointer font-semibold p-2 rounded transition-all ${
+                        openMenu === topic.title ? "bg-red-200" : "bg-gray-100"
+                      }`}
                       onClick={() => toggleMenu(topic.title)}
                     >
                       {topic.title}
-                      {openMenu === topic.title ? <IoIosArrowUp /> : <IoIosArrowDown />}
+                      {openMenu === topic.title ? (
+                        <IoIosArrowUp />
+                      ) : (
+                        <IoIosArrowDown />
+                      )}
                     </div>
                     {openMenu === topic.title && (
                       <ul className="mt-2 ml-4 space-y-2 text-gray-700">
                         {topic.subTopics.map((subTopic, subIndex) => (
-                          <li 
-                            key={subIndex} 
-                            className={`p-1 cursor-pointer transition-all ${activeItem === subTopic.title ? 'bg-red-200  font-semibold' : 'hover:bg-red-200 hover:font-medium'}`}
-                            onClick={() => handleNavigation(subTopic.link, subTopic.title)}
+                          <li
+                            key={subIndex}
+                            className={`p-1 cursor-pointer transition-all ${
+                              activeItem === subTopic.title
+                                ? "bg-red-200 font-semibold"
+                                : "hover:bg-red-200 hover:font-medium"
+                            }`}
+                            onClick={() =>
+                              handleNavigation(subTopic.link, subTopic.title)
+                            }
                           >
                             {subTopic.title}
                           </li>
@@ -54,7 +66,11 @@ const Sidebar = () => {
                   </div>
                 ) : (
                   <div
-                    className={`p-2 cursor-pointer transition-all ${activeItem === topic.title ? 'bg-red-200  font-semibold' : 'hover:bg-red-200 hover:font-medium'}`}
+                    className={`p-2 cursor-pointer transition-all ${
+                      activeItem === topic.title
+                        ? "bg-red-200 font-semibold"
+                        : "hover:bg-red-200 hover:font-medium"
+                    }`}
                     onClick={() => handleNavigation(topic.link, topic.title)}
                   >
                     {topic.title}

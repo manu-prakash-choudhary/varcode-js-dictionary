@@ -3,7 +3,7 @@ import Yash from "../components/Yash/Yash";
 import Sidebar from "./Hariram/Sidebar";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
-import Navbar from "./Bhanu/Bhanu";
+import Navbar from "./Bhanu/Bhanu.jsx";
 
 const Layout = () => {
   return (

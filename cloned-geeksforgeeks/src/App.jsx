@@ -39,6 +39,15 @@ import HTMLGraphics from "./components/Topics/HTMLGraphics";
 import HTMLCompleteAttribute from "./components/Topics/HTMlTutorialReference/HTMLCompleteAttribute";
 import HTMLGlobalAttribute from "./components/Topics/HTMlTutorialReference/HTMLGlobalAttribute";
 import HTMLComplete from "./components/Topics/HTMlTutorialReference/HTMLComplete";
+import HTMLEntities from "./components/Topics/HTMLEntities";
+import HTMLSymbols from "./components/Topics/HTMLSymbols";
+import HTMLEmojis from "./components/Topics/HTMLEmojis";
+import HTMLCharsets from "./components/Topics/HTMLCharsets";
+import HTMLUrlEncoding from "./components/Topics/HTMLUrlEncoding";
+import HTMLForms from "./components/Topics/HTMLForms";
+import HTMLResponsiveWebDesign from "./components/Topics/HTMLResponsiveWebDesign";
+import HTMLVideo from "./components/Topics/HTMLVideo";
+import HTMLExamples from "./components/Topics/HTMLExamples";
 
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
@@ -97,6 +106,15 @@ const App = () => {
           <Route path="/html-attributes-complete-reference" element={<HTMLCompleteAttribute />} />
           <Route path="/html-global-attributes" element={<HTMLGlobalAttribute />} />
           <Route path="/html5-complete-reference" element={<HTMLComplete />} />
+          <Route path="/html-entities" element={<HTMLEntities />} />
+          <Route path="/html-symbols" element={<HTMLSymbols />} />
+          <Route path="/html-emojis" element={<HTMLEmojis />} />
+          <Route path="/html-charsets" element={<HTMLCharsets />} />
+          <Route path="/html-url-encoding" element={<HTMLUrlEncoding />} />
+          <Route path="/html-forms" element={<HTMLForms />} />
+          <Route path="/html-responsive-design" element={<HTMLResponsiveWebDesign />} />
+          <Route path="/html-video" element={<HTMLVideo />} />
+          <Route path="/html-examples" element={<HTMLExamples />} />
         </Route>
       </Routes>
     </Router>
