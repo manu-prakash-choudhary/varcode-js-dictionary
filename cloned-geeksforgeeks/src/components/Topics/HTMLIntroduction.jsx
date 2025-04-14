@@ -5,20 +5,15 @@ import { FaAngleRight } from "react-icons/fa6";
 
 const HTMLIntroduction = () => {
   return (
-    <div className="content-container overflow-y-auto h-screen pl-6">
-      <div className="pl-0 flex flex-col gap-3 ">
-        <h1 className="text-4xl font-semibold text-red-600">
-          HTML Introduction
-        </h1>
-    <div className="content-container px-6 py-8">
+    <div className="content-container overflow-y-auto h-screen">
       {/* Header */}
-      <div className="flex flex-col gap-3">
-        <h1 className="text-4xl font-semibold text-red-600">HTML Tutorial</h1>
-        <p className="text-gray-600">Last Updated : 30 Mar, 2025</p>
+      <div className="flex flex-col gap-3 px-6 py-8">
+        <h1 className="text-4xl font-semibold text-red-600">HTML Introduction</h1>
+        <p className="text-gray-600">Last Updated: 30 Mar, 2025</p>
       </div>
 
       {/* Introduction Paragraph */}
-      <div className="mt-4">
+      <div className="px-6">
         <p className="text-gray-800 text-justify break-words whitespace-normal">
           <strong>HTML</strong> stands for <b>HyperText Markup Language</b>. It
           is the standard language used to create and structure content on the
@@ -38,7 +33,7 @@ const HTMLIntroduction = () => {
             CSS for style and JavaScript for interactivity.
           </li>
         </ul>
-        <p className="mt-4 p-4 ">
+        <p className="mt-4 p-4">
           In a nutshell, HTML is all about{" "}
           <b>organizing and displaying information</b> on a webpage. We can
           think of it as the <b>bones</b> or <b>structure</b> of a webpage.
@@ -54,15 +49,24 @@ const HTMLIntroduction = () => {
           </p>
         </div>
       </div>
-      <div className="text-gray-800">
-        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5">
+
+      <div className="px-6 mt-5 text-gray-800">
+        <h3 className="text-2xl font-semibold text-red-600 mb-5">
           Basic HTML Code Example
         </h3>
 
         <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa]">
+          <CopyBlock
+            text={htmlTutorialNew.text}
+            language={htmlTutorialNew.language}
+            theme={htmlTutorialNew.theme}
+            wrapLines
+          />
+        </div>
+      </div>
 
       {/* Hello World Code Section */}
-      <div className="mt-10 flex flex-col gap-3">
+      <div className="px-6 mt-10 flex flex-col gap-3">
         <h2 className="text-3xl font-semibold text-red-600">
           'Hello World' Page in HTML
         </h2>
@@ -80,40 +84,41 @@ const HTMLIntroduction = () => {
           />
         </div>
       </div>
-      <div className="mt-5">
+
+      <div className="px-6 mt-5">
         <h3 className="text-2xl font-semibold text-red-600">
           Table of contents
         </h3>
         <ul className="list-disc ml-6 mt-2">
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#1">Why Learn HTML?</a>
           </li>
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#2">Features of HTML</a>
           </li>
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#3">HTML Element and HTML Tag</a>
           </li>
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#4">HTML Page Structure</a>
           </li>
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#5">Web Browsers</a>
           </li>
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#6">HTML History</a>
           </li>
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#7">Advantages of HTML</a>
           </li>
-          <li className="mt-2 text-red-600 underline">
+          <li className="mt-2 text-red-600 ">
             <a href="#8">Disadvantages of HTML</a>
           </li>
         </ul>
       </div>
 
-      <div className="text-gray-800">
-        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5">
+      <div className="px-6 text-gray-800">
+        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5" id="1">
           Why Learn HTML?
         </h3>
         <p className="mt-5 mb-5 text-lg">
@@ -147,7 +152,8 @@ const HTMLIntroduction = () => {
             appealing.
           </li>
         </ol>
-        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5">
+        
+        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5" id="2">
           Features of HTML
         </h3>
         <ul className="list-disc ml-6 mt-2 text-lg">
@@ -157,7 +163,8 @@ const HTMLIntroduction = () => {
           <li>Hypertext can be added to the text.</li>
           <li>It is a markup language.</li>
         </ul>
-        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5 ">HTML Element and HTML Tag</h3>
+        
+        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5" id="3">HTML Element and HTML Tag</h3>
         <p className="mt-2 text-gray-700">
           HTML Element and HTML Tags are related but distinct. An{" "}
           <strong className="font-semibold">HTML element</strong> is the
@@ -172,36 +179,35 @@ const HTMLIntroduction = () => {
           the browser what kind of content to expect.
         </p>
 
-        
         <div className="w-200 ml-50 mt-6 p-4 border rounded-lg shadow bg-white text-center">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
-            {/* <!-- Text for tags and content with boxes underneath --> */}
-            <text x="60" y="40" font-family="monospace" font-size="16">
+            {/* Text for tags and content with boxes underneath */}
+            <text x="60" y="40" fontFamily="monospace" fontSize="16">
               &lt;Button&gt;
             </text>
             <text
               x="210"
               y="40"
-              font-family="sans-serif"
-              font-size="18"
+              fontFamily="sans-serif"
+              fontSize="18"
               fill="red"
-              font-weight="bold"
+              fontWeight="bold"
             >
               varCODE
             </text>
-            <text x="390" y="40" font-family="monospace" font-size="16">
+            <text x="390" y="40" fontFamily="monospace" fontSize="16">
               &lt;/Button&gt;
             </text>
 
-            {/* <!-- Upward arrows --> */}
+            {/* Upward arrows */}
             <line
               x1="95"
               y1="50"
               x2="95"
               y2="80"
               stroke="#000"
-              stroke-width="1.5"
-              marker-start="url(#arrowhead)"
+              strokeWidth="1.5"
+              markerStart="url(#arrowhead)"
             />
             <line
               x1="250"
@@ -209,8 +215,8 @@ const HTMLIntroduction = () => {
               x2="250"
               y2="80"
               stroke="#000"
-              stroke-width="1.5"
-              marker-start="url(#arrowhead)"
+              strokeWidth="1.5"
+              markerStart="url(#arrowhead)"
             />
             <line
               x1="425"
@@ -218,47 +224,47 @@ const HTMLIntroduction = () => {
               x2="425"
               y2="80"
               stroke="#000"
-              stroke-width="1.5"
-              marker-start="url(#arrowhead)"
+              strokeWidth="1.5"
+              markerStart="url(#arrowhead)"
             />
 
-            {/* <!-- Labels for the parts --> */}
+            {/* Labels for the parts */}
             <text
               x="90"
               y="100"
-              font-family="sans-serif"
-              font-size="14"
-              text-anchor="middle"
+              fontFamily="sans-serif"
+              fontSize="14"
+              textAnchor="middle"
             >
               Opening Tag
             </text>
             <text
               x="250"
               y="100"
-              font-family="sans-serif"
-              font-size="14"
-              text-anchor="middle"
+              fontFamily="sans-serif"
+              fontSize="14"
+              textAnchor="middle"
             >
               Content
             </text>
             <text
               x="425"
               y="100"
-              font-family="sans-serif"
-              font-size="14"
-              text-anchor="middle"
+              fontFamily="sans-serif"
+              fontSize="14"
+              textAnchor="middle"
             >
               Closing Tag
             </text>
 
-            {/* <!-- Horizontal lines connecting opening tag and closing tag --> */}
+            {/* Horizontal lines connecting opening tag and closing tag */}
             <line
               x1="95"
               y1="150"
               x2="95"
               y2="130"
               stroke="#000"
-              stroke-width="1.5"
+              strokeWidth="1.5"
             />
             <line
               x1="95"
@@ -266,7 +272,7 @@ const HTMLIntroduction = () => {
               x2="425"
               y2="150"
               stroke="#000"
-              stroke-width="1.5"
+              strokeWidth="1.5"
             />
             <line
               x1="425"
@@ -274,30 +280,30 @@ const HTMLIntroduction = () => {
               x2="425"
               y2="130"
               stroke="#000"
-              stroke-width="1.5"
+              strokeWidth="1.5"
             />
 
-            {/* <!-- Upward arrow for Element label --> */}
+            {/* Upward arrow for Element label */}
             <line
               x1="250"
               y1="150"
               x2="250"
               y2="200"
               stroke="#000"
-              stroke-width="1.5"
-              marker-start="url(#arrowhead)"
+              strokeWidth="1.5"
+              markerStart="url(#arrowhead)"
             />
             <text
               x="250"
               y="220"
-              font-family="sans-serif"
-              font-size="14"
-              text-anchor="middle"
+              fontFamily="sans-serif"
+              fontSize="14"
+              textAnchor="middle"
             >
               Element
             </text>
 
-            {/* <!-- Arrow marker definition --> */}
+            {/* Arrow marker definition */}
             <defs>
               <marker
                 id="arrowhead"
@@ -313,137 +319,155 @@ const HTMLIntroduction = () => {
           </svg>
         </div>
       </div>
-      <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5 ">HTML Page Structure</h3>
-      <p className="mt-2 text-gray-700 text-justify">
-      The basic structure of an HTML page is shown below. It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.
-      </p>
-      <img src="/html_pg_structure.png" alt="HTML Page Structure" className="mt-10 w-half rounded-lg shadow-lg ml-90 mb-10" />
-      <ul className="mt-4 text-gray-700 list-disc ml-6">
-        <li>
-          <span className="text-red-600 font-semibold">&lt;!DOCTYPE html&gt;</span> – This is the document type declaration, not a tag. It declares that the document is an HTML5 document.
-        </li>
-        <li>
-          <span className="text-red-600 font-semibold">&lt;html&gt;</span> – This is called the HTML root element. All other elements are contained within it.
-        </li>
-        <li>
-          <span className="text-red-600 font-semibold">&lt;head&gt;</span> – The head tag contains the “behind the scenes” elements for a webpage.
-          <ul className="ml-5 list-disc">
-            <li><span className="text-blue-600 font-semibold">&lt;title&gt;</span>: Defines the title displayed on the browser tab.</li>
-            <li><span className="text-blue-600 font-semibold">&lt;meta&gt;</span>: Provides information like the character set or viewport settings.</li>
-            <li><span className="text-blue-600 font-semibold">&lt;link&gt;</span>: Links external stylesheets or resources.</li>
-            <li><span className="text-blue-600 font-semibold">&lt;style&gt;</span>: Embeds internal CSS styles.</li>
-            <li><span className="text-blue-600 font-semibold">&lt;script&gt;</span>: Embeds JavaScript for functionality.</li>
-          </ul>
-        </li>
-        <li>
-          <span className="text-red-600 font-semibold">&lt;title&gt;</span> – The title is displayed at the top of the browser.
-        </li>
-        <li>
-          <span className="text-red-600 font-semibold">&lt;h2&gt;</span> – The <code>&lt;h2&gt;</code> tag is a second-level heading tag.
-        </li>
-        <li>
-          <span className="text-red-600 font-semibold">&lt;p&gt;</span> – The <code>&lt;p&gt;</code> tag represents a paragraph of text.
-        </li>
-        <li>
-          <span className="text-red-600 font-semibold">&lt;body&gt;</span> – The body tag encloses all the visible content of a webpage.
-        </li>
-      </ul>
-      <p className="mt-4">
-        An HTML document can be created using an <span className="text-red-600 font-semibold underline cursor-pointer">HTML text editor</span>. Save the text file using the “.html” or “.htm” extension.
-      </p>
-
-      <div className="mt-4 p-3 bg-gray-100 border-l-4 border-red-600 text-gray-700">
-        <strong>Note:</strong> Basic/built-in text editors are <span className="font-semibold">Notepad (Windows)</span> and <span className="font-semibold">TextEdit (MacOS)</span>. Other advanced text editors include <span className="font-semibold">Sublime Text, Visual Studio Code, Froala</span>, etc.
-      </div>
-      <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5">HTML History</h3>
-
       
-      <p className="mt-2 text-gray-700">
-        Currently, we are using <span className="text-red-600 font-semibold">HTML5</span>, which is the latest and most advanced version of HTML.
-      </p>
-      <p className="mt-2 text-gray-700">
-        HTML was initially created by <span className="font-bold">Tim Berners-Lee</span> in 1991 as a way to share and structure documents on the web.
-      </p>
-      <p className="mt-2 text-gray-700">
-        The first-ever version was <span className="font-bold">HTML 1.0</span>, a basic and limited version. However, the first standardized version, <span className="font-bold">HTML 2.0</span>, was published in 1995, laying the foundation for web development as we know it today.
-      </p>
-
-      
-      <div className="mt-6 p-6 bg-red-100 rounded-lg border border-green-300 shadow-md">
-        <h3 className="text-lg font-bold text-red-700 text-center">HTML Released Year</h3>
-        <div className="flex items-center justify-between mt-4 space-x-4">
-          <div className="text-center">
-            <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 1</div>
-            <p className="mt-1 text-sm font-semibold">1993</p>
-          </div>
-          <span className="text-red-600 text-2xl">→</span>
-
-          <div className="text-center">
-            <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 2</div>
-            <p className="mt-1 text-sm font-semibold">1995</p>
-          </div>
-          <span className="text-red-600 text-2xl">→</span>
-
-          <div className="text-center">
-            <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 3</div>
-            <p className="mt-1 text-sm font-semibold">1997</p>
-          </div>
-          <span className="text-red-600 text-2xl">→</span>
-
-          <div className="text-center">
-            <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 4</div>
-            <p className="mt-1 text-sm font-semibold">1999</p>
-          </div>
-          <span className="text-red-600 text-2xl">→</span>
-
-          <div className="text-center">
-            <div className="w-16 h-16 bg-red-700 text-white rounded-full flex items-center justify-center text-sm font-bold">HTML 4.01</div>
-            <p className="mt-1 text-sm font-semibold">2012</p>
-          </div>
-          <span className="text-red-600 text-2xl">→</span>
-
-          <div className="text-center">
-            <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 5</div>
-            <p className="mt-1 text-sm font-semibold">2014</p>
-          </div>
-
-      {/* Why Learn HTML Section */}
-      <div className="mt-10 flex flex-col gap-3">
-        <h2 className="text-3xl font-semibold text-red-600">Why Learn HTML?</h2>
-        <p className="break-words whitespace-normal">
-          Learning HTML is essential for various practical reasons:
+      <div className="px-6">
+        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5" id="4">HTML Page Structure</h3>
+        <p className="mt-2 text-gray-700 text-justify">
+          The basic structure of an HTML page is shown below. It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.
         </p>
-        <ol className="pl-4 text-lg list-decimal space-y-2">
+        <img src="/html_pg_structure.png" alt="HTML Page Structure" className="mt-10 w-half rounded-lg shadow-lg ml-90 mb-10" />
+        <ul className="mt-4 text-gray-700 list-disc ml-6">
           <li>
-            <b>Foundation of Web Development:</b> HTML is the starting point for
-            creating websites. Understanding HTML is crucial for any web
-            development or web design role.
+            <span className="text-red-600 font-semibold">&lt;!DOCTYPE html&gt;</span> – This is the document type declaration, not a tag. It declares that the document is an HTML5 document.
           </li>
           <li>
-            <b>Universal Language of the Web:</b> HTML is the standard markup
-            language used to create the structure of web pages. Knowledge of
-            HTML is necessary to manage any content on the Internet.
+            <span className="text-red-600 font-semibold">&lt;html&gt;</span> – This is called the HTML root element. All other elements are contained within it.
           </li>
           <li>
-            <b>Easy to Learn:</b> HTML is straightforward compared to programming
-            languages. Beginners can quickly learn how to create basic websites
-            with just HTML.
+            <span className="text-red-600 font-semibold">&lt;head&gt;</span> – The head tag contains the "behind the scenes" elements for a webpage.
+            <ul className="ml-5 list-disc">
+              <li><span className="text-blue-600 font-semibold">&lt;title&gt;</span>: Defines the title displayed on the browser tab.</li>
+              <li><span className="text-blue-600 font-semibold">&lt;meta&gt;</span>: Provides information like the character set or viewport settings.</li>
+              <li><span className="text-blue-600 font-semibold">&lt;link&gt;</span>: Links external stylesheets or resources.</li>
+              <li><span className="text-blue-600 font-semibold">&lt;style&gt;</span>: Embeds internal CSS styles.</li>
+              <li><span className="text-blue-600 font-semibold">&lt;script&gt;</span>: Embeds JavaScript for functionality.</li>
+            </ul>
           </li>
           <li>
-            <b>Career Opportunities:</b> Proficiency in HTML opens up various
-            career paths, including web developer, content manager, and UX/UI
-            designer roles.
+            <span className="text-red-600 font-semibold">&lt;title&gt;</span> – The title is displayed at the top of the browser.
           </li>
           <li>
-            <b>Gateway to Advanced Technologies:</b> Once you master HTML, you
-            can easily move on to learn CSS, JavaScript, and other tools that
-            enhance websites, making them more interactive and visually
-            appealing.
+            <span className="text-red-600 font-semibold">&lt;h2&gt;</span> – The <code>&lt;h2&gt;</code> tag is a second-level heading tag.
           </li>
-        </ol>
+          <li>
+            <span className="text-red-600 font-semibold">&lt;p&gt;</span> – The <code>&lt;p&gt;</code> tag represents a paragraph of text.
+          </li>
+          <li>
+            <span className="text-red-600 font-semibold">&lt;body&gt;</span> – The body tag encloses all the visible content of a webpage.
+          </li>
+        </ul>
+        <p className="mt-4">
+          An HTML document can be created using an <span className="text-red-600 font-semibold  cursor-pointer">HTML text editor</span>. Save the text file using the ".html" or ".htm" extension.
+        </p>
+
+        <div className="mt-4 p-3 bg-gray-100 border-l-4 border-red-600 text-gray-700">
+          <strong>Note:</strong> Basic/built-in text editors are <span className="font-semibold">Notepad (Windows)</span> and <span className="font-semibold">TextEdit (MacOS)</span>. Other advanced text editors include <span className="font-semibold">Sublime Text, Visual Studio Code, Froala</span>, etc.
+        </div>
       </div>
-      <div className="min-h-20 mt-10  w-full">
-        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+      
+      <div className="px-6">
+        <h3 className="text-2xl font-semibold text-red-600 mt-5 mb-5" id="6">HTML History</h3>
+        <p className="mt-2 text-gray-700">
+          Currently, we are using <span className="text-red-600 font-semibold">HTML5</span>, which is the latest and most advanced version of HTML.
+        </p>
+        <p className="mt-2 text-gray-700">
+          HTML was initially created by <span className="font-bold">Tim Berners-Lee</span> in 1991 as a way to share and structure documents on the web.
+        </p>
+        <p className="mt-2 text-gray-700">
+          The first-ever version was <span className="font-bold">HTML 1.0</span>, a basic and limited version. However, the first standardized version, <span className="font-bold">HTML 2.0</span>, was published in 1995, laying the foundation for web development as we know it today.
+        </p>
+        
+        <div className="mt-6 p-6 bg-red-100 rounded-lg border border-green-300 shadow-md">
+          <h3 className="text-lg font-bold text-red-700 text-center">HTML Released Year</h3>
+          <div className="flex items-center justify-between mt-4 space-x-4">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 1</div>
+              <p className="mt-1 text-sm font-semibold">1993</p>
+            </div>
+            <span className="text-red-600 text-2xl">→</span>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 2</div>
+              <p className="mt-1 text-sm font-semibold">1995</p>
+            </div>
+            <span className="text-red-600 text-2xl">→</span>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 3</div>
+              <p className="mt-1 text-sm font-semibold">1997</p>
+            </div>
+            <span className="text-red-600 text-2xl">→</span>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 4</div>
+              <p className="mt-1 text-sm font-semibold">1999</p>
+            </div>
+            <span className="text-red-600 text-2xl">→</span>
+
+            <div className="text-center">
+              <div className="w-16 h-16 bg-red-700 text-white rounded-full flex items-center justify-center text-sm font-bold">HTML 4.01</div>
+              <p className="mt-1 text-sm font-semibold">2012</p>
+            </div>
+            <span className="text-red-600 text-2xl">→</span>
+
+            <div className="text-center">
+              <div className="w-20 h-20 bg-red-700 text-white rounded-full flex items-center justify-center text-lg font-bold">HTML 5</div>
+              <p className="mt-1 text-sm font-semibold">2014</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="px-6">
+        <h3 className="text-2xl font-semibold text-red-600 mb-5 mt-5" id="7">Advantages of HTML</h3>
+        <ul className="mt-2 list-disc list-inside text-gray-700">
+          <li>HTML is used to build websites.</li>
+          <li>It is supported by all browsers.</li>
+          <li>
+            It can be integrated with other languages like{" "}
+            <a href="#" className="text-green-600 font-semibold hover:">
+              CSS
+            </a>
+            ,{" "}
+            <a href="#" className="text-green-600 font-semibold hover:">
+              JavaScript
+            </a>
+            , etc.
+          </li>
+        </ul>
+
+        <h3 className="text-2xl font-semibold text-red-600 mb-5 mt-5" id="8">Disadvantages of HTML</h3>
+        <ul className="mt-2 list-disc list-inside text-gray-700">
+          <li>
+            HTML can only create static web pages. For dynamic web pages and
+            logic, we need{" "}
+            <a href="#" className="text-green-600 font-semibold hover:">
+              JavaScript
+            </a>
+            .
+          </li>
+          <li>A large amount of code has to be written to create a simple web page.</li>
+        </ul>
+
+        <h3 className="text-2xl font-semibold text-red-600 mb-5 mt-5">Conclusion</h3>
+        <p className="mt-2 text-gray-700">
+          In conclusion, mastering HTML is a fundamental step in your web
+          development journey. This guide serves as a comprehensive resource for
+          understanding HTML, from the basics to more advanced topics. Remember,
+          HTML is more than just a markup language – it's a powerful tool for
+          creating engaging, accessible, and SEO-friendly websites.
+        </p>
+        <p className="mt-2 text-gray-700">
+          To learn more about HTML, visit the{" "}
+          <a href="/" className="text-red-600 font-semibold hover:">
+            HTML Tutorial
+          </a>{" "}
+          Page.
+        </p>
+      </div>
+      
+      <div className="min-h-20 mt-10 w-full px-6">
+        <div className="flex justify-between items-center">
           <div></div>
           <div>
             <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
@@ -453,66 +477,6 @@ const HTMLIntroduction = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-20 mt-5  w-full">
-        <div className="flex justify-between items-center p-20 pb-0 pt-0">
-          <div></div>
-          <div>
-            <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
-              Next Article
-              <FaAngleRight />
-            </button>
-          </div>
-        </div>
-      </div>
-      
-      
-      <h3 className="text-2xl font-semibold text-red-600 mb-5 mt-5">Advantages of HTML</h3>
-      <ul className="mt-2 list-disc list-inside text-gray-700">
-        <li>HTML is used to build websites.</li>
-        <li>It is supported by all browsers.</li>
-        <li>
-          It can be integrated with other languages like{" "}
-          <a href="#" className="text-green-600 font-semibold hover:underline">
-            CSS
-          </a>
-          ,{" "}
-          <a href="#" className="text-green-600 font-semibold hover:underline">
-            JavaScript
-          </a>
-          , etc.
-        </li>
-      </ul>
-
-     
-      <h3 className="text-2xl font-semibold text-red-600 mb-5 mt-5">Disadvantages of HTML</h3>
-      <ul className="mt-2 list-disc list-inside text-gray-700">
-        <li>
-          HTML can only create static web pages. For dynamic web pages and
-          logic, we need{" "}
-          <a href="#" className="text-green-600 font-semibold hover:underline">
-            JavaScript
-          </a>
-          .
-        </li>
-        <li>A large amount of code has to be written to create a simple web page.</li>
-      </ul>
-
-      <h3 className="text-2xl font-semibold text-red-600 mb-5 mt-5">Conclusion</h3>
-      <p className="mt-2 text-gray-700">
-        In conclusion, mastering HTML is a fundamental step in your web
-        development journey. This guide serves as a comprehensive resource for
-        understanding HTML, from the basics to more advanced topics. Remember,
-        HTML is more than just a markup language – it’s a powerful tool for
-        creating engaging, accessible, and SEO-friendly websites.
-      </p>
-      <p className="mt-2 text-gray-700">
-        To learn more about HTML, visit the{" "}
-        <a href="/" className="text-red-600 font-semibold hover:underline">
-          HTML Tutorial
-        </a>{" "}
-        Page.
-      </p>
-    
     </div>
   );
 };
