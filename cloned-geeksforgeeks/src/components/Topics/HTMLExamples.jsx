@@ -74,7 +74,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -96,7 +96,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -118,7 +118,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -140,7 +140,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -162,7 +162,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -184,7 +184,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -206,7 +206,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -269,7 +269,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -291,7 +291,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -313,7 +313,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -335,7 +335,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -357,7 +357,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -420,7 +420,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -442,7 +442,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -464,7 +464,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -486,7 +486,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -508,7 +508,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -530,7 +530,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -552,7 +552,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -574,7 +574,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -596,7 +596,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -618,7 +618,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -681,7 +681,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -703,7 +703,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -725,7 +725,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -747,7 +747,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -769,7 +769,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -791,7 +791,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -813,7 +813,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -835,7 +835,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -857,7 +857,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -942,7 +942,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -986,7 +986,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1049,7 +1049,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1071,7 +1071,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1093,7 +1093,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1115,7 +1115,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1135,8 +1135,8 @@ const HTMLExamples = () => {
                 <td className="p-3">
                   {" "}
                   Styling with{" "}
-                  <span className="text-red-600 underline"> id </span> and{" "}
-                  <span className="text-red-600 underline">
+                  <span className="text-red-500 "> id </span> and{" "}
+                  <span className="text-red-500 ">
                     class Attributes
                   </span>
                 </td>
@@ -1156,7 +1156,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1259,7 +1259,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1281,11 +1281,11 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
-                  Removing Underline from Links
+                  Removing  from Links
                 </td>
               </tr>
               <tr>
@@ -1303,7 +1303,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1325,7 +1325,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1347,7 +1347,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1369,7 +1369,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1432,7 +1432,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1454,7 +1454,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1476,7 +1476,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1498,7 +1498,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1561,7 +1561,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1583,7 +1583,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1628,7 +1628,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1650,7 +1650,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1735,7 +1735,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1842,7 +1842,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1864,7 +1864,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1890,11 +1890,11 @@ const HTMLExamples = () => {
                 >
                   Styling <span style={{
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}>&lt;div&gt;</span> and <span style={{
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}> &lt;span&gt;</span> Elements
                 </td>
@@ -1956,7 +1956,7 @@ const HTMLExamples = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -1983,10 +1983,10 @@ const HTMLExamples = () => {
                   }}
                 >
                  Graphics with <span style={{
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}>&lt;canvas&gt;</span> and <span style={{
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}>SVG</span>
                 </td>

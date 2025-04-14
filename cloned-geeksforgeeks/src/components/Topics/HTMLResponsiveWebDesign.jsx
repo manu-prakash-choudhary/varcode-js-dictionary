@@ -77,7 +77,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#html-viewport"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               1. HTML Viewport meta tag for Responsive Web Design
             </a>
@@ -85,7 +85,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-images"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               2. Responsive Images
             </a>
@@ -93,7 +93,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-texts"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               3. Responsive Texts
             </a>
@@ -102,7 +102,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-media-queries"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               4. CSS media Queries
             </a>
@@ -111,7 +111,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-layouts"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               5. Responsive Layouts
             </a>
@@ -130,7 +130,7 @@ const HTMLResponsiveWebDesign = () => {
           </span>
           <a
             href="#html-viewport"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">HTML Viewport</span>
           </a>
@@ -217,7 +217,7 @@ const HTMLResponsiveWebDesign = () => {
         </div>
         <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
-        <video src="../3.mp4" controls="" preload="none"></video>
+        <video src={video3.mp4} controls="" preload="none"></video>
         </div>
         <div>
           <p className="text-lg font-bold text-red-500 pt-4 pb-4">2.3 Responsive Image for different Browser Width</p>
@@ -261,7 +261,7 @@ const HTMLResponsiveWebDesign = () => {
           </span>
           <a
             href="#media-query"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">Media query in CSS</span>
           </a>
@@ -315,7 +315,7 @@ const HTMLResponsiveWebDesign = () => {
           In this approach, we will use&nbsp;
           <a
             href="#CSS-Display-Property"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">CSS display property</span>
           </a>
@@ -356,7 +356,7 @@ const HTMLResponsiveWebDesign = () => {
           This approach uses a &nbsp;
           <a
             href="#CSS-Display-grid"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">CSS display grid</span>
           </a>

@@ -272,7 +272,7 @@ const HTMLEntities = () => {
           <li>
             <a
               href="#reserved-characters"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               Reserved Characters
             </a>
@@ -280,7 +280,7 @@ const HTMLEntities = () => {
           <li>
             <a
               href="#other-characters"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               Other Characters
             </a>
@@ -288,7 +288,7 @@ const HTMLEntities = () => {
           <li>
             <a
               href="#non-breakingspaces"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               Non-breaking Space
             </a>
@@ -297,7 +297,7 @@ const HTMLEntities = () => {
           <li>
             <a
               href="#combining-diacritical-marks"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               Combining Diacritical Marks
             </a>
@@ -306,7 +306,7 @@ const HTMLEntities = () => {
           <li>
             <a
               href="#best-practices-html-entities"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               Best Practices for Using HTML Entities
             </a>

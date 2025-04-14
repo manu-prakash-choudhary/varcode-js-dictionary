@@ -22,7 +22,7 @@ const HTMLVideo = () => {
         </span>
         <a
           href="#html5"
-          style={{ textDecoration: "underline", color: "#0f3d2f" }}
+          style={{  color: "#0f3d2f" }}
         >
           <span className="hover:text-red-600 pointer text-blue-700">
             HTML5
@@ -51,7 +51,7 @@ const HTMLVideo = () => {
               <span>The </span>
               <a
                 href="#src-attribute"
-                style={{ textDecoration: "underline", color: "red" }}
+                style={{  color: "red" }}
               >
                 src attribute
               </a>
@@ -63,7 +63,7 @@ const HTMLVideo = () => {
               <span>The </span>
               <a
                 href="#controls-attribute"
-                style={{ textDecoration: "underline", color: "red" }}
+                style={{  color: "red" }}
               >
                 controls attribute
               </a>
@@ -413,7 +413,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -435,7 +435,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -457,7 +457,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -479,7 +479,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -501,7 +501,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -524,7 +524,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -547,7 +547,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -569,7 +569,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -610,7 +610,7 @@ const HTMLVideo = () => {
           </li>
           <li>
             The{" "}
-            <span className="text-blue-500 underline hover:text-red-500 pointer">
+            <span className="text-blue-500  hover:text-red-500 pointer">
               poster attribute
             </span>
             &nbsp;, displays a placeholder image before the video loads or
@@ -637,11 +637,11 @@ const HTMLVideo = () => {
           </li>
           <li>
             The{" "}
-            <span className="text-blue-500 underline hover:text-red-500">
+            <span className="text-blue-500  hover:text-red-500">
               autoplay
             </span>
             , loop, and{" "}
-            <span className="text-blue-500 underline hover:text-red-500">
+            <span className="text-blue-500  hover:text-red-500">
               muted
             </span>{" "}
             attributes ensure the video plays automatically, repeats
