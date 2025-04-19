@@ -9,29 +9,29 @@ const SubNav = () => {
   const [isScrolling, setIsScrolling] = useState(false);
   const [isMobileOrTablet, setIsMobileOrTablet] = useState(false);
 
-  // Check if viewport is mobile or tablet
+ 
   useEffect(() => {
     const checkScreenSize = () => {
-      // Consider screens smaller than 768px as mobile/tablet
+      
       setIsMobileOrTablet(window.innerWidth < 768);
     };
 
-    // Initial check
+    
     checkScreenSize();
 
-    // Add resize event listener
+    
     window.addEventListener("resize", checkScreenSize);
 
-    // Cleanup
+   
     return () => window.removeEventListener("resize", checkScreenSize);
   }, []);
 
-  // If mobile or tablet, don't render the SubNav
+  
   if (isMobileOrTablet) {
     return null;
   }
 
-  // Determine if a link is active based on current path
+ 
   const isActive = (path) => {
     return location.pathname === path;
   };
@@ -44,14 +44,14 @@ const SubNav = () => {
         behavior: "smooth",
       });
       
-      // Reset scrolling state after animation completes
+      
       setTimeout(() => setIsScrolling(false), 300);
     }
   };
 
   return (
     <nav className="hidden md:flex bg-transparent backdrop-blur-lg bg-white/20 border border-white/20 text-gray-800 py-3 px-4 shadow-lg items-center sticky top-0 z-50">
-      {/* Left fade overlay */}
+    
       <div className="absolute left-0 w-16 h-full bg-gradient-to-r from-red-600 to-transparent z-10"></div>
 
       <button
