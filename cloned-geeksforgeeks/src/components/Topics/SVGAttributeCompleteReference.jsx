@@ -7,7 +7,7 @@ const SVGAttributeCompleteReference = () => {
     <div className="content-container overflow-y-auto h-screen pl-6">
       <div className="pl-0 flex flex-col gap-3 ">
         <h1 className="text-4xl font-semibold text-red-600">SVG Attribute Complete Reference</h1>
-        <p className="text-gray-600">Last Updated : 19 APRIL, 2025</p>
+        <p className="text-gray-600">Last Updated : 19 Apr, 2025</p>
       </div>
       <br/>
       <p></p>

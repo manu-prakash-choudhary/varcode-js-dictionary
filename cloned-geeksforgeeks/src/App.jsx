@@ -15,7 +15,7 @@ import HTMLForms from "./components/Topics/HTMLForms";
 import HTMLResponsiveWebDesign from "./components/Topics/HTMLResponsiveWebDesign";
 import HTMLVideo from "./components/Topics/HTMLVideo";
 import HTMLExamples from "./components/Topics/HTMLExamples";
-import SVGElementCompleteReference from "./components/Topics/SVGElementCompleteReference";
+// import SVGElementCompleteReference from "./components/Topics/SVGElementCompleteReference";
 import SVGAttributeCompleteReference from "./components/Topics/SVGAttributeCompleteReference";
 
 
@@ -50,7 +50,7 @@ const App = () => {
           <Route path="/html-responsive-design" element={<HTMLResponsiveWebDesign />} />
           <Route path="/html-video" element={<HTMLVideo />} />
           <Route path="/html-examples" element={<HTMLExamples />} />
-          <Route path="/svg-element-complete-reference" element={<SVGElementCompleteReference />} />
+          {/* <Route path="/svg-element-complete-reference" element={<SVGElementCompleteReference />} /> */}
           <Route path="/svg-attribute-complete-reference" element={<SVGAttributeCompleteReference />} />
         </Route>
       </Routes>
