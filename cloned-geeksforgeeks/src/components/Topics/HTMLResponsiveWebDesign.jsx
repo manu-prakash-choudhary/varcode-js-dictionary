@@ -10,6 +10,8 @@ import video6 from "../Bhanu/assets/6.mp4"
 import video7 from "../Bhanu/assets/7.mp4"
 import video8 from "../Bhanu/assets/8.mp4"
 import video9 from "../Bhanu/assets/9.mp4"
+import { FaAngleRight } from 'react-icons/fa';
+
 
 const HTMLResponsiveWebDesign = () => {
   return (
@@ -426,6 +428,17 @@ const HTMLResponsiveWebDesign = () => {
           <p className="pb-4">HTML Responsive Web Design allows websites to adapt to various screen sizes, ensuring a seamless user experience across devices. By using HTML and responsive techniques, designers and developers can create websites that look great whether viewed on a desktop or a smartphone.</p>
           <p>This flexibility enhances accessibility and usability, making browsing a breeze for all users. In essence, HTML Responsive Web Design is important for ensuring that websites remain functional and visually appealing regardless of the device being used.</p>
         </div>
+        <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
   );
 };

@@ -1,6 +1,8 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
 import { htmlFormsExample1, htmlFormsExample2 } from "../../utils/CodeBlocks";
+import { FaAngleRight } from 'react-icons/fa';
+
 
 const HTMLForms = () => {
   return (
@@ -449,6 +451,17 @@ const HTMLForms = () => {
         <p style={{ paddingTop: "5px" }}>5. <b className="text-lg font-bold text-red-500">autocomplete :</b>This attribute specifies whether a form should have autocomplete on or off. When autocomplete is on, the browser automatically completes values based on values that the user has entered before.</p>
         <p style={{ paddingTop: "5px" }}>6. <b className="text-lg font-bold text-red-500">novalidate :</b>This Boolean attribute specifies that the form-data should not be validated on submission.</p>
       </div>
+      <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
   );
 };
