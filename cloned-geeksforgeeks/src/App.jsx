@@ -15,7 +15,8 @@ import HTMLForms from "./components/Topics/HTMLForms";
 import HTMLResponsiveWebDesign from "./components/Topics/HTMLResponsiveWebDesign";
 import HTMLVideo from "./components/Topics/HTMLVideo";
 import HTMLExamples from "./components/Topics/HTMLExamples";
-import SVGAttribute from "./components/Topics/SVGAttribute";
+import SVGAttributeCompleteReference from "./components/Topics/SVGAttributeCompleteReference";
+
 
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
@@ -48,7 +49,7 @@ const App = () => {
           <Route path="/html-responsive-design" element={<HTMLResponsiveWebDesign />} />
           <Route path="/html-video" element={<HTMLVideo />} />
           <Route path="/html-examples" element={<HTMLExamples />} />
-          <Route path="/html-svgattribute" element={<SVGAttribute />} />
+          <Route path="/svg-attribute-complete-reference" element={<SVGAttributeCompleteReference />} />
         </Route>
       </Routes>
     </Router>
