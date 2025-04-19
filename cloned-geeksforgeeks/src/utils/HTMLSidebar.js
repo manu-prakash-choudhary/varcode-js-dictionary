@@ -15,7 +15,15 @@ const htmlTopics = [
   { title: "HTML Images", link: "/html-images" },
   { title: "HTML Favicon", link: "/html-favicon" },
   { title: "HTML Tables", link: "/html-tables" },
-  { title: "HTML List", link: "/html-list" },
+  { 
+    title: "HTML List", 
+    subTopics: [
+      { title: "HTML Lists", link: "/html-lists" },
+      { title: "HTML Ordered Lists", link: "/html-ordered-lists" },
+      { title: "HTML Unordered Lists", link: "/html-unordered-lists" },
+      { title: "HTML Description Lists", link: "/html-description-lists" }
+    ]
+  },
   { title: "HTML Block and Inline Elements", link: "/html-block-inline" },
   { title: "HTML Iframes", link: "/html-iframes" },
   { title: "HTML File Paths", link: "/html-file-paths" },
@@ -32,10 +40,25 @@ const htmlTopics = [
   { title: "HTML Video", link: "/html-video" },
   { title: "HTML Examples", link: "/html-examples" },
   { title: "HTML Graphics", link: "/html-graphics" },
-  { title: "HTML Tutorial References", link: "/html-tutorial-references" },
-  {
-    title: "HTML Exercises, Practice Questions and Solutions",
-    link: "/html-exercises",
+  { 
+    title: "HTML Tutorial References", 
+    subTopics: [
+      { title: "HTML Tags – A to Z List", link: "/html-tags-a-to-z-list" },
+      { title: "HTML Attributes Complete Reference", link: "/html-attributes-complete-reference" },
+      { title: "HTML Global Attributes", link: "/html-global-attributes" },
+      { title: "HTML5 Complete Reference", link: "/html5-complete-reference" },
+      { title: "HTML5 MathML Complete Reference", link: "/html5-mathml-complete-reference" },
+      { title: "HTML DOM Complete Reference", link: "/html-dom-complete-reference" },
+      { title: "HTML DOM Audio/Video Complete Reference", link: "/html-dom-audio-video-complete-reference" },
+      { title: "SVG Element Complete Reference", link: "/svg-element-complete-reference" },
+      { title: "SVG Attribute Complete Reference", link: "/svg-attribute-complete-reference" },
+      { title: "SVG Property Complete Reference", link: "/svg-property-complete-reference" },
+      { title: "HTML Canvas Complete Reference", link: "/html-canvas-complete-reference" },
+    ]
   },
+  // {
+  //   title: "HTML Exercises, Practice Questions and Solutions",
+  //   link: "/html-exercises",
+  // },
 ];
 export default htmlTopics;
