@@ -26,7 +26,7 @@ const HTMLMathML = () => {
           <b>Example:</b>
         </h4>
         
-        <div className="border border-red-400 rounded-lg md:rounded-2xl w-full min-h-32 md:min-h-40 bg-[#fafafa] my-3 md:my-5">
+        <div className="border border-red-400 rounded-lg md:rounded-2xl w-full min-h-32 md:min-h-40 bg-[#fafafa] my-3 md:my-5 overflow-x-auto">
           <CopyBlock
             text={HTMLtr1.text}
             language={HTMLtr1.language}
@@ -51,7 +51,7 @@ const HTMLMathML = () => {
             <tr className="bg-gray-100">
               <th className="border px-2 md:px-4 py-1 md:py-2">MathML Tag</th>
               <th className="border px-2 md:px-4 py-1 md:py-2">Description</th>
-              <th className="border px-2 md:px-4 py-1 md:py-2">Example</th>
+              {/* <th className="border px-2 md:px-4 py-1 md:py-2">Example</th> */}
             </tr>
           </thead>
           <tbody>
@@ -61,9 +61,9 @@ const HTMLMathML = () => {
                   <a href="#" className="text-red-600">{item.tag}</a>
                 </td>
                 <td className="border px-2 md:px-4 py-1 md:py-2">{item.description}</td>
-                <td className="border px-2 md:px-4 py-1 md:py-2 text-center">
+                {/* <td className="border px-2 md:px-4 py-1 md:py-2 text-center">
                   <button className="border px-2 md:px-3 py-1 text-red-600 border-red-600 rounded text-xs md:text-sm">Try</button>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>

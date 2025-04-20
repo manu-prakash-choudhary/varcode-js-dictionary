@@ -42,7 +42,7 @@ const HTMLDomRef = () => {
             <tr className="bg-gray-100">
               <th className="border px-2 md:px-4 py-1 md:py-2">{title?.includes("Methods") ? "Methods" : "Properties"}</th>
               <th className="border px-2 md:px-4 py-1 md:py-2">Description</th>
-              <th className="border px-2 md:px-4 py-1 md:py-2">Example</th>
+              {/* <th className="border px-2 md:px-4 py-1 md:py-2">Example</th> */}
             </tr>
           </thead>
           <tbody>
@@ -54,11 +54,11 @@ const HTMLDomRef = () => {
                   </a>
                 </td>
                 <td className="border px-2 md:px-4 py-1 md:py-2">{item[descField]}</td>
-                <td className="border px-2 md:px-4 py-1 md:py-2">
+                {/* <td className="border px-2 md:px-4 py-1 md:py-2">
                   <button className="border px-2 md:px-3 py-1 text-xs md:text-sm text-red-600 border-red-600 rounded">
                     Try
                   </button>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>
@@ -96,7 +96,7 @@ const HTMLDomRef = () => {
           <b>Example:</b>
         </h4>
 
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 md:mt-5 mb-3 md:mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 md:mt-5 mb-3 md:mb-5 overflow-x-auto">
           <CopyBlock
             text={HTMLtr2.text}
             language={HTMLtr2.language}

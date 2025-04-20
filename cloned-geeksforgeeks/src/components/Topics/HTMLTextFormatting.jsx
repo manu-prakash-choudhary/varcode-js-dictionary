@@ -356,7 +356,7 @@ const HTMLTextFormatting = () => {
           and &lt;mark&gt; for highlighted text.
         </p>
         
-        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5">
+        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5 overflow-x-auto">
           <CopyBlock
             text={tf1.text}
             language={tf1.language}
@@ -383,7 +383,7 @@ const HTMLTextFormatting = () => {
           This example shows how logical and physical tags can be combined for enhanced text formatting:
         </p>
         
-        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5">
+        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5 overflow-x-auto">
           <CopyBlock
             text={tf2.text}
             language={tf2.language}

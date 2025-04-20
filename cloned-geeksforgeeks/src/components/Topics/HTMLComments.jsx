@@ -88,7 +88,7 @@ const HTMLComments = () => {
         <h2 className="text-2xl font-bold text-red-600 mt-4">More Examples of HTML Comments</h2>
 
         <h3 className="text-xl font-semibold mt-4 text-red-600">Single-Line and Inline Comments</h3>
-        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] mt-4">
+        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] mt-4 overflow-x-auto">
           <CopyBlock
             text={singleLineComment.text}
             language={singleLineComment.language}
@@ -110,7 +110,7 @@ const HTMLComments = () => {
         </ul>
 
         <h2 className="text-2xl font-bold text-red-600 mt-6">Multi-Line Comments and Hidden Code Sections</h2>
-        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] mt-4">
+        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] mt-4 overflow-x-auto">
           <CopyBlock
             text={multiLineComment.text}
             language={multiLineComment.language}

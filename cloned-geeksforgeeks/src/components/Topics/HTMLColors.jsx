@@ -159,7 +159,7 @@ const HTMLColors = () => {
         <p className="text-base sm:text-lg text-gray-700 mt-3 sm:mt-5">
           The example illustrates the various HTML Colors to the element.
         </p>
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5 overflow-x-auto">
           <CopyBlock
             text={HTMLColors1.text}
             language={HTMLColors1.language}
@@ -247,7 +247,7 @@ const HTMLColors = () => {
           The example we are using the RGB color values to style our html
           elements.
         </p>
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5 overflow-x-auto">
           <CopyBlock
             text={HTMLColors2.text}
             language={HTMLColors2.language}
@@ -330,7 +330,7 @@ const HTMLColors = () => {
           In this example we are using the RGBA color values to style our html
           elements.
         </p>
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5 overflow-x-auto">
           <CopyBlock
             text={HTMLColors3.text}
             language={HTMLColors3.language}
@@ -408,7 +408,7 @@ const HTMLColors = () => {
         <p className="text-base sm:text-lg text-gray-700 mt-3 sm:mt-5">
           In this example we are using the HEX color values to style our html elements.
         </p>
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5 overflow-x-auto">
           <CopyBlock
             text={HTMLColors4.text}
             language={HTMLColors4.language}
@@ -479,7 +479,7 @@ const HTMLColors = () => {
         <p className="text-base sm:text-lg text-gray-700 mt-3 sm:mt-5">
           The example shows the HSL color values.
         </p>
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 sm:mt-5 mb-3 sm:mb-5 overflow-x-auto">
           <CopyBlock
             text={HTMLColors5.text}
             language={HTMLColors5.language}

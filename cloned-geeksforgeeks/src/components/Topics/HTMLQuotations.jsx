@@ -129,7 +129,7 @@ const HTMLQuotations = () => {
           In this example, we demonstrate the use of HTML Quotations in which &lt;bdo&gt; adjusts text directionality. &lt;abbr&gt; clarifies the abbreviation "GfG" with its full title. &lt;address&gt; displays contact information. These elements enhance content organization and readability.
         </p>
         
-        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5">
+        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5 overflow-x-auto">
           <CopyBlock
             text={HTMLQ1.text}
             language={HTMLQ1.language}
@@ -156,7 +156,7 @@ const HTMLQuotations = () => {
           This example shows how logical and physical tags can be combined for enhanced text formatting:
         </p>
         
-        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5">
+        <div className="border border-red-400 rounded-2xl w-full bg-[#fafafa] my-5 overflow-x-auto">
           <CopyBlock
             text={HTMLQ2.text}
             language={HTMLQ2.language}

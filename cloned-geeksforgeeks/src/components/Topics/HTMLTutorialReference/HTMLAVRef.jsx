@@ -28,7 +28,7 @@ const HTMLAVRef = () => {
           <b>Example:</b>
         </h4>
         
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 md:mt-5 mb-3 md:mb-5">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-3 md:mt-5 mb-3 md:mb-5 overflow-x-auto">
           <CopyBlock
             text={HTMLtr3.text}
             language={HTMLtr3.language}
@@ -53,7 +53,7 @@ const HTMLAVRef = () => {
             <tr className="bg-gray-100">
               <th className="border px-2 md:px-4 py-1 md:py-2">Audio/Video Methods</th>
               <th className="border px-2 md:px-4 py-1 md:py-2">Description</th>
-              <th className="border px-2 md:px-4 py-1 md:py-2">Example</th>
+              {/* <th className="border px-2 md:px-4 py-1 md:py-2">Example</th> */}
             </tr>
           </thead>
           <tbody>
@@ -63,9 +63,9 @@ const HTMLAVRef = () => {
                   <a href="#" className="text-red-600">{item.tag}</a>
                 </td>
                 <td className="border px-2 md:px-4 py-1 md:py-2">{item.description}</td>
-                <td className="border px-2 md:px-4 py-1 md:py-2">
+                {/* <td className="border px-2 md:px-4 py-1 md:py-2">
                   <button className="border px-2 md:px-3 py-1 text-xs md:text-sm text-red-600 border-red-600 rounded">Try</button>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>
@@ -80,7 +80,7 @@ const HTMLAVRef = () => {
             <tr className="bg-gray-100">
               <th className="border px-2 md:px-4 py-1 md:py-2">Audio/Video Properties</th>
               <th className="border px-2 md:px-4 py-1 md:py-2">Description</th>
-              <th className="border px-2 md:px-4 py-1 md:py-2">Example</th>
+              {/* <th className="border px-2 md:px-4 py-1 md:py-2">Example</th> */}
             </tr>
           </thead>
           <tbody>
@@ -90,9 +90,9 @@ const HTMLAVRef = () => {
                   <a href="#" className="text-red-600">{item.tag}</a>
                 </td>
                 <td className="border px-2 md:px-4 py-1 md:py-2">{item.description}</td>
-                <td className="border px-2 md:px-4 py-1 md:py-2">
+                {/* <td className="border px-2 md:px-4 py-1 md:py-2">
                   <button className="border px-2 md:px-3 py-1 text-xs md:text-sm text-red-600 border-red-600 rounded">Try</button>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>

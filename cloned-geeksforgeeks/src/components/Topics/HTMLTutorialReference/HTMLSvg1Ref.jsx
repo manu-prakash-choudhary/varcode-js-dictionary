@@ -24,7 +24,7 @@ const HTMLSvg1Ref = () => {
           <b>Example:</b> In this example, we will create a polygon.
         </h4>
         
-        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-4 mb-4">
+        <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mt-4 mb-4 overflow-x-auto">
           <CopyBlock
             text={HTMLtr4.text}
             language={HTMLtr4.language}
@@ -54,7 +54,7 @@ const HTMLSvg1Ref = () => {
             <tr className="bg-gray-100">
               <th className="border px-2 md:px-4 py-1 md:py-2">SVG Elements</th>
               <th className="border px-2 md:px-4 py-1 md:py-2">Description</th>
-              <th className="border px-2 md:px-4 py-1 md:py-2">Example</th>
+              {/* <th className="border px-2 md:px-4 py-1 md:py-2">Example</th> */}
             </tr>
           </thead>
           <tbody>
@@ -64,9 +64,9 @@ const HTMLSvg1Ref = () => {
                   <a href="#" className="text-red-600">{item.tag}</a>
                 </td>
                 <td className="border px-2 md:px-4 py-1 md:py-2">{item.description}</td>
-                <td className="border px-2 md:px-4 py-1 md:py-2">
+                {/* <td className="border px-2 md:px-4 py-1 md:py-2">
                   <button className="border px-2 md:px-3 py-1 text-red-600 border-red-600 rounded text-sm">Try</button>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>

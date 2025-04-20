@@ -42,7 +42,7 @@ const HomeSection = () => {
             To show you how fun and easy HTML is, we have provided a classic
             example of writing "Hello, World!" in HTML
           </p>
-          <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+          <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] overflow-x-auto ">
             <CopyBlock
               text={htmlTutorialNew.text}
               language={htmlTutorialNew.language}
