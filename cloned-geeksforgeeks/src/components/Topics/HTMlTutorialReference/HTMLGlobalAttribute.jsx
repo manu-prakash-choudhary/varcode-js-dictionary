@@ -36,10 +36,10 @@ const HTMLGlobalAttribute = () => {
         { tag: 'wrap', description: 'The wrap attribute specifies how text should be wrapped in a <textarea> element (either by spaces or by the browser’s default). It determines how text is handled when the form is submitted.' },
     ];
     return (
-        <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
-            <div className='border-b pb-3 border-gray-200 '>
+        <div className="content-container overflow-y-auto min-h-screen px-6 text-lg tracking-wide">
+            <div className="border-b pb-3 border-gray-200">
                 <h1 className="text-3xl text-red-600 font-semibold">HTML Global Attributes</h1>
-                <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
+                <p className="text-gray-500 text-sm mt-3">Last Updated: 25 March, 2025</p>
             </div>
             <p className="mb-6 mt-5">
                 HTML attributes provide additional information about an element and define its properties. Global attributes are special types of attributes that can be used with any HTML element, offering common functionality to enhance behavior and presentation.
@@ -57,7 +57,7 @@ const HTMLGlobalAttribute = () => {
                 <p>The accesskey attribute defines a keyboard shortcut to activate/focus an element.</p>
             </div>
 
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa]">
                 <CopyBlock
                     text={htmlGlobalAccesskey.text}
                     language={htmlGlobalAccesskey.language}
@@ -71,11 +71,11 @@ const HTMLGlobalAttribute = () => {
                 <li>This provides a quick way for users to interact with the button without using a mouse.</li>
             </ul>
 
-            <div className="mb-4 ">
+            <div className="mb-4">
                 <p className="font-semibold text-2xl text-red-600">2. autofocus</p>
-                <p className=' mt-3'>The autofocus attribute automatically focuses an element when the page loads.</p>
+                <p className='mt-3'>The autofocus attribute automatically focuses an element when the page loads.</p>
             </div>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa]">
                 <CopyBlock
                     text={htmlGlobalAutoFocus.text}
                     language={htmlGlobalAutoFocus.language}
@@ -91,9 +91,9 @@ const HTMLGlobalAttribute = () => {
 
             <div className="mb-4">
                 <p className="font-semibold text-2xl text-red-600">3. Lang</p>
-                <p className=' mt-3'>The lang attribute specifies the language of the element’s content.</p>
+                <p className='mt-3'>The lang attribute specifies the language of the element’s content.</p>
             </div>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa]">
                 <CopyBlock
                     text={htmlGlobalLang.text}
                     language={htmlGlobalLang.language}
@@ -108,9 +108,9 @@ const HTMLGlobalAttribute = () => {
 
             <div className="mb-4">
                 <p className="font-semibold text-2xl text-red-600">4. class</p>
-                <p className=' mt-3'>The class attribute assigns one or more class names to an element, enabling CSS styling or JavaScript manipulation.</p>
+                <p className='mt-3'>The class attribute assigns one or more class names to an element, enabling CSS styling or JavaScript manipulation.</p>
             </div>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa]">
                 <CopyBlock
                     text={htmlGlobalClass.text}
                     language={htmlGlobalClass.language}
@@ -122,37 +122,37 @@ const HTMLGlobalAttribute = () => {
                 <li>The paragraph text is styled with a red color and bold font using the highlight class.</li>
                 <li>The class attribute links the HTML element to the CSS rule, making it easy to apply consistent styling.</li>
             </ul>
+
             <div className="mb-8 mt-5">
                 <div className="text-2xl text-red-600 font-semibold mt-6 mb-4">List of Global Attributes:</div>
 
-                <table className="w-[80%]">
+                <table className="w-full md:w-[80%] mx-auto table-auto">
                     <thead>
                         <tr>
-                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Global Attributes</th>
-                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[60%]">Description</th>
-                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Example</th>
+                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Global Attributes</th>
+                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Description</th>
+                            {/* <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Example</th> */}
                         </tr>
                     </thead>
-                    <tbody className="w-full">
+                    <tbody>
                         {tagsData.map((tag, index) => (
-                            <tr key={index}>
-                                <td className="px-5 border border-gray-400 py-4 whitespace-nowrap">
-                                    <div className="text-red-500 font-medium hover:underline">
-                                        <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
-                                    </div>
+                            <tr key={index} className="border-t">
+                                <td className="px-4 py-4 border border-gray-400 text-sm text-red-500 font-medium hover:underline">
+                                    <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
                                 </td>
-                                <td className="px-2 border border-gray-400 py-4">
-                                    <div className="text-gray-500">{tag.description}</div>
+                                <td className="px-4 py-4 border border-gray-400 text-sm text-gray-500">
+                                    {tag.description}
                                 </td>
-                                <td className="px-4 border border-gray-400 py-4 whitespace-nowrap">
+                                {/* <td className="px-4 py-4 border border-gray-400 text-sm whitespace-nowrap">
                                     <button className="bg-gray-200 hover:bg-red-400 underline text-gray-800 font-bold py-2 px-4 rounded">
                                         <Link to={'/'}>Try</Link>
                                     </button>
-                                </td>
+                                </td> */}
                             </tr>
                         ))}
                     </tbody>
                 </table>
+
 
                 <div className="text-2xl text-red-600 mt-4 mb-5 font-semibold">Best Practices for HTML Global Attributes</div>
 
@@ -167,9 +167,9 @@ const HTMLGlobalAttribute = () => {
                         For styling and layout, prefer using external or internal CSS rather than inline styles for maintainability.
                     </li>
                 </ul>
-            </div >
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            </div>
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
@@ -180,6 +180,7 @@ const HTMLGlobalAttribute = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 

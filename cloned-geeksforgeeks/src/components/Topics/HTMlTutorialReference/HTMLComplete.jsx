@@ -75,7 +75,7 @@ const HTMLComplete = () => {
         <li>HTML5 supports APIs, improved multimedia handling with <Link className="text-red-500 underline">&lt;audio&gt;</Link> and <Link className="text-red-500 underline">&lt;video&gt;</Link>, and a more robust <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" className="text-red-500">Document Object Model (DOM)</a> for interactive web experiences.</li>
       </ul>
 
-      <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlCompleteRerence.text}
           language={htmlCompleteRerence.language}
@@ -113,34 +113,33 @@ const HTMLComplete = () => {
       </div>
 
       <div className="mb-8 mt-5">
-        <table className="w-[80%]">
+        <table className="w-full md:w-[80%] mx-auto table-auto">
           <thead>
             <tr>
-              <th className="px-4 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Title</th>
-              <th className="px-4 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[60%]">Description</th>
-              <th className="px-4 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Example</th>
+              <th className="px-4 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Title</th>
+              <th className="px-4 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Description</th>
+              {/* <th className="px-4 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Example</th> */}
             </tr>
           </thead>
           <tbody className="w-full">
             {tagsData.map((tag, index) => (
-              <tr key={index}>
-                <td className="px-5 border border-gray-400 py-4 whitespace-nowrap">
-                  <div className="text-red-500 font-medium hover:underline">
-                    <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
-                  </div>
+              <tr key={index} className="border-t">
+                <td className="px-4 py-4 border border-gray-400 text-sm text-red-500 font-medium hover:underline">
+                  <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
                 </td>
-                <td className="px-2 border border-gray-400 py-4">
-                  <div className="text-gray-500">{tag.description}</div>
+                <td className="px-4 py-4 border border-gray-400 text-sm text-gray-500">
+                  {tag.description}
                 </td>
-                <td className="px-4 border border-gray-400 py-4 whitespace-nowrap">
+                {/* <td className="px-4 py-4 border border-gray-400 text-sm whitespace-nowrap">
                   <button className="bg-gray-200 hover:bg-red-400 underline text-gray-800 font-bold py-2 px-4 rounded">
                     <Link to={'/'}>Try</Link>
                   </button>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>
         </table>
+
         <div className="mb-4 mt-5">
           <p className="font-semibold text-2xl text-red-600">Best Practices for HTML5</p>
         </div>
@@ -159,8 +158,8 @@ const HTMLComplete = () => {
           </li>
         </ul>
       </div >
-      <div className="min-h-20 mt-5  w-full">
-        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+      <div className="min-h-20 mt-5 w-full  ">
+        <div className="flex justify-between items-center ml-5 pb-0 pt-0">
           <div></div>
           <div>
             <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

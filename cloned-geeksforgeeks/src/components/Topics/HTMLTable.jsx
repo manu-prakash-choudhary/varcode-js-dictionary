@@ -37,10 +37,10 @@ const HTMLTable = () => {
                 <code >&lt;td&gt;</code> tags represent the cells in that row,
                 which can contain text, images, lists, or even another table.
             </p>
-            <img src="./htmlTable.png" alt="htmlTable" style={{ height: "40%", width: "50%", marginLeft: '20%', marginTop: "10px" }} />
+            <img src="./htmlTable.png" alt="htmlTable" className='lg:w-[40%] lg:ml-[35%] lg:h-[8rem] w-50 ml-[22%] hover:cursor-zoom-in' />
             <p className='text-2xl font-semibold mt-4 text-red-600'>HTML Table Code Example</p>
 
-            <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className=" overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlTables.text}
                     language={htmlTables.language}
@@ -50,8 +50,8 @@ const HTMLTable = () => {
             </div>
             <div className='mt-3 flex justify-center flex-col'>
                 <p className='text-2xl font-semibold '>Output :</p>
-                <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210910153459/1230.png" alt="output" className='w-50 ml-[42%] hover:cursor-zoom-in' />
-                <p className='text-center'>Html Table</p>
+                <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210910153459/1230.png" alt="output" className='lg:w-[40%] lg:ml-[35%] lg:h-[8rem] w-50 ml-[22%] hover:cursor-zoom-in' />
+                <p className='text-center text-gray-400'>Html Table</p>
             </div>
 
             <p className="text-2xl font-medium mt-3 text-red-600">In this Example:</p>
@@ -88,7 +88,7 @@ const HTMLTable = () => {
             </p>
 
             <p className="text-2xl mt-5 font-semibold mb-4 text-red-600">Tags used in HTML Tables</p>
-            <table className="w-[70%] border border-gray-300 text-left">
+            <table className="w-[100%]  border border-gray-300 text-left">
                 <thead>
                     <tr className="bg-gray-100 text-xl font-semibold">
                         <th className="border border-gray-300 px-4 py-4 text-red-600">HTML Tags</th>
@@ -122,7 +122,7 @@ const HTMLTable = () => {
                 <p className='text-2xl font-semibold text-red-600'>Another Example of HTML Table:</p>
                 <p className='mt-4 text-lg'>Creating a simple table in HTML using a table tag. </p>
 
-                <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="border overflow-auto border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlAnotherTables.text}
                         language={htmlAnotherTables.language}
@@ -132,7 +132,7 @@ const HTMLTable = () => {
                 </div>
                 <p className='text-xl mt-3 font-semibold'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210910153420/1157.png" alt="table" className='w-[40%] h-[7rem] ml-[32%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210910153420/1157.png" alt="table" className='lg:w-[50%] lg:ml-[25%] w-[90%] h-[7rem] ml-[10%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 text-sm italic'>HTML Table</p>
                 </div>
             </div>
@@ -158,7 +158,7 @@ const HTMLTable = () => {
             <p className="mt-2 font-bold text-gray-700">Example:</p>
             <p className="text-gray-600">Addition of the border to the HTML Table.</p>
 
-            <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className=" overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlTableBorder.text}
                     language={htmlTableBorder.language}
@@ -168,7 +168,7 @@ const HTMLTable = () => {
             </div>
             <p className='text-xl mt-3 font-semibold'>Output :</p>
             <div className='flex justify-center flex-col'>
-                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-15-at-10.45.20-AM.png" alt="table border" className='w-[50%] h-[6rem] ml-[25%] hover:cursor-zoom-in' />
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-15-at-10.45.20-AM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[99%] h-[6rem] ml-[1%] hover:cursor-zoom-in' />
                 <p className='text-center text-gray-500 text-sm italic'>HTML Table with border</p>
             </div>
 
@@ -187,7 +187,7 @@ const HTMLTable = () => {
             </pre>
             <p className="mt-2 font-bold text-gray-700">Example: <span className='text-md font-medium'>Addition of Collapsed Borders in HTML.</span></p>
 
-            <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlTableCollapseBorder.text}
                     language={htmlTableCollapseBorder.language}
@@ -198,7 +198,7 @@ const HTMLTable = () => {
 
             <p className='text-xl mt-3 font-semibold'>Output :</p>
             <div className='flex justify-center flex-col'>
-                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-15-at-10.49.53-AM.png" alt="table border" className='w-[50%] h-[6rem] ml-[25%] hover:cursor-zoom-in' />
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-15-at-10.49.53-AM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[95%] h-[5rem] ml-[2%] hover:cursor-zoom-in' />
                 <p className='text-center text-gray-500 text-sm italic'>HTML Table with Collapsed Borders</p>
             </div>
 
@@ -215,7 +215,7 @@ const HTMLTable = () => {
                 </code>
             </pre>
             <p className="mt-2 font-bold text-gray-700">Example: <span className='text-md font-medium'>Addition of Table cell padding in HTML.</span></p>
-            <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className=" overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlTableCellPadding.text}
                     language={htmlTableCellPadding.language}
@@ -225,7 +225,7 @@ const HTMLTable = () => {
             </div>
             <p className=' text-xl font-semibold mt-3'>Output :</p>
             <div className='flex justify-center flex-col'>
-                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-15-at-10.49.53-AM.png" alt="table border" className='w-[50%] h-[6rem] ml-[25%] hover:cursor-zoom-in' />
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-15-at-10.49.53-AM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[95%] h-[5rem] ml-[2%] hover:cursor-zoom-in' />
                 <p className='text-center text-gray-500 text-sm italic'>Adding Table cell padding</p>
             </div>
 
@@ -244,7 +244,7 @@ const HTMLTable = () => {
             <p className="mt-2 font-bold text-gray-700">Example:</p>
             <p className="text-gray-600">Explains the <Link to={'/'} className="text-red-500 underline">text-align property</Link> where the text is aligned to the left.</p>
 
-            <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlTableLeftAlign.text}
                     language={htmlTableLeftAlign.language}
@@ -254,7 +254,7 @@ const HTMLTable = () => {
             </div>
             <p className=' text-xl font-semibold mt-3'>Output :</p>
             <div className='flex justify-center flex-col'>
-                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.40.39-PM.png" alt="table border" className='w-[60%] h-[15rem] ml-[15%] hover:cursor-zoom-in' />
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.40.39-PM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[90%] h-[9rem] ml-[2%] hover:cursor-zoom-in' />
                 <p className='text-center text-gray-500 text-sm italic'>text-align Property</p>
             </div>
 
@@ -276,7 +276,7 @@ const HTMLTable = () => {
                 <p className="text-gray-700">
                     Explains the <a href="#" className="text-red-500 ">border space</a> property to make the space between the Table cells.
                 </p>
-                <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlTableBorderSpacing.text}
                         language={htmlTableBorderSpacing.language}
@@ -286,7 +286,7 @@ const HTMLTable = () => {
                 </div>
                 <p className=' text-xl font-semibold mt-3'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.45.40-PM.png" alt="table border" className='w-[50%] h-[6rem] ml-[25%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.45.40-PM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[90%] h-[6rem] ml-[2%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 text-sm italic'>Border Spacing Property</p>
                 </div>
             </div>
@@ -300,7 +300,7 @@ const HTMLTable = () => {
                 <p className="text-gray-700">
                     Use of <Link to={'/'} className="text-red-500 ">colspan attribute</Link> in HTML.
                 </p>
-                <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlTableCellCol.text}
                         language={htmlTableCellCol.language}
@@ -310,7 +310,7 @@ const HTMLTable = () => {
                 </div>
                 <p className=' text-xl font-semibold mt-3'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.49.33-PM.png" alt="table border" className='w-[50%] h-[6rem] ml-[25%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.49.33-PM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[90%] h-[6rem] ml-[2%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 text-sm italic'>col-span attribute</p>
                 </div>
             </div>
@@ -324,7 +324,7 @@ const HTMLTable = () => {
                 <p className="text-gray-700">
                     Use of <Link to={'/'} className="text-red-500 ">rowspan attribute</Link> in HTML.
                 </p>
-                <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlTableCellrow.text}
                         language={htmlTableCellrow.language}
@@ -334,7 +334,7 @@ const HTMLTable = () => {
                 </div>
                 <p className=' text-xl font-semibold mt-3'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.53.18-PM.png" alt="table border" className='w-[50%] h-[7rem] ml-[25%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.53.18-PM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] lg:h-[7rem] w-[90%] h-[5rem] ml-[2%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 text-sm italic'>Use of rowspan attribute</p>
                 </div>
             </div>
@@ -353,7 +353,7 @@ const HTMLTable = () => {
                 </div>
                 <p className="mt-2 text-xl font-semibold">Example: <span className='text-lg font-normal'> HTML Table caption by specifying the CSS properties for setting its width.</span></p>
 
-                <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlTableCaption.text}
                         language={htmlTableCaption.language}
@@ -363,7 +363,7 @@ const HTMLTable = () => {
                 </div>
                 <p className=' text-xl font-semibold mt-3'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.12.02-PM.png" alt="table border" className='w-[70%] h-[15rem] ml-[15%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.12.02-PM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[90%] h-[9rem] ml-[2%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 text-sm italic'>Adding the caption using the tag</p>
                 </div>
             </div>
@@ -374,7 +374,7 @@ const HTMLTable = () => {
                     A color can be added as a background in an HTML table using the “background-color” option.
                 </p>
                 <p className='mt-4 font-semibold text-2xl'>Syntax :</p>
-                <div className="bg-red-100 p-4 rounded-lg mt-2">
+                <div className="bg-red-100 p-4 rounded-lg mt-2 overflow-auto">
                     <pre className=" font-mono">
                         {`table#t01 {
             width: 100%;
@@ -384,7 +384,7 @@ const HTMLTable = () => {
                 </div>
                 <p className="mt-2 text-xl font-semibold">Example: <span className='text-lg font-normal'>Addition of the Table background color in HTML.</span></p>
 
-                <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlTableBackgroundColour.text}
                         language={htmlTableBackgroundColour.language}
@@ -394,7 +394,7 @@ const HTMLTable = () => {
                 </div>
                 <p className=' text-xl font-semibold mt-3'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.16.23-PM.png" alt="table border" className='w-[70%] h-[18rem] ml-[15%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.16.23-PM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[90%] h-[9rem] ml-[2%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 italic text-sm'>Adding Table Background color using CSS properties</p>
                 </div>
             </div>
@@ -406,7 +406,7 @@ const HTMLTable = () => {
                 </p>
                 <p className="mt-4 text-xl font-semibold">Example: <span className='text-lg font-normal'>Nesting of HTML Table.</span></p>
 
-                <div className="border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlNestedTable.text}
                         language={htmlNestedTable.language}
@@ -416,12 +416,12 @@ const HTMLTable = () => {
                 </div>
                 <p className=' text-xl font-semibold mt-3'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.29.26-PM.png" alt="table border" className='w-[40%] h-[8rem] ml-[29%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.29.26-PM.png" alt="table border" className='lg:w-[50%] lg:ml-[25%] w-[90%] h-[8rem] ml-[2%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 italic text-sm'>Nested HTML Table</p>
                 </div>
             </div>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

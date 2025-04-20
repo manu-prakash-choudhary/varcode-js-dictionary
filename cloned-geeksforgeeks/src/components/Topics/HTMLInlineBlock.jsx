@@ -22,7 +22,7 @@ const HTMLInlineBlock = () => {
             <p>
                 <span className='font-medium'>Example:</span> This example illustrates the use of the block-level element & inline element.
             </p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlInlineEx1.text}
                     language={htmlInlineEx1.language}
@@ -64,7 +64,7 @@ const HTMLInlineBlock = () => {
 
             <p class="font-semibold mt-5">Example:</p>
             <p>The below code illustrates the implementation of &lt;div&gt; tag.</p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlInlineEx2.text}
                     language={htmlInlineEx2.language}
@@ -96,7 +96,7 @@ const HTMLInlineBlock = () => {
             </div>
 
             <p class="font-medium mt-5"><span className='text-2xl '>Example:</span> The below code illustrates the implementation of &lt;div&gt; tag.</p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlInlineEx3.text}
                     language={htmlInlineEx3.language}
@@ -104,8 +104,8 @@ const HTMLInlineBlock = () => {
                     wrapLines
                 />
             </div>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

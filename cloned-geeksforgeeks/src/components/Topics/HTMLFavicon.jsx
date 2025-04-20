@@ -61,7 +61,7 @@ const HTMLFavicon = () => {
         <div className="content-container overflow-y-auto px-4 sm:px-6 lg:px-8 py-6 text-base md:text-lg tracking-wide max-w-7xl mx-auto">
             <div className="border-b border-gray-200 pb-4">
                 <h1 className="text-3xl font-semibold mb-2 text-red-600">HTML Favicon</h1>
-                <p className="text-gray-600 text-base mb-3">Last Updated &#58; 22 March&#44; 2025</p>
+                <p className="text-gray-600 text-base mb-3">Last Updated: 22 March, 2025</p>
             </div>
 
             <p className="mt-4 text-lg leading-relaxed">
@@ -70,28 +70,25 @@ const HTMLFavicon = () => {
             </p>
 
             <ul className="mt-3 space-y-2 list-disc list-inside text-lg pl-2">
-                <li>
-                    <strong className="font-semibold">Brand Recognition:</strong> Favicons are a visual marker for your brand online,
-                    helping to increase and reinforce brand awareness.
-                </li>
-                <li>
-                    <strong className="font-semibold">Professionalism:</strong> A well-designed favicon makes your site look professional and credible.
-                </li>
-                <li>
-                    <strong className="font-semibold">Usability:</strong> It improves the user's navigation experience by allowing them to
-                    easily identify and switch to your tab when multiple tabs are open.
-                </li>
+                <li><strong className="font-semibold">Brand Recognition:</strong> Favicons help increase brand awareness.</li>
+                <li><strong className="font-semibold">Professionalism:</strong> They make your site look credible.</li>
+                <li><strong className="font-semibold">Usability:</strong> Users can easily identify your site among tabs.</li>
             </ul>
 
             <h3 className="mt-6 text-2xl font-semibold text-red-600">How to Implement a Favicon in HTML</h3>
             <p className="mt-2 text-lg">
-                To add a favicon to your HTML document, you'll need to reference it in the
-                <code className="bg-gray-100 px-1 rounded"> &lt;head&gt; </code> section of your HTML code.
-                Here's how you can do it:
+                Add it in the <code className="bg-gray-100 px-1 rounded">&lt;head&gt;</code> section like this:
             </p>
 
-            <div className="border border-red-400 rounded-2xl p-2 mt-3 w-full bg-[#fafafa] overflow-x-auto">
-                <CopyBlock text={htmlFavicon.text} language={htmlFavicon.language} theme={htmlFavicon.theme} wrapLines codeBlock />
+            {/* CopyBlock Responsive Container */}
+            <div className="border border-red-400 rounded-2xl mt-3 w-full bg-[#fafafa] overflow-x-auto p-2 sm:p-4">
+                <CopyBlock
+                    text={htmlFavicon.text}
+                    language={htmlFavicon.language}
+                    theme={htmlFavicon.theme}
+                    wrapLines
+                    codeBlock
+                />
             </div>
 
             <p className="text-2xl font-semibold mt-5">Output:</p>
@@ -105,51 +102,32 @@ const HTMLFavicon = () => {
             </div>
 
             {isZoomed && (
-                <div
-                    className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 p-4"
-                    onClick={handleCloseZoom}
-                >
-                    <img
-                        src={zoomedImage}
-                        alt="Zoomed Favicon Output"
-                        className="max-w-full max-h-full rounded-lg shadow-lg border border-gray-300"
-                    />
+                <div className="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 p-4" onClick={handleCloseZoom}>
+                    <img src={zoomedImage} alt="Zoomed Favicon Output" className="max-w-full max-h-full rounded-lg shadow-lg border border-gray-300" />
                 </div>
             )}
 
             <p className="mt-6 text-2xl font-semibold text-red-600">In this example:</p>
-
             <ul className="mt-3 space-y-2 text-lg list-disc list-inside pl-2">
-                <li>
-                    <code className="font-semibold bg-gray-100 px-1 rounded">rel="icon"</code>: Indicates that the linked resource is an icon for the document.
-                    This relationship is essential for browsers to understand that the specified file is meant to be used as the website's favicon.
-                </li>
-                <li>
-                    <code className="font-semibold bg-gray-100 px-1 rounded">href="https://varcode.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.bab09975.png&w=1920&q=75"</code>:
-                    Specifies the path to the favicon image. This can be a URL (as used here) pointing to an image that serves as the icon.
-                </li>
-                <li>
-                    <code className="font-semibold bg-gray-100 px-1 rounded">type="image/x-icon"</code>: Specifies the MIME type of the favicon file.
-                    While commonly image/x-icon is used for <code className="bg-gray-100 px-1 rounded">ico</code> files, modern browsers support PNG and other formats as well.
-                </li>
+                <li><code className="font-semibold bg-gray-100 px-1 rounded">rel="icon"</code>: Declares it's a favicon.</li>
+                <li><code className="font-semibold bg-gray-100 px-1 rounded">href="..."</code>: The URL path to the image.</li>
+                <li><code className="font-semibold bg-gray-100 px-1 rounded">type="image/x-icon"</code>: MIME type of the favicon.</li>
             </ul>
 
             <div className="mt-4 p-3 sm:p-4 bg-red-100 text-gray-700 italic rounded border border-gray-300 text-lg">
-                <strong>Note:</strong> Major browsers are not supported by the sizing property of the favicon.
+                <strong>Note:</strong> Major browsers don’t support sizing properties for favicons.
             </div>
 
             <h2 className="text-2xl font-semibold mt-6 text-red-600">List of Favicon Sizes</h2>
-            <p className="mt-2 text-lg">
-                Different devices and browsers may require favicons of various sizes. Here's a list of common favicon sizes:
-            </p>
+            <p className="mt-2 text-lg">Common favicon sizes for various devices:</p>
 
             <div className="overflow-x-auto mt-5 w-full">
-                <table className="w-full border-collapse border border-gray-300">
+                <table className="w-full border-collapse border border-gray-300 text-left">
                     <thead className="bg-gray-100">
-                        <tr className="text-center">
-                            <th className="border border-gray-300 px-3 py-2 text-lg font-semibold">Name</th>
-                            <th className="border border-gray-300 px-3 py-2 text-lg font-semibold">Size</th>
-                            <th className="border border-gray-300 px-3 py-2 text-lg font-semibold">Description</th>
+                        <tr>
+                            <th className="border border-gray-300 px-3 py-2 font-semibold text-lg">Name</th>
+                            <th className="border border-gray-300 px-3 py-2 font-semibold text-lg">Size</th>
+                            <th className="border border-gray-300 px-3 py-2 font-semibold text-lg">Description</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -159,20 +137,20 @@ const HTMLFavicon = () => {
                             { name: "favicon-76.png", size: "76×76", desc: "iPad home screen icon." },
                             { name: "favicon-96.png", size: "96×96", desc: "GoogleTV icon." },
                             { name: "favicon-120.png", size: "120×120", desc: "iPhone retina touch icon." },
-                            { name: "favicon-128.png", size: "128×128", desc: "Chrome Web Store icon & Small Windows 8 Star Screen Icon*." },
-                            { name: "favicon-144.png", size: "144×144", desc: "Internet Explorer 10 Metro tile for pinned site*." },
+                            { name: "favicon-128.png", size: "128×128", desc: "Chrome Web Store & Windows 8 tile." },
+                            { name: "favicon-144.png", size: "144×144", desc: "IE10 Metro tile." },
                             { name: "favicon-152.png", size: "152×152", desc: "iPad touch icon." },
-                            { name: "favicon-167.png", size: "167×167", desc: "iPad Retina touch icon (change for iOS 10: up from 152×152, not in action. iOS 10 will use 152×152)." },
+                            { name: "favicon-167.png", size: "167×167", desc: "iPad Retina touch icon." },
                             { name: "favicon-180.png", size: "180×180", desc: "iPhone 6 plus." },
-                            { name: "favicon-192.png", size: "192×192", desc: "Google Developer Web App Manifest Recommendation." },
-                            { name: "favicon-195.png", size: "195×195", desc: "Opera Speed Dial icon (Not working in Opera 15 and later)." },
-                            { name: "favicon-196.png", size: "196×196", desc: "Chrome for Android home screen icon." },
+                            { name: "favicon-192.png", size: "192×192", desc: "Web App Manifest." },
+                            { name: "favicon-195.png", size: "195×195", desc: "Opera Speed Dial." },
+                            { name: "favicon-196.png", size: "196×196", desc: "Chrome for Android." },
                             { name: "favicon-228.png", size: "228×228", desc: "Opera Coast icon." },
                         ].map((item, index) => (
                             <tr key={index} className="even:bg-gray-50">
-                                <td className="border border-gray-300 text-gray-700 px-3 py-2 text-lg">{item.name}</td>
-                                <td className="border border-gray-300 text-gray-700 px-3 py-2 text-lg">{item.size}</td>
-                                <td className="border border-gray-300 text-gray-700 px-3 py-2 text-lg">{item.desc}</td>
+                                <td className="border border-gray-300 px-3 py-2 text-lg">{item.name}</td>
+                                <td className="border border-gray-300 px-3 py-2 text-lg">{item.size}</td>
+                                <td className="border border-gray-300 px-3 py-2 text-lg">{item.desc}</td>
                             </tr>
                         ))}
                     </tbody>
@@ -180,10 +158,10 @@ const HTMLFavicon = () => {
             </div>
 
             <h2 className="text-2xl font-semibold mt-6 text-red-600">Favicon File Format Support</h2>
-            <p className="mb-4 text-lg">Here's a table summarizing the common file formats supported for favicons:</p>
+            <p className="mb-4 text-lg">Below is a comparison of various favicon formats:</p>
 
             <div className="overflow-x-auto">
-                <table className="w-full border-collapse border border-gray-300">
+                <table className="w-full border-collapse border border-gray-300 text-left">
                     <thead className="bg-gray-100">
                         <tr className="text-lg font-semibold">
                             <th className="border border-gray-300 px-3 py-2">File Format</th>
@@ -194,7 +172,7 @@ const HTMLFavicon = () => {
                     </thead>
                     <tbody>
                         {data.map((item, index) => (
-                            <tr key={index} className="border-b even:bg-gray-50">
+                            <tr key={index} className="even:bg-gray-50">
                                 <td className="border border-gray-300 px-3 py-2 font-semibold underline hover:text-red-500 text-red-400 text-lg">
                                     <Link to="#">{item.format}</Link>
                                 </td>
@@ -212,8 +190,9 @@ const HTMLFavicon = () => {
                     </tbody>
                 </table>
             </div>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

@@ -44,7 +44,7 @@ const HTMLFilePath = () => {
             </div>
 
             <div className="font-semibold text-xl mb-2">Example:</div>
-            <div className="border border-red-400 p-3 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] overflow-x-auto">
+            <div className="overflow-auto border border-red-400 p-3 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] overflow-x-auto">
                 <CopyBlock
                     text={htmlFilePath1.text}
                     language={htmlFilePath1.language}
@@ -69,7 +69,7 @@ const HTMLFilePath = () => {
             </div>
 
             <div className="font-semibold text-xl mb-2">Example:</div>
-            <div className="border border-red-400 p-3 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] overflow-x-auto">
+            <div className="overflow-auto border border-red-400 p-3 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] overflow-x-auto">
                 <CopyBlock
                     text={htmlFilePath2.text}
                     language={htmlFilePath2.language}
@@ -128,8 +128,8 @@ const HTMLFilePath = () => {
                     <span className="font-semibold">Avoid Spaces in Filenames:</span> Spaces can cause issues in URLs and make linking more complex. Use hyphens or underscores instead.
                 </li>
             </ul>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

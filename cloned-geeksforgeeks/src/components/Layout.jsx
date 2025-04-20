@@ -9,7 +9,7 @@ const Layout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       {/* Desktop Top Bar (Yash) */}
       <div className="hidden lg:block">
         <Yash />
@@ -21,16 +21,19 @@ const Layout = () => {
       </div>
 
       {/* Body Section */}
-      <div className="flex flex-1 relative pt-[58px] lg:pt-0">
-        <div className=" lg:block  lg:w-[10%] w-0 mr-[-8rem] md:mr-[-8rem] mt-[30px]">
-           <Sidebar isOpen={sidebarOpen} closeSidebar={() => setSidebarOpen(false)} />
+      <div className="flex flex-1   pt-[58px] lg:pt-0 ">
+        <div className=" lg:block  lg:w-[5%] xl:w-[1%] xl:mr-[-14%]  w-0 mr-[-8rem] mt-[30px]">
+          <Sidebar isOpen={sidebarOpen} closeSidebar={() => setSidebarOpen(false)} />
         </div>
-        <div className="flex-1 pl-8 lg:ml-[-3rem] lg:ml-20 md:ml-[-5rem] p-2 lg:pl-5 sm:w-full overflow-auto">
+       {/* <div className="flex-1 pl-8 lg:ml-[-3rem] lg:ml-20 md:ml-[-5rem] p-2 lg:pl-5 sm:w-full overflow-auto"> */}
+
+        <div className="flex-1 lg:ml-[11rem] lg:w-[90%]  xl:w-[80%] pl-[1rem] md:ml-[-5rem] sm:w-full overflow-auto">
           <Outlet />
         </div>
       </div>
-
-      <Footer />
+      <div className="ml-[-5rem] md:ml-[-13rem] lg:ml-10">
+        <Footer />
+      </div>
     </div>
   );
 };

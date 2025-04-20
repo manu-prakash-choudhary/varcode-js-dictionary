@@ -19,7 +19,7 @@ const HTMLLayout = () => {
                 HTML layout is achieved through elements like <Link to={'/'} className=' text-red-500' >&lt;header&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;nav&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;main&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;article&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;section&gt;</Link>, <Link to={'/'} className=' text-red-500' >&lt;aside&gt;</Link>, and <Link to={'/'} className=' text-red-500' >&lt;footer&gt;</Link> which help organize content, define the page&apos;s sections, and improve SEO.
             </p>
 
-            <div className="border border-gray-400 w-[60%] ml-30">
+            <div className="border border-gray-400 lg:w-[60%] w-90% lg:ml-30 ml-2">
                 <div className="border-b border-gray-400 p-4 text-center">Header Section</div>
                 <div className="border-b border-gray-400 p-4 text-center">Navigation Bar</div>
                 <div className="flex border-b border-gray-400 h-[6rem]  ">
@@ -41,7 +41,7 @@ const HTMLLayout = () => {
                     &lt;footer&gt; Content... &lt;/footer&gt;
                 </code>
             </div>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlLayout1.text}
                     language={htmlLayout1.language}
@@ -59,7 +59,7 @@ const HTMLLayout = () => {
 
                 <div className="font-semibold text-2xl mt-6 mb-5 text-red-600 ">Layout Components</div>
 
-                <table className="text-left w-[70%] border-collapse border border-gray-300">
+                <table className="text-left lg:w-[70%] w-[99%] border-collapse border border-gray-300">
                     <thead>
                         <tr className='font-semibold text-red-600'>
                             <th className="border border-gray-300 px-4 py-4 w-[30%]">Layouts</th>
@@ -95,7 +95,7 @@ const HTMLLayout = () => {
                 <p className='text-xl font-semibold mb-4'>More Examples:</p>
                 <p className=' mb-3'>Layout with Additional Semantic Tags</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlLayout2.text}
                         language={htmlLayout2.language}
@@ -111,7 +111,7 @@ const HTMLLayout = () => {
                 </ul>
 
                 <div className="font-semibold text-xl mt-5 mb-5 text-red-600">Styled Layout with Semantic Tags</div>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlLayout3.text}
                         language={htmlLayout3.language}
@@ -154,8 +154,8 @@ const HTMLLayout = () => {
                 <li>Use semantic HTML5 elements like <span className='font-medium'>&lt;header&gt;</span>, <span className='font-medium'>&lt;nav&gt;</span>, <span className='font-medium'>&lt;main&gt;</span>, and <span className='font-medium'>&lt;footer&gt;</span> to clearly define the structure of your webpage.</li>
                 <li>Ensure responsive design by using relative units and media queries to make your layout adaptable to different screen size</li>
             </ul>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

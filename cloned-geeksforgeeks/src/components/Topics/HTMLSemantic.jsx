@@ -43,7 +43,7 @@ const HTMLSemantic = () => {
                     </li>
                 ))}
             </ol>
-            <div className='w-[50%] ml-[30%] mt-2'>
+            <div className='lg:w-[50%] lg:ml-[30%] w-[90%] ml-[5%] mt-2'>
                 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20241127115416984900/html-sementics-layout.png" alt="" />
             </div>
 
@@ -52,7 +52,7 @@ const HTMLSemantic = () => {
                 <p>The <span className='font-semibold'>&lt;article&gt;</span> tag is used for content that stands alone and can be independently distributed or reused, such as a blog post or news article.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticArticle.text}
                         language={htmlSemanticArticle.language}
@@ -67,7 +67,7 @@ const HTMLSemantic = () => {
                 <p>It is used to place content in a sidebar i.e. aside from the existing content. It is related to surrounding content.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticAside.text}
                         language={htmlSemanticAside.language}
@@ -82,7 +82,7 @@ const HTMLSemantic = () => {
                 <p>The “details” defines additional details that the user can hide or view. “summary” defines a visible heading for a “details” element.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticDetails.text}
                         language={htmlSemanticDetails.language}
@@ -97,7 +97,7 @@ const HTMLSemantic = () => {
                 <p>These are used to add an image to a web page with a small description.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticFigure.text}
                         language={htmlSemanticFigure.language}
@@ -111,7 +111,7 @@ const HTMLSemantic = () => {
                 <p>As the name suggests, it is for the header of a section introductory of a page. There can be multiple headers on a page.  </p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticHeader.text}
                         language={htmlSemanticHeader.language}
@@ -125,7 +125,7 @@ const HTMLSemantic = () => {
                 <p>Footer located at the bottom of any article or document, they can contain contact details, copyright information etc. There can be multiple footers on a page.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticFooter.text}
                         language={htmlSemanticFooter.language}
@@ -140,7 +140,7 @@ const HTMLSemantic = () => {
                 <p>It defines the main content of the document. The content inside the main tag should be unique. </p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticMain.text}
                         language={htmlSemanticMain.language}
@@ -154,7 +154,7 @@ const HTMLSemantic = () => {
                 <p>A page can be split into sections like Introduction, Contact Information, Details, etc and each of these sections can be in a different section tag.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticSection.text}
                         language={htmlSemanticSection.language}
@@ -168,7 +168,7 @@ const HTMLSemantic = () => {
                 <p>It is used to define a set of navigation links in the form of a navigation bar or nav menu.</p>
                 <p className='text-2xl font-semibold mt-4'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticNav.text}
                         language={htmlSemanticNav.language}
@@ -183,7 +183,7 @@ const HTMLSemantic = () => {
                 <p>It is used to highlight the text.</p>
                 <p className='text-2xl font-semibold mt-2'>Example :</p>
 
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlSemanticMark.text}
                         language={htmlSemanticMark.language}
@@ -216,8 +216,8 @@ const HTMLSemantic = () => {
                 <li className='font-semibold'>Opera: 15</li>
                 <li className='font-semibold'>Safari: 4</li>
             </ul>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

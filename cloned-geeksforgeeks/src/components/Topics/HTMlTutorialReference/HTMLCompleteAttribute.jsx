@@ -96,26 +96,29 @@ const HTMLCompleteAttribute = () => {
         { tag: 'wrap', description: 'The wrap attribute specifies how text should be wrapped in a <textarea> element (either by spaces or by the browser’s default). It determines how text is handled when the form is submitted.' },
     ];
     return (
-        <div className='content-container overflow-y-auto min-h-screen pl-6 pr-6 text-lg tracking-wide'>
-            <div className='border-b pb-3 border-gray-200 '>
-                <h1 className="text-3xl text-red-600 font-semibold">HTML Attributes Complete Reference</h1>
+        <div className='content-container min-h-screen px-4 md:px-6 lg:px-10 text-base md:text-lg tracking-wide'>
+            <div className='border-b pb-3 border-gray-200'>
+                <h1 className="text-2xl md:text-3xl text-red-600 font-semibold">HTML Attributes Complete Reference</h1>
                 <p className="text-gray-500 text-sm mt-3">Last Updated : 25 March, 2025</p>
             </div>
+
             <p className="mb-6 mt-5">
                 HTML attributes are special words placed inside the opening tag of an HTML element to define its characteristics. Each attribute has two parts:
             </p>
+
             <ul className="list-disc font-semibold list-inside mb-4">
                 <li>Attribute name</li>
                 <li>Attribute value (separated by an equal sign = and enclosed in double quotes ” “).</li>
             </ul>
 
-            <h3 className="text-2xl font-semibold text-gray-700 mt-4">Syntax :</h3>
-            <pre className="bg-red-100 p-4 rounded-md mt-2 mb-6">
+            <h3 className="text-xl md:text-2xl font-semibold text-gray-700 mt-4">Syntax :</h3>
+            <pre className="bg-red-100 p-4 rounded-md mt-2 mb-6 overflow-auto">
                 <code>
                     {`<tag_name attribute_name="value"> Contents... </tag_name>`}
                 </code>
             </pre>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+
+            <div className="overflow-auto border border-red-400 text-sm p-2 mt-3 rounded-2xl bg-[#fafafa]">
                 <CopyBlock
                     text={htmlAttributeReference.text}
                     language={htmlAttributeReference.language}
@@ -126,72 +129,67 @@ const HTMLCompleteAttribute = () => {
 
             <div className="mb-8 mt-5">
                 <ul className="list-disc list-inside space-y-2">
-                    <li><span className="text-xl text-red-600 font-semibold">src Attribute:</span> Specifies the URL of the image to be displayed. In this example, the image is loaded from "https://www.example.com/image.jpg".</li>
-                    <li><span className="text-xl text-red-600 font-semibold">alt attributes:</span> Provides alternative text for the image, which is displayed if the image cannot be loaded. It also improves accessibility and SEO.</li>
-                    <li><span className="text-xl text-red-600 font-semibold">width Attributes:</span> Sets the width of the image in pixels, making it responsive and visually appealing.</li>
+                    <li><span className="text-lg text-red-600 font-semibold">src Attribute:</span> Specifies the URL of the image to be displayed.</li>
+                    <li><span className="text-lg text-red-600 font-semibold">alt attributes:</span> Provides alternative text for the image.</li>
+                    <li><span className="text-lg text-red-600 font-semibold">width Attributes:</span> Sets the width of the image in pixels.</li>
                 </ul>
 
                 <div className="mb-8 mt-5">
-                    <p className="font-bold text-2xl text-red-600 mb-4">Types of HTML Attributes</p>
-                    <p className="text-gray-700 mb-4">HTML attributes can be categorized into different types based on their functionality. Some common types of attributes include:</p>
+                    <p className="font-bold text-xl md:text-2xl text-red-600 mb-4">Types of HTML Attributes</p>
+                    <p className="text-gray-700 mb-4">HTML attributes can be categorized into different types based on their functionality:</p>
                     <ul className="list-disc list-inside space-y-2">
-                        <li><span className="font-semibold">Style attributes:</span> Used to define the visual styling of elements, such as color, background, and font.</li>
-                        <li><span className="font-semibold">Event attributes:</span> Used to specify actions that occur in response to user interactions, such as mouse clicks or key presses.</li>
-                        <li><span className="font-semibold">Attribute-element Attributes:</span> Used to define the relationship between elements, such as the src attribute of the img element.</li>
-                        <li><span className="font-semibold">Form Attributes:</span> Used to define the behavior of form elements, such as the action attribute of the form element.</li>
+                        <li><span className="font-semibold">Style attributes:</span> Define the visual styling of elements.</li>
+                        <li><span className="font-semibold">Event attributes:</span> Define actions on user interaction.</li>
+                        <li><span className="font-semibold">Attribute-element Attributes:</span> Describe relationships between elements.</li>
+                        <li><span className="font-semibold">Form Attributes:</span> Control the behavior of form elements.</li>
                     </ul>
                 </div>
 
-                <div className="text-2xl text-red-600 font-semibold mt-6 mb-4">HTML Attributes Complete References</div>
-                <div className="mb-4">
-                    The complete list of HTML attributes are given below.
-                </div>
-                <table className="w-[80%]">
-                    <thead>
-                        <tr>
-                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Attributes</th>
-                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[60%]">Description</th>
-                            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Example</th>
-                        </tr>
-                    </thead>
-                    <tbody className="w-full">
-                        {tagsData.map((tag, index) => (
-                            <tr key={index}>
-                                <td className="px-5 border border-gray-400 py-4 whitespace-nowrap">
-                                    <div className="text-red-500 font-medium hover:underline">
-                                        <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
-                                    </div>
-                                </td>
-                                <td className="px-2 border border-gray-400 py-4">
-                                    <div className="text-gray-500">{tag.description}</div>
-                                </td>
-                                <td className="px-4 border border-gray-400 py-4 whitespace-nowrap">
-                                    <button className="bg-gray-200 hover:bg-red-400 underline text-gray-800 font-bold py-2 px-4 rounded">
-                                        <Link to={'/'}>Try</Link>
-                                    </button>
-                                </td>
-                            </tr>
-                        ))}
-                    </tbody>
-                </table>
+                <div className="text-xl md:text-2xl text-red-600 font-semibold mt-6 mb-4">HTML Attributes Complete References</div>
+                <p className="mb-4">The complete list of HTML attributes are given below.</p>
 
-                <div className="text-2xl text-red-600 mt-4 font-semibold mb-3">Best Practices for Using HTML Attributes</div>
+                <div className="overflow-auto">
+                    <table className="min-w-[700px] md:w-full text-sm md:text-base">
+                        <thead>
+                            <tr>
+                                <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Attributes</th>
+                                <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Description</th>
+                                {/* <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider">Example</th> */}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {tagsData.map((tag, index) => (
+                                <tr key={index}>
+                                    <td className="px-5 border border-gray-400 py-4 whitespace-nowrap">
+                                        <div className="text-red-500 font-medium hover:underline">
+                                            <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
+                                        </div>
+                                    </td>
+                                    <td className="px-2 border border-gray-400 py-4 text-gray-500">
+                                        {tag.description}
+                                    </td>
+                                    {/* <td className="px-4 border border-gray-400 py-4 whitespace-nowrap">
+                                        <button className="bg-gray-200 hover:bg-red-400 underline text-gray-800 font-bold py-1 px-3 rounded">
+                                            <Link to={'/'}>Try</Link>
+                                        </button>
+                                    </td> */}
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+
+                <div className="text-xl md:text-2xl text-red-600 mt-6 font-semibold mb-3">Best Practices for Using HTML Attributes</div>
 
                 <ul className="list-disc list-inside space-y-2">
-                    <li>
-                        <span className="font-semibold">Implementing HTML attributes </span> correctly enhances the functionality, accessibility, and maintainability of your web pages. Here are some best practices to consider:
-
-                    </li>
-                    <li>
-                        <span className="font-semibold">Use Lowercase Attribute Names:</span> While HTML is case-insensitive, it's recommended to use lowercase for attribute names to maintain consistency and readability.
-                    </li>
-                    <li>
-                        <span className="font-semibold">Avoid Inline Styles:</span> Instead of using the style attribute for inline CSS, apply external or internal stylesheets. This approach promotes separation of content and presentation, enhancing maintainability.
-                    </li>
+                    <li><span className="font-semibold">Implementing HTML attributes</span> correctly enhances functionality, accessibility, and maintainability.</li>
+                    <li><span className="font-semibold">Use Lowercase Attribute Names:</span> Maintains consistency and readability.</li>
+                    <li><span className="font-semibold">Avoid Inline Styles:</span> Use external/internal stylesheets for separation of content and presentation.</li>
                 </ul>
-            </div >
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            </div>
+
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

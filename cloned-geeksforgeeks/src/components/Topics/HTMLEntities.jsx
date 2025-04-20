@@ -247,7 +247,7 @@ const HTMLEntities = () => {
         <div classname="mb=4"></div>
         <b style={{ color: "red" }}>Example :</b> In this example, we display various currency symbols using entity representations :
       </p>
-      <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mb-4 ">
+      <div className="overflow-auto border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mb-4 ">
         <CopyBlock
           text={htmlEntities.text}
           language={htmlEntities.language}
@@ -424,7 +424,7 @@ const HTMLEntities = () => {
         </span>
       </p>
     </div>
-    <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+    <div className="overflow-auto border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlEntitiesNew.text}
           language={htmlEntitiesNew.language}
