@@ -56,7 +56,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsCopy.text}
               language={htmlSymbolsCopy.language}
@@ -92,7 +92,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsReg.text}
               language={htmlSymbolsReg.language}
@@ -129,7 +129,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsTrade.text}
               language={htmlSymbolsTrade.language}
@@ -166,7 +166,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsCommat.text}
               language={htmlSymbolsCommat.language}
@@ -203,7 +203,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsParagraph.text}
               language={htmlSymbolsParagraph.language}
@@ -240,7 +240,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsSection.text}
               language={htmlSymbolsSection.language}
@@ -277,7 +277,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsCopf.text}
               language={htmlSymbolsCopf.language}
@@ -314,7 +314,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsIncare.text}
               language={htmlSymbolsIncare.language}
@@ -351,7 +351,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsGscr.text}
               language={htmlSymbolsGscr.language}
@@ -388,7 +388,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsHamilt.text}
               language={htmlSymbolsHamilt.language}
@@ -425,7 +425,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsHfr.text}
               language={htmlSymbolsHfr.language}
@@ -462,7 +462,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsHopf.text}
               language={htmlSymbolsHopf.language}
@@ -499,7 +499,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsPlanckh.text}
               language={htmlSymbolsPlanckh.language}
@@ -537,7 +537,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsPlanck.text}
               language={htmlSymbolsPlanck.language}
@@ -574,7 +574,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsIscr.text}
               language={htmlSymbolsIscr.language}
@@ -611,7 +611,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsImage.text}
               language={htmlSymbolsImage.language}
@@ -648,7 +648,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsLscr.text}
               language={htmlSymbolsLscr.language}
@@ -685,7 +685,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsEll.text}
               language={htmlSymbolsEll.language}
@@ -722,7 +722,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsNopf.text}
               language={htmlSymbolsNopf.language}
@@ -759,7 +759,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsNumero.text}
               language={htmlSymbolsNumero.language}
@@ -796,7 +796,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsCopysr.text}
               language={htmlSymbolsCopysr.language}
@@ -833,7 +833,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsWeierp.text}
               language={htmlSymbolsWeierp.language}
@@ -870,7 +870,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsQopf.text}
               language={htmlSymbolsQopf.language}
@@ -907,7 +907,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsSign.text}
               language={htmlSymbolsSign.language}
@@ -944,7 +944,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsRscr.text}
               language={htmlSymbolsRscr.language}
@@ -981,7 +981,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsReal.text}
               language={htmlSymbolsReal.language}
@@ -1018,7 +1018,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsRopf.text}
               language={htmlSymbolsRopf.language}
@@ -1055,7 +1055,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsRx.text}
               language={htmlSymbolsRx.language}
@@ -1092,7 +1092,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsZopf.text}
               language={htmlSymbolsZopf.language}
@@ -1129,7 +1129,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsMho.text}
               language={htmlSymbolsMho.language}
@@ -1166,7 +1166,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsZfr.text}
               language={htmlSymbolsZfr.language}
@@ -1203,7 +1203,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsIiota.text}
               language={htmlSymbolsIiota.language}
@@ -1240,7 +1240,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsBernou.text}
               language={htmlSymbolsBernou.language}
@@ -1277,7 +1277,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsCfr.text}
               language={htmlSymbolsCfr.language}
@@ -1314,7 +1314,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsEscr.text}
               language={htmlSymbolsEscr.language}
@@ -1351,7 +1351,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsEScr.text}
               language={htmlSymbolsEScr.language}
@@ -1388,7 +1388,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsFscr.text}
               language={htmlSymbolsFscr.language}
@@ -1425,7 +1425,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsMscr.text}
               language={htmlSymbolsMscr.language}
@@ -1462,7 +1462,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsOscr.text}
               language={htmlSymbolsOscr.language}
@@ -1499,7 +1499,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsAlefsym.text}
               language={htmlSymbolsAlefsym.language}
@@ -1536,7 +1536,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsBeth.text}
               language={htmlSymbolsBeth.language}
@@ -1573,7 +1573,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsGimel.text}
               language={htmlSymbolsGimel.language}
@@ -1610,7 +1610,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsDaleth.text}
               language={htmlSymbolsDaleth.language}
@@ -1647,7 +1647,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsDd.text}
               language={htmlSymbolsDd.language}
@@ -1684,7 +1684,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsEe.text}
               language={htmlSymbolsEe.language}
@@ -1721,7 +1721,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsIi.text}
               language={htmlSymbolsIi.language}
@@ -1758,7 +1758,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsStarf.text}
               language={htmlSymbolsStarf.language}
@@ -1795,7 +1795,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsStar.text}
               language={htmlSymbolsStar.language}
@@ -1832,7 +1832,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsPhone.text}
               language={htmlSymbolsPhone.language}
@@ -1869,7 +1869,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsFemale.text}
               language={htmlSymbolsFemale.language}
@@ -1906,7 +1906,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsMale.text}
               language={htmlSymbolsMale.language}
@@ -1943,7 +1943,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsSpades.text}
               language={htmlSymbolsSpades.language}
@@ -1980,7 +1980,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsClubs.text}
               language={htmlSymbolsClubs.language}
@@ -2017,7 +2017,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsHearts.text}
               language={htmlSymbolsHearts.language}
@@ -2054,7 +2054,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsDiams.text}
               language={htmlSymbolsDiams.language}
@@ -2091,7 +2091,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsSung.text}
               language={htmlSymbolsSung.language}
@@ -2128,7 +2128,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsFlat.text}
               language={htmlSymbolsFlat.language}
@@ -2165,7 +2165,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsNatural.text}
               language={htmlSymbolsNatural.language}
@@ -2202,7 +2202,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsSharp.text}
               language={htmlSymbolsSharp.language}
@@ -2239,7 +2239,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsCheck.text}
               language={htmlSymbolsCheck.language}
@@ -2276,7 +2276,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsCross.text}
               language={htmlSymbolsCross.language}
@@ -2313,7 +2313,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsMalt.text}
               language={htmlSymbolsMalt.language}
@@ -2350,7 +2350,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className=" overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsSext.text}
               language={htmlSymbolsSext.language}
@@ -2387,7 +2387,7 @@ const HTMLSymbols = () => {
             <b>Code :</b>
           </p>
 
-          <div className="border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
+          <div className="overflow-auto border border-red-400 rounded-2xl w-full min-h-20 bg-[#fafafa] mb-4">
             <CopyBlock
               text={htmlSymbolsVertical.text}
               language={htmlSymbolsVertical.language}
