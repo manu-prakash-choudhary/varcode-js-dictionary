@@ -17,7 +17,8 @@ import HTMLVideo from "./components/Topics/HTMLVideo";
 import HTMLExamples from "./components/Topics/HTMLExamples";
 // import SVGElementCompleteReference from "./components/Topics/SVGElementCompleteReference";
 import SVGAttributeCompleteReference from "./components/Topics/SVGAttributeCompleteReference";
-
+import SVGPropertyCompleteReference from "./components/Topics/SVGPropertyCompleteReference";
+import HTMLCanvasCompleteReference from "./components/Topics/HTMLCanvasCompleteReference";
 
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
@@ -52,6 +53,8 @@ const App = () => {
           <Route path="/html-examples" element={<HTMLExamples />} />
           {/* <Route path="/svg-element-complete-reference" element={<SVGElementCompleteReference />} /> */}
           <Route path="/svg-attribute-complete-reference" element={<SVGAttributeCompleteReference />} />
+          <Route path="/svg-property-complete-reference" element={<SVGPropertyCompleteReference />} />
+          <Route path="/html-canvas-complete-reference" element={<HTMLCanvasCompleteReference />} />
         </Route>
       </Routes>
     </Router>

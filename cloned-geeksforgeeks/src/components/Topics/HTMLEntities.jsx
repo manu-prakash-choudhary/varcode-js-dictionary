@@ -68,172 +68,172 @@ const HTMLEntities = () => {
         </thead>
           <tbody>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}></td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>non-breaking space</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;nbsp;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#160;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}></td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>non-breaking space</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;nbsp;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#160;</td>
             </tr> 
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&lt;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Less than</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;lt;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#60;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&lt;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Less than</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;lt;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#60;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&gt;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Greater than</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;gt;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#62;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&gt;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Greater than</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;gt;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#62;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&reg;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Registered trademark</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;reg;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#174;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&reg;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Registered trademark</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;reg;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#174;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&euro;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Euro</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;euro;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8364;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&euro;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Euro</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;euro;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8364;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&yen;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Yen</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;yen;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#165;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&yen;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Yen</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;yen;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#165;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&pound;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Pound</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;pound;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#163;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&pound;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Pound</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;pound;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#163;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&cent;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Cent</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;cent</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#162;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&cent;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Cent</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;cent</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#162;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&part;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>PARTIAL DIFFERENTIAL</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;part;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8706;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&part;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>PARTIAL DIFFERENTIAL</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;part;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8706;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&exist;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>THREE EXISTS</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;exist;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8707;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&exist;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>THREE EXISTS</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;exist;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8707;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&empty;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>EMPTY SETS</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;empty;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8709;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&empty;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>EMPTY SETS</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;empty;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8709;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&nabla;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>NABLA</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;nabla;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8711;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&nabla;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>NABLA</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;nabla;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8711;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&isin;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>ELEMENT OF</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;isin;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8712;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&isin;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>ELEMENT OF</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;isin;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8712;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&notin;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>NOT AN ELEMENT OF</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;notin;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8713;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&notin;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>NOT AN ELEMENT OF</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;notin;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8713;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>+</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>PLUS SIGN</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;plus;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#43;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>+</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>PLUS SIGN</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;plus;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#43;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>∏</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>N-ARY PRODUCT</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;prod;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8719;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>∏</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>N-ARY PRODUCT</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;prod;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8719;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>∑</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>N-ARY SUMMATION</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;sum;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#8721;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>∑</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>N-ARY SUMMATION</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;sum;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#8721;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Α</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Alpha</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;Alpha;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#913;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Α</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Alpha</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;Alpha;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#913;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Β</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Beta</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;Beta;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#914;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Β</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Beta</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;Beta;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#914;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Γ</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Gamma</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;Gamma;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#915;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Γ</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Gamma</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;Gamma;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#915;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Δ</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Delta</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;Delta;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#916;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Δ</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Delta</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;Delta;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#916;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Ε</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Epsilon</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;Epsilon;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#917;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Ε</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Epsilon</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;Epsilon;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#917;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Ζ</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Zeta</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;Zeta;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#918;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Ζ</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Zeta</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;Zeta;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#918;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>♥</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>red HEART SUIT</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;hearts;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#9829;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>♥</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>red HEART SUIT</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;hearts;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#9829;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Ampersand</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;amp;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#38;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Ampersand</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;amp;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#38;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&quot;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Double quotation mark</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;quot;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#34;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&quot;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Double quotation mark</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;quot;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#34;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&#39;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Single quotation mark</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#39;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#39;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&#39;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Single quotation mark</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#39;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#39;</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&copy;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Copy</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;copy;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;#169;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&copy;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Copy</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;copy;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;#169;</td>
             </tr>
           </tbody>
         </table> 
@@ -349,20 +349,20 @@ const HTMLEntities = () => {
         {/* Table Body */}
         <tbody>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;amp;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;amp;</td>
           </tr>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&lt;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;lt;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&lt;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;lt;</td>
           </tr>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&gt;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;gt;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&gt;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;gt;</td>
           </tr>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&quot;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;quot;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&quot;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;quot;</td>
           </tr>
         </tbody>
       </table>
@@ -399,20 +399,20 @@ const HTMLEntities = () => {
         {/* Table Body */}
         <tbody>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&ge;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;GreaterEqual;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&ge;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;GreaterEqual;</td>
           </tr>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&copy;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;copy;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&copy;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;copy;</td>
           </tr>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&euro;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;euro;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&euro;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;euro;</td>
           </tr>
           <tr>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&exist;</td>
-            <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>&amp;exist;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&exist;</td>
+             <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>&amp;exist;</td>
           </tr>
         </tbody>
       </table>
@@ -481,53 +481,53 @@ const HTMLEntities = () => {
         </thead>
           <tbody>
           <tr>
-          <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>`</td>
-          <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a</td>
-          <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a&amp;#768;</td>
-          <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>à</td>
+           <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>`</td>
+           <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a</td>
+           <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a&amp;#768;</td>
+           <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>à</td>
 
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>́ </td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a&amp;#769;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>á</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>́ </td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a&amp;#769;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>á</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>̂ </td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a&amp;#770;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>â</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>̂ </td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a&amp;#770;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>â</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>~</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>a&amp;#771;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>ã</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>~</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>a&amp;#771;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>ã</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>`</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>O</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>o&amp;#768;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Ò</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>`</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>O</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>o&amp;#768;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Ò</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>́ </td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>O</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>o&amp;#769;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Ó</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>́ </td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>O</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>o&amp;#769;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Ó</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>̂ </td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>O</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>o&amp;#770;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Ô</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>̂ </td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>O</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>o&amp;#770;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Ô</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>~</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>O</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>o&amp;#771;</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>Õ</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>~</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>O</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>o&amp;#771;</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>Õ</td>
             </tr>
           </tbody>
         </table>
