@@ -43,7 +43,7 @@ const HTMLCodeElements = () => {
                 <p> <span className='text-xl font-semibold'>Example :</span>
                     The <code>&lt;code&gt;</code> tag displays a&nbsp;<span className='text-xl font-semibold'>C program within a <code>&lt;pre&gt;</code> tag,</span> preserving whitespace and formatting. The C program includes the stdio.h library and a main function that prints “Hello Geeks”.
                 </p>
-                <div className="border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlCode1.text}
                         language={htmlCode1.language}
@@ -54,7 +54,7 @@ const HTMLCodeElements = () => {
             </div>
             <p className='text-2xl font-semibold mt-4'>Output :</p>
             <div className='flex justify-center flex-col'>
-                <img src="https://media.geeksforgeeks.org/wp-content/uploads/code1-1.png" alt="table border" className='w-[40%] h-[12rem] ml-[29%] hover:cursor-zoom-in' />
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/code1-1.png" alt="table border" className='lg:w-[40%] lg:h-[12rem] lg:ml-[29%] ml-[15%] hover:cursor-zoom-in' />
                 <p className='text-center text-gray-500 italic text-sm'>HTML List</p>
             </div>
 
@@ -76,7 +76,7 @@ const HTMLCodeElements = () => {
                     To demonstrate the implementation of the <code>&lt;kbd&gt;</code> Tag. The <code>&lt;kbd&gt;</code> tag displays keyboard keys "
                     <kbd>Alt</kbd>", "+", and "<kbd>Tab</kbd>" within the styled text.
                 </p>
-                <div className="border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlCode2.text}
                         language={htmlCode2.language}
@@ -86,7 +86,7 @@ const HTMLCodeElements = () => {
                 </div>
                 <p className='text-2xl font-semibold mt-4'>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240529105456/Elements.png" alt="table border" className='w-[80%] h-[5rem] ml-[5%] hover:cursor-zoom-in' />
+                    <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240529105456/Elements.png" alt="table border" className='lg:w-[80%] lg:h-[5rem] lg:ml-[5%] ml-[15%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 italic text-sm'>HTML List</p>
                 </div>
             </div>
@@ -108,7 +108,7 @@ const HTMLCodeElements = () => {
                 <p>
                     To demonstrate implementing the <span className='font-semibold'>&lt;pre&gt;</span> Tag in the HTML computer code elements.
                 </p>
-                <div className="border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlCode3.text}
                         language={htmlCode3.language}
@@ -136,7 +136,7 @@ const HTMLCodeElements = () => {
                 <p>
                     To demonstrate implementing the <span className='font-semibold'>&lt;pre&gt;</span> Tag in the HTML computer code elements.
                 </p>
-                <div className="border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlCode4.text}
                         language={htmlCode4.language}
@@ -162,7 +162,7 @@ const HTMLCodeElements = () => {
                 <p>
                     To demonstrate implementing the <span className='font-semibold'>&lt;var&gt;</span> Tag in the HTML computer code elements.
                 </p>
-                <div className="border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 rounded-2xl p-2 mt-3 w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlCode5.text}
                         language={htmlCode5.language}
@@ -175,7 +175,7 @@ const HTMLCodeElements = () => {
             <div className='mt-6'>
                 <div className="text-2xl text-red-600 font-semibold mb-4">Quick Summary:</div>
 
-                <table className="w-[60%] text-left border-collapse border border-gray-300 mb-8">
+                <table className="lg:w-[60%] w-[99%] text-left border-collapse border border-gray-300 mb-8">
                     <thead>
                         <tr>
                             <th className="border w-[10%] border-gray-300 px-4 py-5">Tag</th>
@@ -215,8 +215,8 @@ const HTMLCodeElements = () => {
                     <li>Safari</li>
                 </ul>
             </div>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

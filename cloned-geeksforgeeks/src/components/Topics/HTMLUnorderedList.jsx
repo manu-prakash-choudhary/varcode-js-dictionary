@@ -31,7 +31,7 @@ const HTMLUnorderedList = () => {
       <h2 className="text-2xl font-semibold mt-6 text-red-600">HTML Unordered Lists Examples</h2>
       <p className="mt-2">Below are some examples showing the use of HTML Unordered lists.</p>
       <h3 className="font-bold mt-4">Example 1:</h3>
-      <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlUnorderedListEx1.text}
           language={htmlUnorderedListEx1.language}
@@ -42,7 +42,7 @@ const HTMLUnorderedList = () => {
 
       <p className=' text-xl font-semibold mt-3'>Output :</p>
       <div className='flex justify-center flex-col'>
-        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240314175256/HTML-Unordered-Lists.png" alt="table border" className='w-[30%] h-[15rem] ml-[39%] hover:cursor-zoom-in' />
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240314175256/HTML-Unordered-Lists.png" alt="table border" className='lg:w-[30%] lg:h-[15rem] lg:ml-[39%] ml-[15%] hover:cursor-zoom-in' />
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
@@ -51,7 +51,7 @@ const HTMLUnorderedList = () => {
         <p className="mt-2">Below are some examples showing the use of HTML Unordered lists.</p>
         <p className="font-semibold mt-4">Example 1:</p>
         <p className="text-2xl font-semibold mt-4 text-red-600">Unordered Lists Style Types</p>
-        <table className="w-[50%] ml-[20%] border-collapse border border-gray-300 mt-4">
+        <table className="lg:w-[50%] w-full ml-[1%] lg:ml-[20%] border-collapse border border-gray-300 mt-4">
           <thead>
             <tr className="bg-gray-100">
               <th className="border border-gray-300 px-2 py-4 font-semibold">Values</th>
@@ -82,7 +82,7 @@ const HTMLUnorderedList = () => {
           Implementation of <span className='font-medium'>list style type to square</span> in unordered lists.
         </p>
 
-        <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+        <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
           <CopyBlock
             text={htmlUnorderedListEx2.text}
             language={htmlUnorderedListEx2.language}
@@ -92,7 +92,7 @@ const HTMLUnorderedList = () => {
         </div>
         <p className=' text-xl font-semibold mt-3'>Output :</p>
         <div className='flex justify-center flex-col'>
-          <img src="./SquareUnorder.jpg" alt="table border" className='w-[40%] h-[15rem] ml-[39%] hover:cursor-zoom-in' />
+          <img src="./SquareUnorder.jpg" alt="table border" className='lg:w-[40%] lg:h-[15rem] lg:ml-[39%] ml-[15%] hover:cursor-zoom-in' />
           <p className='text-center text-gray-500 italic text-sm'>Output</p>
         </div>
       </div>
@@ -102,7 +102,7 @@ const HTMLUnorderedList = () => {
         Implementation of <span className='font-medium'>list style type to Circle</span> in unordered lists.
       </p>
 
-      <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlUnorderedListEx3.text}
           language={htmlUnorderedListEx3.language}
@@ -112,7 +112,7 @@ const HTMLUnorderedList = () => {
       </div>
       <p className=' text-xl font-semibold mt-1'>Output :</p>
       <div className='flex justify-center flex-col'>
-        <img src="./CircleUnorder.jpg" alt="table border" className='w-[50%] h-[15rem] ml-[39%] hover:cursor-zoom-in' />
+        <img src="./CircleUnorder.jpg" alt="table border" className='lg:w-[50%] lg:h-[15rem] lg:ml-[39%] ml-[15%] hover:cursor-zoom-in' />
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
@@ -121,7 +121,7 @@ const HTMLUnorderedList = () => {
         Implementation of <span className='font-medium'>list style type to None</span> in unordered lists.
       </p>
 
-      <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlUnorderedListEx4.text}
           language={htmlUnorderedListEx4.language}
@@ -131,7 +131,7 @@ const HTMLUnorderedList = () => {
       </div>
       <p className=' text-xl font-semibold mt-3'>Output :</p>
       <div className='flex justify-center flex-col'>
-        <img src="./NoneUnorder.jpg" alt="table border" className='w-[50%] h-[15rem] ml-[39%] hover:cursor-zoom-in' />
+        <img src="./NoneUnorder.jpg" alt="table border" className='lg:w-[50%] lg:h-[15rem] lg:ml-[39%] ml-[15%] hover:cursor-zoom-in' />
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
@@ -140,7 +140,7 @@ const HTMLUnorderedList = () => {
         An Unordered List can be nested, i.e., the list can be defined inside of another list.
       </p>
       <p className="font-semibold mt-4">Example:</p>
-      <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlNestedUnorderedList.text}
           language={htmlNestedUnorderedList.language}
@@ -150,7 +150,7 @@ const HTMLUnorderedList = () => {
       </div>
       <p className=' text-xl font-semibold mt-3'>Output :</p>
       <div className='flex justify-center flex-col'>
-        <img src="./NestedUnorder.jpg" alt="table border" className='w-[40%] h-[25rem] ml-[39%] hover:cursor-zoom-in' />
+        <img src="./NestedUnorder.jpg" alt="table border" className='lg:w-[40%] lg:h-[25rem] lg:ml-[39%] ml-[15%] hover:cursor-zoom-in' />
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
@@ -159,7 +159,7 @@ const HTMLUnorderedList = () => {
         An Unordered list can also be aligned in the Horizontal manner, which acts similar to the Nav bar.
       </p>
       <p className="font-semibold mt-4">Example: <span className='font-normal'>Implementation of Unordered List horizontally.</span></p>
-      <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlHorizontalUnorderedList.text}
           language={htmlHorizontalUnorderedList.language}
@@ -168,8 +168,8 @@ const HTMLUnorderedList = () => {
         />
       </div>
       <p className=' text-xl font-semibold mt-3'>Output :</p>
-      <div className='flex justify-center flex-col'>
-        <img src="./HorizontalList.jpg" alt="table border" className='w-full h-[8rem]  hover:cursor-zoom-in' />
+      <div className='flex justify-center flex-col '>
+        <img src="./HorizontalList.jpg" alt="table border" className='lg:w-full lg:h-[8rem] h-[2rem]   hover:cursor-zoom-in' />
         <p className='text-center text-gray-500 italic text-sm'>Output</p>
       </div>
 
@@ -188,8 +188,8 @@ const HTMLUnorderedList = () => {
           <span className='font-semibold'>Content Breakdown:</span> Breaking down complex content into bullet points to improve comprehension.
         </li>
       </ul>
-      <div className="min-h-20 mt-5  w-full">
-        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+      <div className="min-h-20 mt-5 w-full  ">
+        <div className="flex justify-between items-center ml-5 pb-0 pt-0">
           <div></div>
           <div>
             <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

@@ -43,7 +43,7 @@ const HTMLDescriptionList = () => {
       <p className="text-lg">
         In this example, we demonstrate a description list with terms and their descriptions.
       </p>
-      <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlDescriptionListEx1.text}
           language={htmlDescriptionListEx1.language}
@@ -57,7 +57,7 @@ const HTMLDescriptionList = () => {
         A nested description list is when we add a description list inside another description list. This allows for organizing related terms and their definitions in a hierarchical structure, as demonstrated in the example:
       </p>
       <p className="text-lg font-semibold mb-3 mt-3">Example 2:</p>
-      <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlDescriptionListEx2.text}
           language={htmlDescriptionListEx2.language}
@@ -75,8 +75,8 @@ const HTMLDescriptionList = () => {
         <li>Technical specifications</li>
         <li>Any content where terms need definitions</li>
       </ul>
-      <div className="min-h-20 mt-5  w-full">
-        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+      <div className="min-h-20 mt-5 w-full  ">
+        <div className="flex justify-between items-center ml-5 pb-0 pt-0">
           <div></div>
           <div>
             <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

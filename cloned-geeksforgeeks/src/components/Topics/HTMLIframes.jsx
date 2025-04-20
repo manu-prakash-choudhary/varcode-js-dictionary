@@ -56,7 +56,7 @@ const HTMLIframes = () => {
             <p>
                 In this example, an iframe is used to display another webpage within the current webpage.
             </p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlIframeEx1.text}
                     language={htmlIframeEx1.language}
@@ -139,7 +139,7 @@ const HTMLIframes = () => {
             <p className="mb-4">
                 The height and width attributes are used to specify the size of the iframe. The attribute values are specified in pixels by default. You can use pixels or percentages (e.g., &ldquo;80%&rdquo;).
             </p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlIframeEx2.text}
                     language={htmlIframeEx2.language}
@@ -151,7 +151,7 @@ const HTMLIframes = () => {
             <div className="font-semibold text-xl mb-4 mt-4 text-red-600">Example 3: Removing Borders from Iframe</div>
             <p className="mb-4">
                 By default, iframe has a border around it. To remove the border, we must use the style attribute and use the <Link to={'/'} className='underline text-red-500'>CSS border property</Link>.</p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlIframeEx3.text}
                     language={htmlIframeEx3.language}
@@ -164,7 +164,7 @@ const HTMLIframes = () => {
             <p className="mb-4">
                 You can change the size, style, and color of the iframe border using CSS.
             </p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlIframeEx4.text}
                     language={htmlIframeEx4.language}
@@ -177,7 +177,7 @@ const HTMLIframes = () => {
             <p className="mb-4">
                 You can target an iframe with links by using the name attribute of the iframe and the target attribute of the link.
             </p>
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlIframeEx5.text}
                     language={htmlIframeEx5.language}
@@ -213,8 +213,8 @@ const HTMLIframes = () => {
                 <li><Link className=' text-red-500'>Opera</Link></li>
                 <li><Link className=' text-red-500'>Safari</Link></li>
             </ul>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

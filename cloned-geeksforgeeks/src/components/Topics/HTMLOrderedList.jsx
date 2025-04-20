@@ -30,7 +30,7 @@ const HTMLOrderedList = () => {
             </pre>
 
             <p className="text-2xl font-semibold mt-4 text-red-600 mb-2">Example – Creating a Basic Ordered List</p>
-            <div className="border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-2 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlBasicOrderedList.text}
                     language={htmlBasicOrderedList.language}
@@ -74,7 +74,7 @@ const HTMLOrderedList = () => {
                 To create an ordered list in HTML with numerical markers, which is the default behavior for ordered lists,
                 you simply use the &lt;ol&gt; (ordered list) tag without specifying a type attribute.
             </p>
-            <div className="border border-red-400 p-2 text-[1rem] mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlNumberOrderedList.text}
                     language={htmlNumberOrderedList.language}
@@ -88,7 +88,7 @@ const HTMLOrderedList = () => {
                 To create an ordered list in HTML that uses uppercase letters for the list markers, you can use the type attribute on the  &lt;ol&gt;tag and set it to "A".
             </p>
             <p className='text-2xl font-semibold mt-3'>Example :</p>
-            <div className="border border-red-400 p-2 text-[1rem] mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlUpperLetterOrderedList.text}
                     language={htmlUpperLetterOrderedList.language}
@@ -102,7 +102,7 @@ const HTMLOrderedList = () => {
                 To create an ordered list in HTML that uses lowercase letters for the list markers, you can use the type attribute on the &lt;ol&gt;tag and set it to "a".
             </p>
             <p className='text-2xl font-semibold mt-3'>Example :</p>
-            <div className="border border-red-400 p-2 text-[1rem] mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 p-2 text-[1rem] mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlLowerLetterOrderedList.text}
                     language={htmlLowerLetterOrderedList.language}
@@ -117,7 +117,7 @@ const HTMLOrderedList = () => {
                     To create an ordered list in HTML with uppercase Roman numerals as the markers, you can use the type attribute on the  &lt;ol&gt;tag and set it to "I".
                 </p>
                 <p className='text-2xl font-semibold mt-3'>Example :</p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlUpperRomanOrderedList.text}
                         language={htmlUpperRomanOrderedList.language}
@@ -133,7 +133,7 @@ const HTMLOrderedList = () => {
                     To create an ordered list in HTML with lowercase Roman numerals as the markers, you can use the type attribute on the &lt;ol&gt;tag and set it to "i".
                 </p>
                 <p className='text-2xl font-semibold mt-3'>Example :</p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlLowerRomanOrderedList.text}
                         language={htmlLowerRomanOrderedList.language}
@@ -150,7 +150,7 @@ const HTMLOrderedList = () => {
                 </p>
 
                 <p className="font-bold mt-4">Example:</p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlReverseOrderedList.text}
                         language={htmlReverseOrderedList.language}
@@ -169,7 +169,7 @@ const HTMLOrderedList = () => {
                 <p className='mt-3'> <span className="font-semibold mt-2">Example: </span>
                     In this example we showcase an ordered list starting from the number 5, controlled by the “start” attribute within the &lt;ol&gt; tag, customizing list counting.
                 </p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlControlList.text}
                         language={htmlControlList.language}
@@ -189,7 +189,7 @@ const HTMLOrderedList = () => {
                 <p>
                     In this example we are creating a nested ordered list, listing programming languages with their respective frameworks as subitems.
                 </p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlNestedOrderedList.text}
                         language={htmlNestedOrderedList.language}
@@ -198,8 +198,8 @@ const HTMLOrderedList = () => {
                     />
                 </div>
             </div>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

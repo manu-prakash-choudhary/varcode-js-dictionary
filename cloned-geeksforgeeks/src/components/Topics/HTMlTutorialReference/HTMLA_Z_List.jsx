@@ -639,7 +639,7 @@ const HTMLA_Z_List = () => {
 
       <h2 className="text-2xl text-red-600 font-semibold mt-6 mb-2">Basic HTML Tag Example</h2>
       <p className="mb-4">Let's see a basic example using the HTML tags.</p>
-      <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+      <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
         <CopyBlock
           text={htmlTutorialReference.text}
           language={htmlTutorialReference.language}
@@ -652,38 +652,50 @@ const HTMLA_Z_List = () => {
       <div className="mb-4">
         Let us see the extensive list of HTML tags, from A to Z. Whether you are just starting out or need a quick reference, this list has you covered.
       </div>
-      <table className="w-[80%]">
-        <thead>
-          <tr>
-            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Tags</th>
-            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[60%]">Description</th>
-            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Syntax</th>
-            <th className="px-2 py-5 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">Example</th>
-          </tr>
-        </thead>
-        <tbody className="w-full">
-          {tagsData.map((tag, index) => (
-            <tr key={index}>
-              <td className="px-5 border border-gray-400 py-4 whitespace-nowrap">
-                <div className="text-red-500 font-medium hover:underline">
-                  <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
-                </div>
-              </td>
-              <td className="px-2 border border-gray-400 py-4">
-                <div className="text-gray-500">{tag.description}</div>
-              </td>
-              <td className="px-2 border border-gray-400 py-4 break-words">  {/* Added break-words here */}
-                <div className="text-gray-500">{tag.syntax}</div>
-              </td>
-              <td className="px-4 border border-gray-400 py-4 whitespace-nowrap">
-                <button className="bg-gray-200 hover:bg-red-400 underline text-gray-800 font-bold py-2 px-4 rounded">
-                  <Link to={'/'}>Try</Link>
-                </button>
-              </td>
+      <div className="overflow-x-auto w-full mt-6">
+        <table className="min-w-[800px] w-full border-collapse border border-gray-400">
+          <thead>
+            <tr>
+              <th className="px-2 py-4 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">
+                Tags
+              </th>
+              <th className="px-2 py-4 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[60%]">
+                Description
+              </th>
+              <th className="px-2 py-4 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">
+                Syntax
+              </th>
+              {/* <th className="px-2 py-4 bg-gray-200 text-left border border-gray-400 font-medium text-gray-900 uppercase tracking-wider w-[15%]">
+                Example
+              </th> */}
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {tagsData.map((tag, index) => (
+              <tr key={index} className="even:bg-gray-50">
+                <td className="px-4 border border-gray-400 py-3 whitespace-nowrap">
+                  <div className="text-red-500 font-medium hover:underline">
+                    <Link to={`/tag/${tag.tag}`}>{tag.tag}</Link>
+                  </div>
+                </td>
+                <td className="px-4 border border-gray-400 py-3">
+                  <div className="text-gray-600 text-base">{tag.description}</div>
+                </td>
+                <td className="px-4 border border-gray-400 py-3 break-words">
+                  <div className="text-gray-600 text-base">{tag.syntax}</div>
+                </td>
+                {/* <td className="px-4 border border-gray-400 py-3 whitespace-nowrap">
+                  <Link to={'/'}>
+                    <button className="bg-gray-200 hover:bg-red-400 underline text-gray-800 font-bold py-1 px-3 rounded">
+                      Try
+                    </button>
+                  </Link>
+                </td> */}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
 
       <div className="text-2xl text-red-600 mt-4 font-semibold mb-3">Conclusion</div>
       <p className="mb-6">
@@ -699,8 +711,8 @@ const HTMLA_Z_List = () => {
       <p>
         HTML is the foundation of webpages, is used for webpage development by structuring websites and web apps. You can learn HTML from the ground up by following this <a href="YOUR_LINK_HERE" className="text-red-500 underline">HTML Tutorial</a> and <a href="YOUR_LINK_HERE" className="text-red-500 underline">HTML Examples</a>.
       </p>
-      <div className="min-h-20 mt-5  w-full">
-        <div className="flex justify-between items-center p-20 pb-0 pt-0">
+      <div className="min-h-20 mt-5 w-full  ">
+        <div className="flex justify-between items-center ml-5 pb-0 pt-0">
           <div></div>
           <div>
             <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

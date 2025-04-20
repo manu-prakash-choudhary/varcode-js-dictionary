@@ -60,7 +60,7 @@ const Sidebar = () => {
     return (
       <button
         onClick={toggleSidebar}
-        className="fixed top-4 left-4 z-50 w-12 h-10 bg-red-600 text-white rounded-md shadow-lg flex items-center justify-center"
+        className="fixed top-4 left-4 mt-[-7px] z-50 w-12 h-10 bg-red-600 text-white rounded-md shadow-lg flex items-center justify-center"
         aria-label="Open sidebar"
         data-sidebar-toggle
       >
@@ -100,7 +100,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-      <div className="h-[calc(100vh-50px)] overflow-y-auto custom-scrollbar p-1">
+      <div className="lg:h-[calc(100vh-150px)] h-[calc(100vh-70px)] overflow-y-auto custom-scrollbar p-1">
         <ul className="space-y-2 w-full hover:cursor-pointer">
           {htmlTopics && htmlTopics.length > 0 ? (
             htmlTopics.map((topic, index) => (

@@ -38,7 +38,7 @@ const HTMLList = () => {
 
             <h2 className="text-2xl font-semibold text-red-600 mt-6">Basic Example of HTML Lists</h2>
 
-            <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+            <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                 <CopyBlock
                     text={htmlLists.text}
                     language={htmlLists.language}
@@ -48,8 +48,8 @@ const HTMLList = () => {
             </div>
 
             <p className='text-xl font-semibold mt-2 '>Output :</p>
-            <div className='flex justify-center flex-col'>
-                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210909161745/3.jpg" alt="table border" className='w-[40%] h-[22rem] ml-[29%] hover:cursor-zoom-in' />
+            <div className='flex justify-center flex-col mt-2'>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210909161745/3.jpg" alt="table border" className='lg:w-[40%] lg:h-[22rem] lg:ml-[29%] ml-[5%] h:[5rem] hover:cursor-zoom-in' />
                 <p className='text-center text-gray-500 italic text-sm'>HTML List</p>
             </div>
 
@@ -118,7 +118,7 @@ const HTMLList = () => {
 
                 <p className="font-bold mt-4 mb-4 ">Example:</p>
                 <p>This example describes the unordered list.</p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlUnorderedLists.text}
                         language={htmlUnorderedLists.language}
@@ -165,7 +165,7 @@ const HTMLList = () => {
 
                 <p className="font-bold mt-5 mb-5">Example:</p>
                 <p>This example describes the ordered list with the use of reverse, type, and start attribute.</p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlOrderedLists.text}
                         language={htmlOrderedLists.language}
@@ -175,7 +175,7 @@ const HTMLList = () => {
                 </div>
                 <p className=' text-xl font-semibold mt-3 '>Output :</p>
                 <div className='flex justify-center flex-col'>
-                    <img src="./htmlOrderedList.jpg" alt="table border" className='w-[30%] h-[20rem] ml-[39%] hover:cursor-zoom-in' />
+                    <img src="./htmlOrderedList.jpg" alt="table border" className='lg:w-[30%] lg:h-[20rem] lg:ml-[39%] ml-[25%] hover:cursor-zoom-in' />
                     <p className='text-center text-gray-500 italic text-sm'>Ordered List with different list style</p>
                 </div>
             </div>
@@ -205,7 +205,7 @@ const HTMLList = () => {
 
                 <p className="font-bold mt-4 ">Example:</p>
                 <p>This example describes the HTML Description List.</p>
-                <div className="border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
+                <div className="overflow-auto border border-red-400 text-[1rem] p-2 mt-3 rounded-2xl w-full min-h-40 bg-[#fafafa] ">
                     <CopyBlock
                         text={htmlDescriptionLists.text}
                         language={htmlDescriptionLists.language}
@@ -231,8 +231,8 @@ const HTMLList = () => {
                     <span className="font-semibold text-xl">Accessibility:</span> Make sure your lists are accessible. Properly structured lists help screen readers interpret the content accurately, enhancing the accessibility of your website.
                 </li>
             </ul>
-            <div className="min-h-20 mt-5  w-full">
-                <div className="flex justify-between items-center p-20 pb-0 pt-0">
+            <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
                     <div></div>
                     <div>
                         <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">

@@ -56,9 +56,9 @@ const htmlTopics = [
       { title: "HTML Canvas Complete Reference", link: "/html-canvas-complete-reference" },
     ]
   },
-  {
-    title: "HTML Exercises, Practice Questions and Solutions",
-    link: "/html-exercises",
-  },
+  // {
+  //   title: "HTML Exercises, Practice Questions and Solutions",
+  //   link: "/html-exercises",
+  // },
 ];
 export default htmlTopics;
