@@ -10,6 +10,8 @@ import video6 from "../Bhanu/assets/6.mp4"
 import video7 from "../Bhanu/assets/7.mp4"
 import video8 from "../Bhanu/assets/8.mp4"
 import video9 from "../Bhanu/assets/9.mp4"
+import { FaAngleRight } from 'react-icons/fa';
+
 
 const HTMLResponsiveWebDesign = () => {
   return (
@@ -77,7 +79,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#html-viewport"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               1. HTML Viewport meta tag for Responsive Web Design
             </a>
@@ -85,7 +87,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-images"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               2. Responsive Images
             </a>
@@ -93,7 +95,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-texts"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               3. Responsive Texts
             </a>
@@ -102,7 +104,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-media-queries"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               4. CSS media Queries
             </a>
@@ -111,7 +113,7 @@ const HTMLResponsiveWebDesign = () => {
           <li>
             <a
               href="#responsive-layouts"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "red" }}
             >
               5. Responsive Layouts
             </a>
@@ -130,7 +132,7 @@ const HTMLResponsiveWebDesign = () => {
           </span>
           <a
             href="#html-viewport"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">HTML Viewport</span>
           </a>
@@ -217,7 +219,7 @@ const HTMLResponsiveWebDesign = () => {
         </div>
         <p><b className="text-lg font-bold text-red-500">Output :</b></p>
         <div>
-        <video src="../3.mp4" controls="" preload="none"></video>
+        <video src={video3.mp4} controls="" preload="none"></video>
         </div>
         <div>
           <p className="text-lg font-bold text-red-500 pt-4 pb-4">2.3 Responsive Image for different Browser Width</p>
@@ -261,7 +263,7 @@ const HTMLResponsiveWebDesign = () => {
           </span>
           <a
             href="#media-query"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">Media query in CSS</span>
           </a>
@@ -315,7 +317,7 @@ const HTMLResponsiveWebDesign = () => {
           In this approach, we will use&nbsp;
           <a
             href="#CSS-Display-Property"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">CSS display property</span>
           </a>
@@ -356,7 +358,7 @@ const HTMLResponsiveWebDesign = () => {
           This approach uses a &nbsp;
           <a
             href="#CSS-Display-grid"
-            style={{ textDecoration: "underline", color: "#0f3d2f" }}
+            style={{  color: "#0f3d2f" }}
           >
             <span className="hover:text-red-600 pointer text-blue-700">CSS display grid</span>
           </a>
@@ -426,6 +428,17 @@ const HTMLResponsiveWebDesign = () => {
           <p className="pb-4">HTML Responsive Web Design allows websites to adapt to various screen sizes, ensuring a seamless user experience across devices. By using HTML and responsive techniques, designers and developers can create websites that look great whether viewed on a desktop or a smartphone.</p>
           <p>This flexibility enhances accessibility and usability, making browsing a breeze for all users. In essence, HTML Responsive Web Design is important for ensuring that websites remain functional and visually appealing regardless of the device being used.</p>
         </div>
+        <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
   );
 };

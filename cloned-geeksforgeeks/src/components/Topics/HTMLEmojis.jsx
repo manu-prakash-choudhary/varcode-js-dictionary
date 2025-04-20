@@ -1,6 +1,7 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
 import { htmlEmojis, htmlEmojisExample1, htmlEmojisExample2, htmlEmojisExample3 } from "../../utils/CodeBlocks";
+import { FaAngleRight } from 'react-icons/fa';
 
 
 
@@ -75,19 +76,19 @@ const HTMLEmojis = () => {
         </thead>
           <tbody>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>😄</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>128516</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>1F604</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>😄</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>128516</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>1F604</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>✌</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>9996</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>270C</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>✌</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>9996</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>270C</td>
             </tr>
             <tr>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>⌚</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>128350</td>
-              <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>1F55E</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>⌚</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>128350</td>
+               <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>1F55E</td>
             </tr>
           </tbody>
           </table>
@@ -182,42 +183,53 @@ const HTMLEmojis = () => {
           </thead>
             <tbody>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji Food Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>🍕 🍔 🌮 🍩 🍎</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji Food Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>🍕 🍔 🌮 🍩 🍎</td>
               </tr>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji Transport Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>🚗 ✈️ 🚂 🚲 🚢</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji Transport Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>🚗 ✈️ 🚂 🚲 🚢</td>
               </tr>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji Plant Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>🌵 🌻 🌲 🌼 🌱</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji Plant Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>🌵 🌻 🌲 🌼 🌱</td>
               </tr>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji Office Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>🖥️ 📠 🖋️ 📅 📋</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji Office Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>🖥️ 📠 🖋️ 📅 📋</td>
               </tr>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji People Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>👨‍💻 👩‍⚕️ 🧑‍🎓 👨‍🏫 👩‍🚀</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji People Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>👨‍💻 👩‍⚕️ 🧑‍🎓 👨‍🏫 👩‍🚀</td>
               </tr>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji Animals Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>🐱 🐶 🦁 🐘 🐸</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji Animals Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>🐱 🐶 🦁 🐘 🐸</td>
               </tr>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji Places Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>🏙️ 🏖️ 🏞️ 🏰 🗽</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji Places Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>🏙️ 🏖️ 🏞️ 🏰 🗽</td>
               </tr>
               <tr>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>HTML Emoji Face Symbols</td>
-                <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center" }}>🐱 🐶 🦁 🐘 🐸</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>HTML Emoji Face Symbols</td>
+                 <td style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", overflow: "auto" }}>🐱 🐶 🦁 🐘 🐸</td>
               </tr>
               </tbody>
             </table>
         </div>
         </div>
     </div>
+    <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
   );
 };

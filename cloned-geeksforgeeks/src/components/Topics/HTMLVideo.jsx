@@ -5,6 +5,8 @@ import {
   htmlVideoExample2,
   htmlVideoExample3,
 } from "../../utils/CodeBlocks";
+import { FaAngleRight } from 'react-icons/fa';
+
 
 const HTMLVideo = () => {
   return (
@@ -22,7 +24,7 @@ const HTMLVideo = () => {
         </span>
         <a
           href="#html5"
-          style={{ textDecoration: "underline", color: "#0f3d2f" }}
+          style={{  color: "#0f3d2f" }}
         >
           <span className="hover:text-red-600 pointer text-blue-700">
             HTML5
@@ -51,7 +53,7 @@ const HTMLVideo = () => {
               <span>The </span>
               <a
                 href="#src-attribute"
-                style={{ textDecoration: "underline", color: "red" }}
+                style={{  color: "red" }}
               >
                 src attribute
               </a>
@@ -63,7 +65,7 @@ const HTMLVideo = () => {
               <span>The </span>
               <a
                 href="#controls-attribute"
-                style={{ textDecoration: "underline", color: "red" }}
+                style={{  color: "red" }}
               >
                 controls attribute
               </a>
@@ -413,7 +415,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -435,7 +437,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -457,7 +459,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -479,7 +481,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -501,7 +503,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -524,7 +526,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -547,7 +549,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -569,7 +571,7 @@ const HTMLVideo = () => {
                     padding: "10px",
                     border: "1px solid #ddd",
                     textAlign: "center",
-                    textDecoration: "underline",
+                    
                     color: "red",
                   }}
                 >
@@ -610,7 +612,7 @@ const HTMLVideo = () => {
           </li>
           <li>
             The{" "}
-            <span className="text-blue-500 underline hover:text-red-500 pointer">
+            <span className="text-blue-500  hover:text-red-500 pointer">
               poster attribute
             </span>
             &nbsp;, displays a placeholder image before the video loads or
@@ -637,11 +639,11 @@ const HTMLVideo = () => {
           </li>
           <li>
             The{" "}
-            <span className="text-blue-500 underline hover:text-red-500">
+            <span className="text-blue-500  hover:text-red-500">
               autoplay
             </span>
             , loop, and{" "}
-            <span className="text-blue-500 underline hover:text-red-500">
+            <span className="text-blue-500  hover:text-red-500">
               muted
             </span>{" "}
             attributes ensure the video plays automatically, repeats
@@ -676,6 +678,17 @@ const HTMLVideo = () => {
           </li>
         </ul>
       </div>
+      <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
   );
 };

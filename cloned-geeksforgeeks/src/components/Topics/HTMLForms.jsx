@@ -1,6 +1,8 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
 import { htmlFormsExample1, htmlFormsExample2 } from "../../utils/CodeBlocks";
+import { FaAngleRight } from 'react-icons/fa';
+
 
 const HTMLForms = () => {
   return (
@@ -30,7 +32,7 @@ const HTMLForms = () => {
           <li>
             <a
               href="#form-elements"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               Form Elements
             </a>
@@ -38,7 +40,7 @@ const HTMLForms = () => {
           <li>
             <a
               href="#input-types"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               Commonly Used Input Types in HTML Forms
             </a>
@@ -46,7 +48,7 @@ const HTMLForms = () => {
           <li>
             <a
               href="#html-forms-example"
-              style={{ textDecoration: "underline", color: "red" }}
+              style={{ color: "black" }}
             >
               HTML Forms Example
             </a>
@@ -54,7 +56,7 @@ const HTMLForms = () => {
               <li>
                 <a
                   href="#basic-forms"
-                  style={{ textDecoration: "underline", color: "red" }}
+                  style={{ color: "black" }}
                 >
                   Basic HTML Forms
                 </a>
@@ -62,7 +64,7 @@ const HTMLForms = () => {
               <li>
                 <a
                   href="#advanced-forms"
-                  style={{ textDecoration: "underline", color: "red" }}
+                  style={{ color: "black" }}
                 >
                   Advance HTML Forms
                 </a>
@@ -130,7 +132,7 @@ const HTMLForms = () => {
             <tbody>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;label&gt;
                   </a>
                 </td>
@@ -140,7 +142,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input&gt;
                   </a>
                 </td>
@@ -151,7 +153,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;button&gt;
                   </a>
                 </td>
@@ -162,7 +164,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;select&gt;
                   </a>
                 </td>
@@ -172,7 +174,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;textarea&gt;
                   </a>
                 </td>
@@ -182,7 +184,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;fieldset&gt;
                   </a>
                 </td>
@@ -193,7 +195,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;legend&gt;
                   </a>
                 </td>
@@ -203,7 +205,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;datalist&gt;
                   </a>
                 </td>
@@ -214,7 +216,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;output&gt;
                   </a>
                 </td>
@@ -224,7 +226,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;option&gt;
                   </a>
                 </td>
@@ -234,7 +236,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;optgroup&gt;
                   </a>
                 </td>
@@ -290,7 +292,7 @@ const HTMLForms = () => {
             <tbody>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”text”&gt;
                   </a>
                 </td>
@@ -300,7 +302,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”password”&gt;
                   </a>
                 </td>
@@ -310,7 +312,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”submit”&gt;
                   </a>
                 </td>
@@ -320,7 +322,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”reset”&gt;
                   </a>
                 </td>
@@ -330,7 +332,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”radio”&gt;
                   </a>
                 </td>
@@ -340,7 +342,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”email”&gt;
                   </a>
                 </td>
@@ -350,7 +352,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”number”&gt;
                   </a>
                 </td>
@@ -361,7 +363,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”checkbox”&gt;
                   </a>
                 </td>
@@ -372,7 +374,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”date”&gt;
                   </a>
                 </td>
@@ -382,7 +384,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”time”&gt;
                   </a>
                 </td>
@@ -392,7 +394,7 @@ const HTMLForms = () => {
               </tr>
               <tr>
                 <td style={{ padding: "10px", border: "1px solid #ddd" }}>
-                  <a href="#" className="text-red-700 underline">
+                  <a href="#" className="text-red-500">
                     &lt;input type=”file”&gt;
                   </a>
                 </td>
@@ -449,6 +451,17 @@ const HTMLForms = () => {
         <p style={{ paddingTop: "5px" }}>5. <b className="text-lg font-bold text-red-500">autocomplete :</b>This attribute specifies whether a form should have autocomplete on or off. When autocomplete is on, the browser automatically completes values based on values that the user has entered before.</p>
         <p style={{ paddingTop: "5px" }}>6. <b className="text-lg font-bold text-red-500">novalidate :</b>This Boolean attribute specifies that the form-data should not be validated on submission.</p>
       </div>
+      <div className="min-h-20 mt-5 w-full  ">
+                <div className="flex justify-between items-center ml-5 pb-0 pt-0">
+                    <div></div>
+                    <div>
+                        <button className="text-lg border border-red-400 flex items-center rounded-2xl p-4 font-semibold hover:scale-95 duration-200 hover:text-gray-800 cursor-pointer">
+                            Next Article
+                            <FaAngleRight />
+                        </button>
+                    </div>
+                </div>
+            </div>
     </div>
   );
 };
