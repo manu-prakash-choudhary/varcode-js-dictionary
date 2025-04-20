@@ -50,13 +50,10 @@ const SubNav = () => {
   };
 
   return (
-<<<<<<< HEAD
+
     <nav className="hidden md:flex bg-transparent backdrop-blur-lg bg-white/20 border border-white/20 text-gray-800 py-3 px-4 shadow-lg items-center sticky top-0 z-50">
     
-=======
-    <nav className="hidden md:flex  backdrop-blur-lg bg-white/20 border border-white/20 text-gray-800 py-3 px-4 shadow-lg items-center sticky top-0 z-50">
-      {/* Left fade overlay */}
->>>>>>> e0f1c45 (remove example and correcting menu icon)
+
       <div className="absolute left-0 w-16 h-full bg-gradient-to-r from-red-600 to-transparent z-10"></div>
 
       <button
