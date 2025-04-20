@@ -23,7 +23,7 @@ const Footer = () => {
   ];
 
   return (
-    <div className="content-container-footer w-full">
+    <div className="content-container-footer w-half">
       <hr className="text-gray-400" />
       <div className="p-4 md:p-6 lg:p-10 text-gray-500">
         {/* Featured Topics - Horizontal Row */}
