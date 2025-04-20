@@ -11,7 +11,7 @@ const Layout = () => {
       {/* <Navbar /> */}
       <Yash />
       <div className="w-full flex flex-row flex-wrap">
-        {/* <Sidebar /> */}
+        <Sidebar />
         <Outlet />
       </div>
       <Footer />
