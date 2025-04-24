@@ -20,6 +20,9 @@ import HTMLMathML from "./components/Topics/HTMLTutorialReference/HTMLMathML";
 import HTMLDomRef from "./components/Topics/HTMLTutorialReference/HTMLDomRef";
 import HTMLAVRef from "./components/Topics/HTMLTutorialReference/HTMLAVRef";
 import HTMLSvg1Ref from "./components/Topics/HTMLTutorialReference/HTMLSvg1Ref";
+import HTMLCanvasCompleteReference from "./components/Topics/HTMLTutorialReference/HTMLCanvasCompleteReference";
+import SVGAttributeCompleteReference from "./components/Topics/HTMLTutorialReference/SVGAttributeCompleteReference";
+import SVGPropertyCompleteReference from "./components/Topics/HTMLTutorialReference/SVGPropertyCompleteReference";
 const App = () => {
   const [selectedTopic, setSelectedTopic] = useState("Introduction");
   return (
@@ -56,7 +59,10 @@ const App = () => {
           <Route path="/html-dom-complete-reference" element={<HTMLDomRef />} />
           <Route path="/html-dom-audio-video-complete-reference" element={<HTMLAVRef />} />
           <Route path="/svg-element-complete-reference" element={<HTMLSvg1Ref />} />
-          {/* Add more routes as needed */}
+          <Route path="/html-canvas-complete-reference" element={<HTMLCanvasCompleteReference />} />
+          <Route path="/svg-attribute-complete-reference" element={<SVGAttributeCompleteReference />} />
+          <Route path="/svg-property-complete-reference" element={<SVGPropertyCompleteReference />} />
+          
           
         </Route>
       </Routes>
