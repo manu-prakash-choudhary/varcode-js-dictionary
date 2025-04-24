@@ -2,7 +2,7 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
 import { FaAngleRight } from 'react-icons/fa';
-import { SVGAttribute } from "../../utils/CodeBlocks";
+import { SVGAttribute } from "../../../utils/CodeBlocks";
 
 
 const SVGAttributeCompleteReference = () => {
@@ -18,7 +18,7 @@ const SVGAttributeCompleteReference = () => {
       <p className="text-red-500"><b>List of SVG Elements :</b></p>
 
       <div className="flex mt-4">
-        <table className="table-auto border-collapse border border-gray-600">
+        <table className="table-auto border-collapse border border-gray-600 overflow-x-auto">
         <thead>
           <tr style={{ backgroundColor: "#f5f5f5", borderBottom: "2px solid #ddd" }}>
             <th style={{ padding: "10px", border: "1px solid #ddd", textAlign: "center", color: "red" }}>SVG Attributes</th>
@@ -374,7 +374,7 @@ const SVGAttributeCompleteReference = () => {
       <p><b className="text-red-500 pd-4">Below example will give you a brief idea that how to use the SVG Attributes :</b></p>
       <br/>
       <p><b className="text-red-500">Example : </b>In this example, we will create two SVG texts with different attribute effects.</p>
-      <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mb-4 ">
+      <div className="border border-red-400 rounded-2xl w-full min-h-40 bg-[#fafafa] mb-4 overflow-x-auto">
         <CopyBlock
           text={SVGAttribute.text}
           language={SVGAttribute.language}
@@ -384,7 +384,7 @@ const SVGAttributeCompleteReference = () => {
       </div>
       <br/>
       <p><b className="text-lg text-red-500">Output :</b></p>
-      <img src="../SVGAttribute.png" width={"40%"} className="mx-auto item-center" />
+      <img src="../public/SVGAttribute.jpg" width={"40%"} className="mx-auto item-center" />
       </div>
 
     <div className="min-h-20 mt-5 w-full  ">

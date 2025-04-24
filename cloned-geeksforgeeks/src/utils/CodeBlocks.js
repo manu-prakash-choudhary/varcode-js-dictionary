@@ -5067,3 +5067,133 @@ export const htmlEntitiesNew = {
 
   `,
   };
+
+  export const HTMLCanvas = {
+    language: "html",
+    theme: "a11y-light",
+    text: `
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title> 
+		HTML canvas beginPath() Property 
+	</title> 
+</head> 
+
+<body style="text-align:center;"> 
+	
+	<h1 style="color:red;"> 
+		varCODE-eduTECH
+	</h1> 
+	
+	<h2>HTML canvas beginPath() Property</h2> 
+	
+	<canvas id="varCODE" width="500" height="300"></canvas> 
+	
+	<script> 
+		var GFG = document.getElementById("GFG"); 
+		var context = varCODE.getContext("2d"); 
+		
+		// Create a path 
+		context.beginPath(); 
+		
+		// Set the path width 
+		context.lineWidth = "8"; 
+		
+		// Set the path color 
+		context.strokeStyle = "red"; 
+		
+		context.moveTo(100, 250); 
+		context.lineTo(150, 50); 
+		context.lineTo(250, 250); 
+		
+		context.stroke(); 
+		
+		context.beginPath(); 
+	</script> 
+</body> 
+</html>
+
+  `,
+  };
+
+  export const SVGProperty = {
+    language: "html",
+    theme: "a11y-light",
+    text: `
+<!DOCTYPE html> 
+<html> 
+<body> 
+<center> 
+	<h1 style="text-align: center; 
+				color:red;"> 
+		varCODE-eduTECH
+	</h1> 
+		<b> SVG Property </b> 
+	<div style="width: 600px;"> 
+	<div style="float: left; "> 
+		<svg width="200"
+			height="200"
+			xmlns="http://www.w3.org/2000/svg"> 
+			<ellipse cx="100"
+					cy="100"
+					rx="100"
+					ry="60"
+					id="ellipse"
+			onclick="outputSize();"/> 
+		</svg> 
+	</div> 
+		
+	<div style="float: right;"> 
+		<svg xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 250 250"
+			width="250"
+			height="250"> 
+			<circle cx="150"
+					cy="100"
+					r="50"
+					fill="red"
+					id="VarCode"
+					onclick="clickCircle();"/> 
+		</svg> 
+	</div> 
+	</div> 
+</center> 
+</body> 
+</html>
+  `,
+  };
+  export const SVGAttribute = {
+    language: "html",
+    theme: "a11y-light",
+    text: `
+<!DOCTYPE html>
+<html>
+<body>
+   <center>
+      <h1 style="color:red;">
+         varCODE-eduTECH
+      </h1>
+      <strong>
+         SVG Attribute 
+      </strong>
+      <svg viewBox="0 0 300 50"
+           xmlns="http://www.w3.org/2000/svg">
+         <text y="20"
+               textLength="100%">
+            A Computer Science portal.
+         </text>
+      </svg>
+      <svg viewBox="0 0 450 50"
+           xmlns="http://www.w3.org/2000/svg">
+         <text x="170" y="50"
+               text-decoration="line-through">
+            varCODE-eduTECH
+         </text>
+      </svg>
+   </center>
+</body>
+</html>
+  `,
+  };

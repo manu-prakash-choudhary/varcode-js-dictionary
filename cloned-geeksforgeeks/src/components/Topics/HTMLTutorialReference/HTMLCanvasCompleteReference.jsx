@@ -3,7 +3,7 @@
 import React from "react";
 import { CopyBlock } from "react-code-blocks";
 import { FaAngleRight } from 'react-icons/fa';
-import { HTMLCanvas, SVGAttribute } from "../../utils/CodeBlocks";
+import { HTMLCanvas, SVGAttribute } from "../../../utils/CodeBlocks";
 
 
 const HTMLCanvasCompleteReference = () => {
@@ -28,7 +28,7 @@ const HTMLCanvasCompleteReference = () => {
       </div>
       <br/>
       <p><b className="text-lg text-red-500">Output :</b></p>
-      <img src="../HTMLCanvas.png" width={"40%"} className="mx-auto item-center" />
+      <img src="../../public/HTMLCanvas.jpg" width={"40%"} className="mx-auto item-center" />
       </div>
       <p>
         <b className="text-lg text-red-500 mb-4">HTML Canvas Reference Complete Reference</b>
