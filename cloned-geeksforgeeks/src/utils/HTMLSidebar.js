@@ -1,5 +1,5 @@
 const htmlTopics = [
-  { title: "HTML Tutorial", link: "/" },
+  { title: "HTML Tutorial", link: "/html-tutorial" },
   { title: "HTML Introduction", link: "/html-introduction" },
   { title: "HTML Editors", link: "/html-editors" },
   { title: "HTML Basics", link: "/html-basics" },

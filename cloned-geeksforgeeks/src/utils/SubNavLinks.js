@@ -51,7 +51,5 @@ export const subNavLinks = [
   { name: "SVG Attribute Complete Reference", path: "/svg-attribute-complete-reference" },
   { name: "SVG Property Complete Reference", path: "/svg-property-complete-reference" },
   { name: "HTML Canvas Complete Reference", path: "/html-canvas-complete-reference" },
-  { name: "Color Picker", path: "/html-color-picker" },
-  { name: "A to Z Guide", path: "/html-a-to-z-guide" },
-  { name: "HTML Formatter", path: "/html-formatter" },
+  
 ];
