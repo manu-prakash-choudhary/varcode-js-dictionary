@@ -120,7 +120,7 @@ const Sidebar = () => {
     return (
       <button
         onClick={toggleSidebar}
-        className="fixed top-4 left-4 z-50 w-12 h-10 bg-red-600 text-white rounded-md shadow-lg flex items-center justify-center"
+        className="fixed top-2 left-4 z-50 w-12 h-10 bg-red-600 text-white rounded-md shadow-lg flex items-center justify-center"
         aria-label="Open sidebar"
         data-sidebar-toggle
       >
