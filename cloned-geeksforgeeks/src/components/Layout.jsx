@@ -1,20 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import Yash from "../components/Yash/Yash";
 import Sidebar from "./Hariram/Sidebar";
 import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
-import Navbar from "./Bhanu/Bhanu";
+import Navbar from "./Bhanu/Bhanu.jsx";
 
 const Layout = () => {
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
-    <div>
-      {/* <Navbar /> */}
-      <Yash />
-      <div className="w-full flex flex-row flex-wrap">
-        <Sidebar />
-        <Outlet />
+    <div className="flex flex-col min-h-screen ">
+      {/* Desktop Top Bar (Yash) */}
+      <div className="hidden lg:block">
+        <Yash />
       </div>
-      <Footer />
+
+      {/* Mobile/Tablet Top Bar with Title & Toggle Button */}
+      <div className="lg:hidden fixed top-0 left-0 right-0 h-[58px] bg-white border-b border-gray-300 z-40 flex items-center justify-center shadow-md">
+        <h1 className="text-xl font-bold text-red-600">varCODE HTML Tutorial</h1>
+      </div>
+
+      {/* Body Section */}
+      <div className="flex flex-1   pt-[58px] lg:pt-0 ">
+        <div className=" lg:block  lg:w-[5%] xl:w-[1%] xl:mr-[-14%]  w-0 mr-[-8rem] mt-[30px]">
+          <Sidebar isOpen={sidebarOpen} closeSidebar={() => setSidebarOpen(false)} />
+        </div>
+        <div className="flex-1 lg:ml-[11rem] lg:w-[90%]  xl:w-[80%] pl-[1rem] md:ml-[-5rem] sm:w-full overflow-auto">
+          <Outlet />
+        </div>
+      </div>
+      <div className="ml-[-5rem] md:ml-[-13rem] lg:ml-10">
+        <Footer />
+      </div>
     </div>
   );
 };

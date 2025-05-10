@@ -11,3 +11,28 @@
   margin-left: 20%;
   overflow-y: hidden;
 }
+
+
+@import "tailwindcss";
+
+/* Desktop default */
+.content-container {
+  @apply ml-[20%] w-[80%] h-screen overflow-y-auto p-5;
+}
+
+/* Responsive for tablets and mobile */
+@media (max-width: 1024px) {
+  .content-container {
+    @apply ml-0 w-full h-auto p-4;
+  }
+}
+
+.content-container-footer {
+  @apply ml-[20%] overflow-y-hidden;
+}
+
+@media (max-width: 1024px) {
+  .content-container-footer {
+    @apply ml-0;
+  }
+}
